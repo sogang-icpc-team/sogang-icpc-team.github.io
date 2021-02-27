@@ -1,0 +1,1 @@
+# Sogang ICPC Team
