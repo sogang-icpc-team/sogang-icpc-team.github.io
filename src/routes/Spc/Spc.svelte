@@ -1,12 +1,22 @@
 <script>
-	let spcdata;
-	$: console.log(spcdata);
-	fetch(`/spc/result.json`)
+	import HistoryTable from '../../template/HistoryTable/HistoryTable.svelte';
+	import HistoryTab from '../../template/HistoryTab/HistoryTab.svelte';
+	let spcData;
+	let yearsList;
+	$: console.log(spcData);
+	fetch(`/spc/data/${2020}.json`)
 		.then((res) => {
 			return res.json();
 		})
 		.then((data) => {
-			spcdata = data;
+			spcData = data;
+		});
+	fetch(`/spc/data/years.json`)
+		.then((res) => {
+			return res.json();
+		})
+		.then((data) => {
+			yearsList = data;
 		});
 </script>
 
@@ -396,17 +406,22 @@
 		</div>
 		<div class="tabs_container">
 			<ul class="tabs pad_h">
-				{#if spcdata}
-					{#each spcdata as data}
-						<li>
-							<span class="tab_text">{data.year}</span>
-						</li>
-					{/each}
-				{/if}
+				<HistoryTab {yearsList} />
 			</ul>
 		</div>
 	</div>
-	<div class="history_contents" />
+	<div class="history_contents">
+		{#if spcData}
+			{#each spcData.contests as contest}
+				<HistoryTable
+					title={contest.title}
+					award={contest.award}
+					thead={['#', '=', '이름']}
+					tbody={contest.data}
+				/>
+			{/each}
+		{/if}
+	</div>
 	<div class="hr" />
 	<div class="pad">
 		<b>#</b> = 순위, <b>=</b> = 푼 문제 수 / 점수<br />
