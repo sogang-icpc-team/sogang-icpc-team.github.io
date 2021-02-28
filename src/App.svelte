@@ -1,6 +1,6 @@
 <script>
-	import NavBar from './template/NavBar.svelte';
-	import Footer from './template/Footer.svelte';
+	import NavBar from './template/NavBar/NavBar.svelte';
+	import Footer from './template/Footer/Footer.svelte';
 </script>
 
 <NavBar />
