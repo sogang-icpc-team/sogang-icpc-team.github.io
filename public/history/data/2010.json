@@ -1,0 +1,70 @@
+{
+    "year": 2010,
+    "contests": [
+        {
+            "title": "2010 ACM-ICPC World Finals",
+            "columns": ["#", "=", "팀", "멤버"],
+            "data": [
+                ["36", "4", "Oasis", "김우현, 안재원, 최백준"]
+            ],
+            "award": [
+                ""
+            ],
+            "links": [
+                ["공식 사이트", "https://icpc.baylor.edu/community/results-2010"]
+            ]
+        },
+        {
+            "title": "2010 ACM-ICPC Asia Daejeon Regional Contest",
+            "columns": ["#", "=", "팀", "멤버"],
+            "data": [
+                ["14", "3", "EE!", "-"],
+                ["17", "3", "HotChar", "김동규, 이수권, 백승환"]
+            ],
+            "award": [
+                "",
+                ""
+            ],
+            "links": [
+                ["공식 사이트", "http://icpckorea.org/2010-daejeon/regional"]
+            ]
+        },
+        {
+            "title": "2010 ACM-ICPC Asia Daejeon Preliminary Contest",
+            "columns": ["#", "=", "팀", "멤버"],
+            "data": [
+                ["31", "4", "EE!", "-"],
+                ["HM", "2", "HotChar", "김동규, 이수권, 백승환"],
+                ["HM", "-", "Bangsuk", "-"],
+                ["HM", "-", "ckk", "-"],
+                ["HM", "-", "CNU", "-"],
+                ["HM", "-", "dgbZzang", "-"],
+                ["HM", "-", "Down team is down", "-"],
+                ["HM", "-", "emiyamuljomdao", "-"],
+                ["HM", "-", "gukijjada", "-"],
+                ["HM", "-", "ITcloud", "-"],
+                ["HM", "-", "SLUG", "-"],
+                ["HM", "-", "Terrible, Terrible Damage", "-"],
+                ["HM", "-", "zerosun", "-"]
+            ],
+            "award": [
+                "advanced",
+                "advanced",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "links": [
+                ["공식 사이트", "http://icpckorea.org/2010-daejeon/regional"]
+            ]
+        }
+    ]
+}
