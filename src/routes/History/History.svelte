@@ -4,7 +4,7 @@
 	import OrganizerTable from '../../template/OrganizerTable/OrganizerTable.svelte';
 	let yearsList,
 		history,
-		curYear = 2020;
+		curYear = 2021;
 
 	// Re-fetch Whenever curYear Changes In HistoryTab Component
 	$: fetch(`/history/data/${curYear}.json`)
@@ -73,7 +73,6 @@
 		<div class="table_container">
 			<OrganizerTable />
 		</div>
-
 		<p style="margin-top: 16px;">
 			2018년 이전의 정보는 완전하지 않을 수 있습니다. 정보 등록/수정 요청은 하단의 학회장 메일로 메일을 보내
 			주세요.
