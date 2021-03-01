@@ -5,8 +5,8 @@
 	let yearsList,
 		curYear = 2020;
 
-		// Re-fetch Whenever curYear Changes In HistoryTab Component
-		$: fetch(`/spc/data/${curYear}.json`)
+	// Re-fetch Whenever curYear Changes In HistoryTab Component
+	$: fetch(`/spc/data/${curYear}.json`)
 		.then((res) => {
 			return res.json();
 		})
@@ -76,8 +76,8 @@
 			</p>
 			<p>
 				문제를 풀 때마다 패널티 점수가 누적됩니다. 패널티 점수는 모든 맞은 문제에 대해, 대회 시작 시간부터 그
-				문제를 풀기까지 걸린 시간을 <i>t</i>분, 처음으로 문제를 맞기 직전까지 제출한 횟수를 <i>w</i>번이라고 할
-				때 (<i>t</i> + 20<i>w</i>)점입니다.
+				문제를 풀기까지 걸린 시간을 <i>t</i>분, 처음으로 문제를 맞기 직전까지 제출한 횟수를
+				<i>w</i>번이라고 할 때 (<i>t</i> + 20<i>w</i>)점입니다.
 			</p>
 			<p>순위는 푼 문제가 많은 순서대로, 푼 문제가 같을 경우에는 패널티 점수의 합이 적은 순서대로 결정됩니다.</p>
 			<p>
@@ -127,7 +127,8 @@
 				<table style="width: 700px;">
 					<thead>
 						<tr>
-							<th>Division</th> <th>상</th> <th>인원</th> <th>상금</th> <th>총액</th>
+							<th>Division</th> <th>상</th> <th>인원</th>
+							<th>상금</th> <th>총액</th>
 						</tr>
 					</thead>
 					<tbody>
