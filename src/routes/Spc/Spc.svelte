@@ -2,9 +2,11 @@
 	import HistoryTable from '../../template/HistoryTable/HistoryTable.svelte';
 	import HistoryTab from '../../template/HistoryTab/HistoryTab.svelte';
 	let spcData;
-	let yearsList;
-	$: console.log(spcData);
-	fetch(`/spc/data/${2020}.json`)
+	let yearsList,
+		curYear = 2020;
+
+		// Re-fetch Whenever curYear Changes In HistoryTab Component
+		$: fetch(`/spc/data/${curYear}.json`)
 		.then((res) => {
 			return res.json();
 		})
@@ -406,7 +408,7 @@
 		</div>
 		<div class="tabs_container">
 			<ul class="tabs pad_h">
-				<HistoryTab {yearsList} />
+				<HistoryTab {yearsList} bind:curYear />
 			</ul>
 		</div>
 	</div>
