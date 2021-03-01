@@ -145,3 +145,17 @@ p:last-child {
 	width: 75%; 
 	z-index: 2;
 }
+@media only screen and (max-width: 768px) {
+	.p25, .p75 {
+		display: block;
+	  	width: 100%;
+	}
+	.p25 {
+		padding-right: 0;
+		margin-bottom: 32px;
+	}
+	h1 {
+		font-size: 2.4rem !important;
+		letter-spacing: -0.05ch;
+	}
+}

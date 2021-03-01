@@ -451,20 +451,6 @@ img.footer_logo {
 }
 
 @media only screen and (max-width: 768px) {
-	.p25, .p75 {
-		display: block;
-	  	width: 100%;
-	}
-	.p25 {
-		padding-right: 0;
-		margin-bottom: 32px;
-	}
-	.navbar>.navbar_logo_container{
-		left: 32px;
-	}
-	.navbar>.navbar_nav_container{
-		right: 32px;
-	}
 	div.pad {
 		padding: 32px 32px;
 	}
@@ -484,8 +470,5 @@ img.footer_logo {
 		display: block;
 		width: 100%;
 	}
-	h1 {
-		font-size: 2.4rem;
-		letter-spacing: -0.05ch;
-	}
+
 }

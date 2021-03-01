@@ -126,4 +126,13 @@
 		-ms-user-select: none;
 		user-select: none;
 	}
+	@media only screen and (max-width: 768px) {
+		div.footer {
+			padding: 64px 32px;
+		}
+		div.footer div.footer_item {
+			display: block;
+			width: 100%;
+		}
+	}
 </style>
