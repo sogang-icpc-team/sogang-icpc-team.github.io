@@ -1,58 +1,136 @@
 {
-    "year": 2021,
+  "year": 2021,
   "contests": [
-	{
+    {
       "title": "SUAPC 2021 Winter",
-      "columns": [ "#", "=", "팀", "멤버" ],
+      "columns": [
+        "#",
+        "=",
+        "팀",
+        "멤버"
+      ],
       "data": [
-        [ "2", "9", "151719", "이준석, 전해성, 정재훈" ],
-        [ "3", "9", "No Orange cant win", "김관우, 박재형, 이윤제" ],
-        [ "4", "8", "Terra", "이동주, 이민희, 조원빈" ],
-		[ "6", "7", "app", "강다혜, 강문해, 전민수" ],
-		[ "7", "7", "전생했더니 박건이었던 건에 대하여", "강효규, 박건, 손기령" ],
-		[ "8", "6", "서수삼", "오재석, 유호영, 홍서준" ]
+        [
+          "2",
+          "9",
+          "151719",
+          "이준석, 전해성, 정재훈"
+        ],
+        [
+          "3",
+          "9",
+          "No Orange cant win",
+          "김관우, 박재형, 이윤제"
+        ],
+        [
+          "4",
+          "8",
+          "Terra",
+          "이동주, 이민희, 조원빈"
+        ],
+        [
+          "6",
+          "7",
+          "app",
+          "강다혜, 강문해, 전민수"
+        ],
+        [
+          "7",
+          "7",
+          "전생했더니 박건이었던 건에 대하여",
+          "강효규, 박건, 손기령"
+        ],
+        [
+          "8",
+          "6",
+          "서수삼",
+          "오재석, 유호영, 홍서준"
+        ]
       ],
       "award": [
         "silver",
         "silver",
         "bronze",
-		"encouragement",
-		"encouragement",
-		"encouragement"
+        "encouragement",
+        "encouragement",
+        "encouragement"
       ],
       "links": [
-        [ "문제", "https://www.acmicpc.net/category/detail/2274" ],
-        [ "스코어보드", "https://www.acmicpc.net/contest/spotboard/519" ]
+        [
+          "문제",
+          "https://www.acmicpc.net/category/detail/2274"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/519"
+        ]
       ]
     },
     {
       "title": "2021 ICPC Sinchon Winter Algorithm Camp Contest - Intermediate",
-      "columns": [ "#", "=", "닉네임", "이름" ],
+      "columns": [
+        "#",
+        "=",
+        "닉네임",
+        "이름"
+      ],
       "data": [
-        [ "1", "6", "wbcho0504", "조원빈" ],
-        [ "2", "6", "pjh6792", "박재형" ]
+        [
+          "1",
+          "6",
+          "wbcho0504",
+          "조원빈"
+        ],
+        [
+          "2",
+          "6",
+          "pjh6792",
+          "박재형"
+        ]
       ],
       "award": [
         "gold",
         "silver"
       ],
       "links": [
-        [ "문제", "https://www.acmicpc.net/category/detail/2429" ],
-        [ "스코어보드", "https://www.acmicpc.net/contest/spotboard/589" ]
+        [
+          "문제",
+          "https://www.acmicpc.net/category/detail/2429"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/589"
+        ]
       ]
     },
-	{
+    {
       "title": "2021 ICPC Sinchon Winter Algorithm Camp Contest - Novice",
-      "columns": [ "#", "=", "닉네임", "이름" ],
+      "columns": [
+        "#",
+        "=",
+        "닉네임",
+        "이름"
+      ],
       "data": [
-        [ "3", "4", "whitehorse", "오재석" ]
+        [
+          "3",
+          "4",
+          "whitehorse",
+          "오재석"
+        ]
       ],
       "award": [
         "bronze"
       ],
       "links": [
-        [ "문제", "https://www.acmicpc.net/category/detail/2428" ],
-        [ "스코어보드", "https://www.acmicpc.net/contest/spotboard/588" ]
+        [
+          "문제",
+          "https://www.acmicpc.net/category/detail/2428"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/588"
+        ]
       ]
     }
   ]
