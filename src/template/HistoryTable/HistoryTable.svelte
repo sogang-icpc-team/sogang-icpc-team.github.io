@@ -19,7 +19,13 @@
 				<tbody>
 					{#each tbody as data, idx}
 						<tr>
-                            <td>{data[0]}<i class={`award ${award[idx]}`} /></td>
+                            <td>{data[0]}<i class={`award ${award[idx]}`}>
+								{#if award[idx] == "gold" || award[idx] == "silver" || award[idx] == "bronze"}
+								&#11044;
+								{:else}
+								&#9733;
+								{/if}
+							</i></td>
                             <td>{data[1]}</td>
                             <td>{data[2]}</td>
                             </tr>
