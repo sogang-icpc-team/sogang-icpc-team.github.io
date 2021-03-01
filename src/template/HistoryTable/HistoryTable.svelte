@@ -1,5 +1,5 @@
 <script>
-	export let title, award, thead, tbody;
+	export let title, award, thead, tbody, link;
 </script>
 
 <div class="row pad">
@@ -17,23 +17,39 @@
 					</tr></thead
 				>
 				<tbody>
-					{#each tbody as data, idx}
+					{#each tbody as data, idx1}
 						<tr>
-							<td
-								>{data[0]}<i class={`award ${award[idx]}`}>
-									{#if award[idx] === 'gold' || award[idx] === 'silver' || award[idx] === 'bronze'}
-										&#11044;
-									{:else if award[idx] === 'encouragement'}
-										&#9733;
-									{/if}
-								</i></td
-							>
-							<td>{data[1]}</td>
-							<td>{data[2]}</td>
+							{#each data as col, idx2}
+								{#if idx2 === 0}
+									<td
+										>{col}<i class={`award ${award[idx1]}`}>
+											{#if award[idx1] === "gold" || award[idx1] === "silver" || award[idx1] === "bronze"}
+												&#11044;
+											{:else if award[idx1] === "winner"}
+												&#9733;
+											{:else if award[idx1] === "advanced"}
+												&#9650;
+											{:else if award[idx1] === "special"}
+												&#9650;
+											{/if}
+										</i></td
+									>
+								{:else}
+									<td>{col}</td>
+								{/if}
+							{/each}
 						</tr>
 					{/each}
 				</tbody>
 			</table>
 		</div>
+		<p />
+		{#if link}
+			<ul>
+				{#each link as elem}
+					<li href={elem[1]} target="_blank">{elem[0]}</li>
+				{/each}
+			</ul>
+		{/if}
 	</div>
 </div>
