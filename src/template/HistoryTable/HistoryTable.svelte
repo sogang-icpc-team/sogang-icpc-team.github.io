@@ -23,7 +23,7 @@
 								>{data[0]}<i class={`award ${award[idx]}`}>
 									{#if award[idx] === 'gold' || award[idx] === 'silver' || award[idx] === 'bronze'}
 										&#11044;
-									{:else}
+									{:else if award[idx] === 'encouragement'}
 										&#9733;
 									{/if}
 								</i></td
