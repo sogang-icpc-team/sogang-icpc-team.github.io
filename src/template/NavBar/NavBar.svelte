@@ -77,4 +77,12 @@
 			}
 		}
 	}
+	@media only screen and (max-width: 768px) {
+		.navbar > .navbar_logo_container {
+			left: 32px;
+		}
+		.navbar > .navbar_nav_container {
+			right: 32px;
+		}
+	}
 </style>
