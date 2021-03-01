@@ -20,7 +20,7 @@
 	{#if datas}
 		{#each datas as data}
 			<tr>
-				<td rowspan={data.vicePresident ? '2' : ''}><b>{data.year}</b></td>
+				<td rowspan={data.vicePresident ? '2' : ''}><b>{@html data.year}</b></td>
 				<td>{data.president.name}</td>
 				<td>학회장</td>
 				<td
