@@ -248,7 +248,7 @@
       ]
     },
     {
-      "title": "SUAPC 2020 division 1",
+      "title": "SUAPC 2020 Summer division 1",
       "columns": [ "#", "=", "팀", "멤버" ],
       "data": [
         [ "2", "6", "talsogang", "김주현, 이상원, 이태한" ],
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "title": "SUAPC 2020 division 2",
+      "title": "SUAPC 2020 Summer division 2",
       "columns": [ "#", "=", "팀", "멤버" ],
       "data": [
         [ "1", "6", "Terra", "이동주, 이민희, 조원빈" ],
