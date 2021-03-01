@@ -18,6 +18,17 @@
 	router.start();
 </script>
 
+<svelte:head>
+	<title>Sogang ICPC Team</title>
+	<meta charset="UTF-8" />
+	<meta name="theme-color" content="#FFFFFF" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="icon" href="/res/logo-crimson.svg" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Sans+KR:400,700" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons" />
+</svelte:head>
 <div class="contents_container">
 	<NavBar />
 	<svelte:component this={page} />
