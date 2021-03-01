@@ -45,8 +45,9 @@
 				<HistoryTable
 					title={contest.title}
 					award={contest.award}
-					thead={['#', '=', '이름']}
+					thead={contest.columns}
 					tbody={contest.data}
+					link={contest.links}
 				/>
 			{/each}
 		{/if}
