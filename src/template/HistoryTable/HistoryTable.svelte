@@ -23,13 +23,13 @@
 								{#if idx2 === 0}
 									<td
 										>{col}<i class={`award ${award[idx1]}`}>
-											{#if award[idx1] === "gold" || award[idx1] === "silver" || award[idx1] === "bronze"}
+											{#if award[idx1] === 'gold' || award[idx1] === 'silver' || award[idx1] === 'bronze'}
 												&#11044;
-											{:else if award[idx1] === "winner"}
+											{:else if award[idx1] === 'winner'}
 												&#9733;
-											{:else if award[idx1] === "advanced"}
+											{:else if award[idx1] === 'advanced'}
 												&#9650;
-											{:else if award[idx1] === "special"}
+											{:else if award[idx1] === 'special'}
 												&#9650;
 											{/if}
 										</i></td
@@ -47,7 +47,7 @@
 		{#if link}
 			<ul>
 				{#each link as elem}
-					<li href={elem[1]} target="_blank">{elem[0]}</li>
+					<li><a href={elem[1]} target="_blank">{elem[0]}</a></li>
 				{/each}
 			</ul>
 		{/if}
