@@ -4,10 +4,10 @@
 	import OrganizerTable from '../../template/OrganizerTable/OrganizerTable.svelte';
 	let yearsList,
 		history,
-		curYear = 2021;
+		curYear = `2021`;
 
 	// Re-fetch Whenever curYear Changes In HistoryTab Component
-	$: fetch(`/history/data/${curYear}.json`)
+	$: fetch(`/history/data/${curYear.trim()}.json`)
 		.then((res) => {
 			return res.json();
 		})

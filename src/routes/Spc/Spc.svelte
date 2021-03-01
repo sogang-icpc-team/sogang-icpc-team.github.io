@@ -3,10 +3,10 @@
 	import HistoryTab from '../../template/HistoryTab/HistoryTab.svelte';
 	let spcData;
 	let yearsList,
-		curYear = 2020;
+		curYear = `2020`;
 
 	// Re-fetch Whenever curYear Changes In HistoryTab Component
-	$: fetch(`/spc/data/${curYear}.json`)
+	$: fetch(`/spc/data/${curYear.trim()}.json`)
 		.then((res) => {
 			return res.json();
 		})
