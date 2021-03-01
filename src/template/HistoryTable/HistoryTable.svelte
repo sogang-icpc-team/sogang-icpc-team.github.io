@@ -23,13 +23,11 @@
 								{#if idx2 === 0}
 									<td
 										>{col}<i class={`award ${award[idx1]}`}>
-											{#if award[idx1] === 'gold' || award[idx1] === 'silver' || award[idx1] === 'bronze'}
+											{#if award[idx1] === 'gold' || award[idx1] === 'silver' || award[idx1] === 'bronze' || award[idx1] === 'special'}
 												&#11044;
 											{:else if award[idx1] === 'winner'}
 												&#9733;
 											{:else if award[idx1] === 'advanced'}
-												&#9650;
-											{:else if award[idx1] === 'special'}
 												&#9650;
 											{/if}
 										</i></td
