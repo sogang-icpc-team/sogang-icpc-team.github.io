@@ -51,3 +51,8 @@
 		{/if}
 	</div>
 </div>
+<style>
+	table{
+		min-width: 800px;
+	}
+</style>
