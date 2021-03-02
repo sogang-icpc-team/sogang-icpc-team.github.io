@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  sgicpc-official-website:
+    container_name: sgicpc-official-website
+    image: sgicpc-official-website
+    restart: always
+    volumes: 
+      - "/web/sgicpc-official-website/public:/web/sgicpc-official-website/public"
+    ports:
+      - "4444:4444"
