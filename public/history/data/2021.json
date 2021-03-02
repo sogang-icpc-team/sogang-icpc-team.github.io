@@ -51,6 +51,7 @@
         "silver",
         "silver",
         "bronze",
+        "bronze",
         "encouragement",
         "encouragement",
         "encouragement"
@@ -58,11 +59,11 @@
       "links": [
         [
           "문제",
-          "https://www.acmicpc.net/category/detail/2274"
+          "https://www.acmicpc.net/category/detail/2446"
         ],
         [
           "스코어보드",
-          "https://www.acmicpc.net/contest/spotboard/519"
+          "https://www.acmicpc.net/contest/spotboard/586"
         ]
       ]
     },
