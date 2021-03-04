@@ -21,7 +21,7 @@
 						<tr>
 							{#each data as col, idx2}
 								{#if idx2 === 0}
-									<td
+									<td class="ranking--wrapper"
 										>{col}<i class={`award ${award[idx1]}`}>
 											{#if award[idx1] === 'gold' || award[idx1] === 'silver' || award[idx1] === 'bronze' || award[idx1] === 'special'}
 												&#11044;
@@ -51,8 +51,14 @@
 		{/if}
 	</div>
 </div>
-<style>
+<style lang="scss">
 	table{
 		min-width: 800px;
+	}
+	.ranking--wrapper{
+		position:relative;
+		i{
+			position:absolute;
+		}
 	}
 </style>

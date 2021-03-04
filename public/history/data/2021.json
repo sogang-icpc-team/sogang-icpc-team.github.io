@@ -2,6 +2,36 @@
   "year": 2021,
   "contests": [
     {
+      "title":"Google Hash Code 2021 Online Qualification Round",
+      "columns":[
+        "#","=","팀","멤버"
+      ],
+      "data":[
+        [
+          "1,111 / 🇰🇷24","9,480,876","Redshift","박수현, 이준석, 전해성, 최백준"
+        ],
+        [
+          "3,075 / 🇰🇷46","8,678,912","MINI-CHO-BOB","강효규, 이민희, 조원빈"
+        ],
+        [
+          "3,254 / 🇰🇷47","8,531,902","Team Gumgood","김주현, 이상원"
+        ]
+      ],
+      "award": [
+        
+      ],
+      "links": [
+        [
+          "공식 사이트",
+          "https://codingcompetitions.withgoogle.com/hashcode"
+        ],
+        [
+          "스코어보드",
+          "https://hashcodejudge.withgoogle.com/#/rounds/5879728443490304/scoreboards"
+        ]
+      ]
+    },
+    {
       "title": "SUAPC 2021 Winter",
       "columns": [
         "#",
