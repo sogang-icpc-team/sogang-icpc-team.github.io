@@ -59,7 +59,7 @@
 		<i class="award gold">&#11044;</i> = 금상,
 		<i class="award silver">&#11044;</i> = 은상,
 		<i class="award bronze">&#11044;</i> = 동상<br />
-		<i class="award">&#11044;</i> = 기타 수상<br />
+		<i class="award special">&#11044;</i> = 기타 수상<br />
 		<i class="award advanced">&#9650;</i> = 다음 단계 진출<br />
 		HM = Honorable Mention<br />
 		2019년 이전의 정보는 완전하지 않을 수 있습니다. 정보 등록/수정 요청은 하단의 학회장 메일로 메일을 보내 주세요.
