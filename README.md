@@ -7,5 +7,4 @@
 #### 3. k512 서버 폴더에서 git pull로 덮어쓰기 진행
 #### 4. sudo docker-compose down 명령어로 기존 실행 중인 svelte 종료
 #### 5. npm run build 명령어로 프로젝트 빌드 진행
-#### 6. docker build -t sgicpc-official-website . 로 도커 이미지 재생성
-#### 7. sudo docker-compose up 명령어로 svelte 재실행
+#### 6. sudo docker-compose up 명령어로 svelte 재실행
