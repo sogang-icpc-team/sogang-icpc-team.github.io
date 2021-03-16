@@ -15,6 +15,9 @@
       "links": [
         [ "공식 사이트", "http://icpckorea.org/2020-seoul/regional" ],
         [ "스코어보드", "http://static.icpckorea.net/2020/scoreboard_terpin/" ]
+      ],
+      "review":[
+        ["임지환(raararaara)", "https://blog.naver.com/raararaara/222151570413"]
       ]
     },
     {
@@ -55,6 +58,9 @@
       "links": [
         [ "공식 사이트", "http://icpckorea.org/2020-seoul/regional" ],
         [ "스코어보드", "http://icpckorea.org/2020/preliminary/scoreboard/dbda78f0e4/" ]
+      ],
+      "review":[
+        ["임지환(raararaara)", "https://blog.naver.com/raararaara/222117403817"]
       ]
     },
     {
@@ -263,6 +269,9 @@
       "links": [
         [ "문제", "https://www.acmicpc.net/category/detail/2274" ],
         [ "스코어보드", "https://www.acmicpc.net/contest/spotboard/519" ]
+      ],
+      "review":[
+        ["임지환(raararaara)","https://blog.naver.com/raararaara/222062261143"]
       ]
     },
     {
