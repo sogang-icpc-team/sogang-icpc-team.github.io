@@ -44,7 +44,6 @@
 		{#if history}
 			{#each history.contests as contest}
 				<HistoryTable
-					customClass={''}
 					title={contest.title}
 					award={contest.award}
 					thead={contest.columns}
