@@ -2,6 +2,7 @@
 	import HistoryTable from '../../template/HistoryTable/HistoryTable.svelte';
 	import HistoryTab from '../../template/HistoryTab/HistoryTab.svelte';
 	import OrganizerTable from '../../template/OrganizerTable/OrganizerTable.svelte';
+	import ReviewTable from '../../template/ReviewTable/ReviewTable.svelte';
 	let yearsList,
 		history,
 		curYear = `2021`;
@@ -43,12 +44,17 @@
 		{#if history}
 			{#each history.contests as contest}
 				<HistoryTable
+					customClass={''}
 					title={contest.title}
 					award={contest.award}
 					thead={contest.columns}
 					tbody={contest.data}
 					link={contest.links}
+					isReviewAvail={contest.review ? true : false}
 				/>
+				{#if contest.review}
+					<ReviewTable title={'대회 후기'} tbody={contest.review} />
+				{/if}
 			{/each}
 		{/if}
 	</div>
