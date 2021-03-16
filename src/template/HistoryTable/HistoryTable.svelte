@@ -1,8 +1,14 @@
 <script>
-	export let title, award, thead, tbody, link;
+	export let title, award, thead, tbody, link, isReviewAvail;
+
+	const onReviewClick = (e) => {
+		let nextElem = e.target.closest('.pad').nextElementSibling;
+		nextElem.classList.toggle('hide');
+		nextElem.classList.toggle('show');
+	};
 </script>
 
-<div class="row pad">
+<div class={`row pad`}>
 	<div class="p25">
 		<h2>{title}</h2>
 	</div>
@@ -42,23 +48,37 @@
 			</table>
 		</div>
 		<p />
-		{#if link}
-			<ul>
+		<ul>
+			{#if link}
 				{#each link as elem}
 					<li><a href={elem[1]} target="_blank">{elem[0]}</a></li>
 				{/each}
-			</ul>
-		{/if}
+				{#if isReviewAvail}
+					<li class="review_table_btn" on:click={onReviewClick}>대회 후기</li>
+				{/if}
+			{/if}
+		</ul>
 	</div>
 </div>
+
 <style lang="scss">
-	table{
+	table {
 		min-width: 800px;
 	}
-	.ranking--wrapper{
-		position:relative;
-		i{
-			position:absolute;
+	.ranking--wrapper {
+		position: relative;
+		i {
+			position: absolute;
 		}
+	}
+	.hide {
+		display: none;
+	}
+	.show {
+		display: block;
+	}
+	.review_table_btn {
+		cursor: pointer;
+		text-decoration: underline;
 	}
 </style>
