@@ -5,6 +5,6 @@ services:
     image: sgicpc-official-website
     restart: always
     volumes: 
-      - "/web/sgicpc-official-website/public:/web/sgicpc-official-website/public"
+      - "/web/sgicpc-official-website:/web/sgicpc-official-website"
     ports:
       - "4444:4444"
