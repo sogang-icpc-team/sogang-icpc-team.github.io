@@ -1,4 +1,10 @@
 <script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	});
 </script>
 
 <div class="contents">
@@ -144,5 +150,4 @@
 </div>
 
 <style>
-    
 </style>

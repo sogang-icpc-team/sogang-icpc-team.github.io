@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+
 	import HistoryTable from '../../template/HistoryTable/HistoryTable.svelte';
 	import HistoryTab from '../../template/HistoryTab/HistoryTab.svelte';
 	let spcData;
@@ -20,6 +22,11 @@
 		.then((data) => {
 			yearsList = data;
 		});
+
+	onMount(() => {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	});
 </script>
 
 <div class="contents">
