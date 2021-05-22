@@ -76,7 +76,7 @@
 				<tr>
 					<td>이민희</td>
 					<td>학회장</td>
-					<td>minigimbob@gmail.com</td>
+					<td>mini@sogang.ac.kr</td>
 				</tr>
 				<tr>
 					<td>이동주</td>

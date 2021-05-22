@@ -20,7 +20,7 @@
 				<div class="left">학회장</div>
 				<div class="right">
 					이민희<br />
-					minigimbob@gmail.com
+					mini@sogang.ac.kr
 				</div>
 			</div>
 			<div>
