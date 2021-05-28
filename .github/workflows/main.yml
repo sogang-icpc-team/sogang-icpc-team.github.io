@@ -42,5 +42,5 @@ jobs:
           # Path to the Dockerfile
           file: ./Dockerfile
           push: true
-          tags: 20sgicpc/sgicpc-official-website:tagname
+          tags: 20sgicpc/sgicpc-official-website:latest
           
