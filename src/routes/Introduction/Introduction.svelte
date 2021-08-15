@@ -40,7 +40,7 @@
 				거두고 있습니다.
 			</p>
 			<div class="button_container">
-				<a href="/history/" target="_blank"><div class="button">참여 기록</div></a>
+				<a href="/history" target="_blank"><div class="button">참여 기록</div></a>
 			</div>
 		</div>
 	</div>
@@ -61,7 +61,7 @@
 				있습니다.
 			</p>
 			<div class="button_container">
-				<a href="/history/" target="_blank"><div class="button">참여 기록</div></a>
+				<a href="/history" target="_blank"><div class="button">참여 기록</div></a>
 			</div>
 		</div>
 	</div>
