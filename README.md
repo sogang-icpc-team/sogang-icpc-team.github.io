@@ -1,10 +1,35 @@
 # Sogang ICPC Team Offical Site
 
-내용 수정을 하실 운영진 분들은 아래 순서대로 수정을 진행해주세요.
+> 서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 공식 홈페이지
 
-#### 1. git clone 후 레파지토리 다운받기
-#### 2. pull request 후 내용 검토 및 merge
-#### 3. k512 서버 폴더에서 git pull로 덮어쓰기 진행
-#### 4. sudo docker-compose down 명령어로 기존 실행 중인 svelte 종료
-#### 5. npm run build 명령어로 프로젝트 빌드 진행
-#### 6. sudo docker-compose up 명령어로 svelte 재실행
+
+## 설치 및 개발환경 준비
+
+아래의 명령어를 통해 레파지토리를 클론합니다.
+
+```shell
+git clone https://github.com/sogang-icpc-team/sogang-icpc-team.github.io
+```
+
+아래의 명령어를 통해 패키지 의존성을 설치합니다.
+
+```shell
+npm install
+```
+
+의존성을 설치한 후, 아래의 명령어를 통해 Svelte.js를 개발환경에서 실행할 수 있습니다.
+
+```shell
+npm run dev
+```
+
+기본 포트는 `4444`로, `localhost:4444`에서 페이지를 확인해볼 수 있습니다.
+
+
+
+## 배포하기
+기여자분의 `fork`한 레파지토리에서, 혹은 `branch`에서 `main` 브랜치로 `pull request`를 보내주세요.   
+`merge`가 완료되면 `github actions`를 통해 자동으로 배포됩니다.
+
+
+
