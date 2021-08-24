@@ -14,7 +14,7 @@
             ],
             "links": [
                 ["공식 사이트", "http://icpckorea.org/2017-daejeon/regional"],
-                ["스코어보드", "http://icpckorea.org/2017/regional/scoreboard/"]
+                ["스코어보드", "http://icpckorea.org/2017/regional/scoreboard"]
             ]
         },
         {
@@ -50,7 +50,7 @@
             ],
             "links": [
                 ["공식 사이트", "http://icpckorea.org/2017-daejeon/regional"],
-                ["스코어보드", "http://icpckorea.org/2017/preliminary/scoreboard/"]
+                ["스코어보드", "http://icpckorea.org/2017/preliminary/scoreboard"]
             ]
         },
         {
@@ -151,7 +151,7 @@
                 ""
             ],
             "links": [
-                ["공식 사이트", "https://www.kakaocode.com/"],
+                ["공식 사이트", "https://www.kakaocode.com"],
                 ["스코어보드", "http://t1.kakaocdn.net/codefestival/round-2-scoreboard/index.html"]
             ]
         }

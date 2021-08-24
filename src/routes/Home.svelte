@@ -14,7 +14,7 @@
 			Solve it.
 		</div>
 		<p class="main_desc text">
-			Sogang ICPC Team —<br />
+			Sogang ICPC Team —<br />	
 			서강대학교 컴퓨터공학과 알고리즘 문제해결 학회<br />
 		</p>
 	</div>

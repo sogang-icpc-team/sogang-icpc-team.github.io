@@ -30,7 +30,7 @@
 		</div>
 		<div class="p75">
 			<p>
-				<a href="https://icpc.baylor.edu/" target="_blank">ICPC</a>(International Collegiate Programming
+				<a href="https://icpc.baylor.edu" target="_blank">ICPC</a>(International Collegiate Programming
 				Contest)는 국제 대학생 프로그래밍 경시대회로, 가장 긴 역사를 가지고 있는 권위 있는 프로그래밍
 				대회입니다. 학부생 3명이 한 팀을 구성해 참가해 제한된 시간 내에 주어진 문제들을 프로그래밍으로 해결해야
 				합니다. 학회의 이름에서 보이듯이 매년 이 대회에 참가하는 것이 학회 활동의 주 목적 중 하나이기도 합니다.
@@ -50,14 +50,14 @@
 		</div>
 		<div class="p75">
 			<p>
-				Google <a href="https://codingcompetitions.withgoogle.com/codejam/" target="_blank">Code Jam</a>, 삼성
-				<a href="https://www.codeground.org/" target="_blank">대학생 프로그래밍 경진대회</a>(SCPC), Kakao
-				<a href="https://www.kakaocode.com/" target="_blank">Code Festival</a> 등 여러 기업 주최 오프라인 대회에도
+				Google <a href="https://codingcompetitions.withgoogle.com/codejam" target="_blank">Code Jam</a>, 삼성
+				<a href="https://www.codeground.org" target="_blank">대학생 프로그래밍 경진대회</a>(SCPC), Kakao
+				<a href="https://www.kakaocode.com" target="_blank">Code Festival</a> 등 여러 기업 주최 오프라인 대회에도
 				참가하고 있습니다.
 			</p>
 			<p>
 				또한 전국 대학생 프로그래밍 대회 동아리 연합 (전대프연)
-				<a href="https://2018.ucpc.io/" target="_blank">프로그래밍 대회</a>(UCPC) 등의 대회에도 참가하고
+				<a href="https://2018.ucpc.io" target="_blank">프로그래밍 대회</a>(UCPC) 등의 대회에도 참가하고
 				있습니다.
 			</p>
 			<div class="button_container">
@@ -77,7 +77,7 @@
 			</p>
 			<p>
 				스터디는 수준에 따라 초급, 중급, 고급으로 나뉘어져 있고, 주로
-				<a href="https://www.acmicpc.net/" target="_blank">Baekjoon OJ</a>에서 문제를 푸는 방식으로 진행됩니다.
+				<a href="https://www.acmicpc.net" target="_blank">Baekjoon OJ</a>에서 문제를 푸는 방식으로 진행됩니다.
 				학회원 누구나 자유롭게 참여할 수 있습니다. 계절학기에도 쉬지 않고 진행합니다!
 			</p>
 		</div>
@@ -88,9 +88,9 @@
 		</div>
 		<div class="p75">
 			<p>
-				<a href="https://www.acmicpc.net/" target="_blank">Baekjoon OJ</a> 등의 온라인 저지에 있는 많은 문제들을
-				해결해 나갑니다. 또한 <a href="https://codeforces.com/" target="_blank">Codeforces</a>,
-				<a href="https://atcoder.jp/" target="_blank">AtCoder</a> 등에서 주기적으로 열리는 많은 온라인 대회에도 꾸준히
+				<a href="https://www.acmicpc.net" target="_blank">Baekjoon OJ</a> 등의 온라인 저지에 있는 많은 문제들을
+				해결해 나갑니다. 또한 <a href="https://codeforces.com" target="_blank">Codeforces</a>,
+				<a href="https://atcoder.jp" target="_blank">AtCoder</a> 등에서 주기적으로 열리는 많은 온라인 대회에도 꾸준히
 				참가하면서 알고리즘 실력을 함께 키워나갑니다.
 			</p>
 			<div class="button_container">
@@ -110,12 +110,12 @@
 		<div class="p75">
 			<p>
 				ICPC 한국 지역 본선 1, 2위 수상팀은 매년 열리는 교내 프로그래밍 대회
-				<a href="/spc/" target="_blank">Sogang Programming Contest</a>를 주관합니다. 대회 전반을 준비하고,
+				<a href="/spc" target="_blank">Sogang Programming Contest</a>를 주관합니다. 대회 전반을 준비하고,
 				문제도 출제합니다.
 			</p>
 			<p>Sogang Programming Contest는 서강대학교 학부생이라면 누구나 참가할 수 있습니다.</p>
 			<div class="button_container">
-				<a href="/spc/" target="_blank"><div class="button">대회 정보</div></a>
+				<a href="/spc" target="_blank"><div class="button">대회 정보</div></a>
 			</div>
 		</div>
 	</div>

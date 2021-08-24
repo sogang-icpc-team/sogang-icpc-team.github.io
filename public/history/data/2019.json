@@ -15,8 +15,8 @@
                 ""
             ],
             "links": [
-                ["공식 사이트", "http://icpckorea.org/"],
-                ["스코어보드", "http://icpckorea.org/2019/regional/scoreboard/"]
+                ["공식 사이트", "http://icpckorea.org"],
+                ["스코어보드", "http://icpckorea.org/2019/regional/scoreboard"]
             ]
         },
  	    {
@@ -29,8 +29,8 @@
                 ""
             ],
             "links": [
-                ["공식 사이트", "https://acm-icpc.eng.chula.ac.th/"],
-                ["스코어보드", "http://icpc-scoreboard.eng.chula.ac.th/"]
+                ["공식 사이트", "https://acm-icpc.eng.chula.ac.th"],
+                ["스코어보드", "http://icpc-scoreboard.eng.chula.ac.th"]
             ]
         },
         {
@@ -68,7 +68,7 @@
             ],
             "links": [
                 ["공식 사이트", "http://icpckorea.org/2019-seoul/regional"],
-                ["스코어보드", "http://icpckorea.org/2019/preliminary/scoreboard/"]
+                ["스코어보드", "http://icpckorea.org/2019/preliminary/scoreboard"]
             ]
         },
         {
@@ -170,7 +170,7 @@
                 ""
             ],
             "links": [
-                ["공식 사이트", "https://ucpc-kr.github.io/"],
+                ["공식 사이트", "https://ucpc-kr.github.io"],
                 ["스코어보드", "https://ucpc.acmicpc.net/contest/spotboard/450"]
             ]
         }

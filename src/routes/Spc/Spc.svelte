@@ -88,7 +88,7 @@
 			</p>
 			<p>순위는 푼 문제가 많은 순서대로, 푼 문제가 같을 경우에는 패널티 점수의 합이 적은 순서대로 결정됩니다.</p>
 			<p>
-				대회는 <a href="https://www.acmicpc.net/" target="blank">Baekjoon Online Judge</a>
+				대회는 <a href="https://www.acmicpc.net" target="blank">Baekjoon Online Judge</a>
 				플랫폼에서 진행되며, 채점 관련 규칙은 BOJ의
 				<a href="https://www.acmicpc.net/help/judge" target="blank">채점 도움말</a>,
 				<a href="https://www.acmicpc.net/help/language" target="blank">언어 도움말</a>을 참조합니다.
