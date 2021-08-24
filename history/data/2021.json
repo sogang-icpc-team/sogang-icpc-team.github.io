@@ -2,6 +2,40 @@
   "year": 2021,
   "contests": [
     {
+      "title": "UCPC 2021 본선",
+      "columns": [
+        "#",
+        "=",
+        "팀",
+        "멤버"
+      ],
+      "data": [
+        [
+          "6",
+          "6",
+          "Redshift",
+          "박수현, 이준석, 전해성"
+        ],
+        [
+          "41",
+          "4",
+          "raararaara 팬 클럽",
+          "강효규, 이상원, 조원빈"
+        ]
+      ],
+      "award": [],
+      "links": [
+        [
+          "공식 사이트",
+          "https://ucpc.me"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/670"
+        ]
+      ]
+    },
+    {
       "title": "Google Code Jam Round 2 2021",
       "columns": [
         "#",
