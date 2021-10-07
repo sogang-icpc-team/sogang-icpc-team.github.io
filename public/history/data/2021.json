@@ -2,6 +2,162 @@
   "year": 2021,
   "contests": [
     {
+      "title": "ICPC World Finals Moscow",
+      "columns": [
+        "#",
+        "=",
+        "팀",
+        "멤버"
+      ],
+      "data": [
+        [
+          "87",
+          "3",
+          "Redshift",
+          "박수현, 이상원, 이준석"
+        ]
+      ],
+      "award": [],
+      "links": [
+        [
+          "공식 사이트",
+          "https://worldfinals.icpc.global"
+        ],
+        [
+          "스코어보드",
+          "https://pc2.ecs.baylor.edu/scoreboard"
+        ]
+      ]
+    },
+    {
+      "title": "SUAPC 2021 Summer",
+      "columns": [
+        "#",
+        "=",
+        "팀",
+        "멤버"
+      ],
+      "data": [
+        [
+          "1",
+          "8",
+          "또또 나만 모르는 웰노운 낸다",
+          "강효규, 이상원, 조원빈"
+        ],
+        [
+          "2",
+          "8",
+          "스파르타Rebro클럽",
+          "박재형, 오재석, 진상우"
+        ],
+        [
+          "7",
+          "5",
+          "상금 못 받으면 회식 못해요 ㅠㅠ",
+          "김정모, 김준우, 박준서"
+        ],
+        [
+          "8",
+          "5",
+          "philmath12",
+          "김민형, 이호현, 한상필"
+        ],
+        [
+          "9",
+          "5",
+          "ECM",
+          "권지은, 김성현, 김창민"
+        ],
+        [
+          "10",
+          "5",
+          "재국이와 아이둘",
+          "조유화, 조재국, 한덕규"
+        ]
+      ],
+      "award": [
+        "gold",
+        "silver"
+      ],
+      "links": [
+        [
+          "공식 사이트",
+          "https://suapc.kr"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/678"
+        ]
+      ]
+    },
+    {
+      "title": "2021 ICPC Sinchon Summer Algorithm Camp Contest - Intermediate",
+      "columns": [
+        "#",
+        "=",
+        "닉네임",
+        "이름"
+      ],
+      "data": [
+        [
+          "1",
+          "4",
+          "wbcho0504",
+          "조원빈"
+        ]
+      ],
+      "award": [
+        "gold"
+      ],
+      "links": [
+        [
+          "공식 사이트",
+          "https://icpc-sinchon.io/campcontest"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/677"
+        ]
+      ]
+    },
+    {
+      "title": "2021 ICPC Sinchon Summer Algorithm Camp Contest - Novice",
+      "columns": [
+        "#",
+        "=",
+        "닉네임",
+        "이름"
+      ],
+      "data": [
+        [
+          "1",
+          "6",
+          "jakads",
+          "김창민"
+        ],
+        [
+          "3",
+          "4",
+          "dart",
+          "김성현"
+        ]
+      ],
+      "award": [
+        "gold",
+        "bronze"
+      ],
+      "links": [
+        [
+          "공식 사이트",
+          "https://icpc-sinchon.io/campcontest"
+        ],
+        [
+          "스코어보드",
+          "https://www.acmicpc.net/contest/spotboard/676"
+        ]
+      ]
+    },
+    {
       "title": "UCPC 2021 본선",
       "columns": [
         "#",
