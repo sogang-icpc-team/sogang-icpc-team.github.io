@@ -5,7 +5,7 @@
             "title": "2014 ACM-ICPC Asia Daejeon Regional Contest",
             "columns": ["#", "=", "팀", "멤버"],
             "data": [
-                ["12", "7", "Kim N Kang", "-"],
+                ["12", "7", "Kim N Kang", "김상근, 김우현, 강민균"],
                 ["15", "6", "ManiAc", "-"],
                 ["21", "4", "FireFox", "-"]
             ],
@@ -23,7 +23,7 @@
             "columns": ["#", "=", "팀", "멤버"],
             "data": [
                 ["16", "6", "ManiAc", "-"],
-                ["21", "6", "Kim N Kang", "-"],
+                ["21", "6", "Kim N Kang", "김상근, 김우현, 강민균"],
                 ["42", "5", "FireFox", "-"],
                 ["59", "4", "GoHome", "-"],
                 ["63", "4", "Mentalist2", "-"],
