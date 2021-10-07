@@ -4,7 +4,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --single --host --port 4444"
+    "start": "sirv public --single --host --port 4444",
+    "build1": "sapper build --legacy",
+    "export": "sapper export --legacy"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -21,6 +23,7 @@
   "dependencies": {
     "node-sass": "^5.0.0",
     "page": "^1.11.6",
+    "sapper": "^0.29.1",
     "sirv-cli": "^1.0.0",
     "svelte-preprocess": "^4.6.9"
   }
