@@ -50,7 +50,8 @@ span.subtitle {
 .urgent .material-icons.main {
   color: #fff; }
 
-.bg, .fader {
+.bg,
+.fader {
   position: absolute;
   left: 0;
   top: 0;
@@ -113,7 +114,7 @@ div.button {
   color: #b60005;
   text-decoration: none;
   margin-right: 8px;
-  transition: background .3s ease, color .3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
   cursor: pointer; }
 
 div.button:hover {
@@ -161,7 +162,7 @@ a.apply_button {
   margin-right: 16px;
   margin-bottom: 16px;
   vertical-align: top;
-  transition: background .3s ease, color .3s ease; }
+  transition: background 0.3s ease, color 0.3s ease; }
 
 a.apply_button:hover {
   color: white; }
@@ -181,7 +182,7 @@ div.tier {
   border-radius: 50%;
   margin-bottom: 16px;
   vertical-align: middle;
-  transition: background .3s ease; }
+  transition: background 0.3s ease; }
 
 a.apply_button:hover div.tier {
   background: white !important; }
@@ -189,7 +190,7 @@ a.apply_button:hover div.tier {
 p.apply_algorithms {
   color: #b60005;
   font-size: 0.8rem;
-  transition: color .3s ease; }
+  transition: color 0.3s ease; }
 
 a.apply_button:hover p.apply_algorithms {
   color: white !important; }
@@ -268,11 +269,11 @@ ul.tabs li {
   font-size: 2rem;
   color: #ddd;
   margin-right: 16px;
-  transition: .3s color ease;
+  transition: 0.3s color ease;
   cursor: pointer; }
 
 ul.tabs li span.tab_text {
-  transition: .3s border-bottom ease;
+  transition: 0.3s border-bottom ease;
   border-bottom: 3px solid rgba(0, 0, 0, 0); }
 
 ul.tabs li.selected {
@@ -285,7 +286,7 @@ ul.tabs li.selected span.tab_text {
 div.footer {
   margin-top: 32px;
   padding: 64px 64px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   background: #b60005;
   color: #fff; }
 
@@ -308,11 +309,12 @@ div.footer_item > div {
 div.footer_item a {
   color: inherit; }
 
-div.footer_item div.left, div.footer_item div.right {
+div.footer_item div.left,
+div.footer_item div.right {
   display: inline-block;
   vertical-align: top;
   width: 50%;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding-right: 16px; }
 
 div.footer_item div.left {
@@ -330,13 +332,13 @@ div.footer_desc ul {
 div.footer_desc span.copyright {
   display: inline-block;
   padding-right: 18px;
-  font-size: .8rem; }
+  font-size: 0.8rem; }
 
 div.footer_desc li {
   display: inline-block;
   padding-right: 18px;
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 0.8rem;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
