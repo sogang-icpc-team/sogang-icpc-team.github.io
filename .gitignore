@@ -1,4 +1,4 @@
-/node_modules/
-/public/build/
+node_modules/
+public/build/
 nohup.out
 .DS_Store
