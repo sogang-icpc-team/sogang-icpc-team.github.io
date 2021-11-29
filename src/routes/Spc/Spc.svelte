@@ -5,7 +5,7 @@
   import HistoryTab from "../../template/HistoryTab/HistoryTab.svelte";
   let spcData;
   let yearsList,
-    curYear = `2020`;
+    curYear = "2021";
   const spc_admission_url = "https://forms.gle/DTbtyNfrdpC35Ede9";
   // Re-fetch Whenever curYear Changes In HistoryTab Component
   $: fetch(`/spc/data/${curYear.trim()}.json`)
