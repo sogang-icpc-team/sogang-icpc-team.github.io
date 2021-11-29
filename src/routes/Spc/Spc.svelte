@@ -272,6 +272,9 @@
         <a href="https://www.acmicpc.net/category/detail/2354" target="_blank"
           ><div class="button">Champion</div></a
         >
+        <a href="https://www.acmicpc.net/category/detail/2356" target="_blank"
+          ><div class="button">Open</div></a
+        >
       </div>
       <div class="button_container">
         <span class="contest_section">해설 (PDF)</span>
