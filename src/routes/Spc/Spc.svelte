@@ -27,9 +27,9 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   });
-  function onBannerClick() {
-    window.open(spc_admission_url, "_blank").focus();
-  }
+  // function onBannerClick() {
+  //   window.open(spc_admission_url, "_blank").focus();
+  // }
 </script>
 
 <div class="contents">
@@ -37,12 +37,12 @@
     <span class="subtitle">Sogang Programming Contest</span>
     <h1>논리력과 문제 해결 능력을 겨루는 대회입니다.</h1>
   </div>
-  <div class="spc_banner_big_wrap" on:click={onBannerClick}>
+  <!-- <div class="spc_banner_big_wrap" on:click={onBannerClick}>
     <img class="spc_banner_big" src="/res/21-spc-banner-big.svg" />
   </div>
   <div class="spc_banner_small_wrap" on:click={onBannerClick}>
     <img class="spc_banner_small" src="/res/21-spc-banner-small.svg" />
-  </div>
+  </div> -->
   <div class="row pad first_paragraph">
     <div class="p25">
       <h2>소개</h2>
@@ -241,6 +241,49 @@
       <h2>역대 대회 문제</h2>
     </div>
     <div class="p75">
+      <h3>2021년 - 제 17회</h3>
+      <p>
+        2021년 11월 27일 토요일 오후 2시 ~ 5시<br />
+        다산관 D104/D105
+      </p>
+      <div class="button_container">
+        <span class="contest_section">스코어보드</span>
+        <a href="https://www.acmicpc.net/contest/scoreboard/724" target="_blank"
+          ><div class="button">Master</div></a
+        >
+        <a href="https://www.acmicpc.net/contest/scoreboard/726" target="_blank"
+          ><div class="button">Champion</div></a
+        >
+      </div>
+      <div class="button_container">
+        <span class="contest_section">문제 (PDF)</span>
+        <a href="/spc/contest/2021/master.pdf"
+          ><div class="button">Master</div></a
+        >
+        <a href="/spc/contest/2021/champion.pdf"
+          ><div class="button">Champion</div></a
+        >
+      </div>
+      <div class="button_container">
+        <span class="contest_section">문제 (BOJ)</span>
+        <a href="https://www.acmicpc.net/category/detail/2884" target="_blank"
+          ><div class="button">Master</div></a
+        >
+        <a href="https://www.acmicpc.net/category/detail/2885" target="_blank"
+          ><div class="button">Champion</div></a
+        >
+        <a href="https://www.acmicpc.net/category/detail/2886" target="_blank"
+          ><div class="button">Open</div></a
+        >
+      </div>
+      <div class="button_container">
+        <span class="contest_section">해설 (PDF)</span>
+        <a href="/spc/contest/2021/solutions.pdf"
+          ><div class="button">Official Solutions</div></a
+        >
+      </div>
+      <p>출제 - 강효규, 박수현, 이상원, 이선호, 이준석, 조원빈</p>
+      <div class="hl" />
       <h3>2020년 - 제 16회</h3>
       <p>
         2020년 11월 28일 토요일 오후 2시 ~ 5시<br />
