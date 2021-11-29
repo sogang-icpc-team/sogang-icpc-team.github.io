@@ -30,7 +30,7 @@
             </p>
         </div>
     </div> -->
-	<img class="pad" src="/res/21-icpc-wf-1.png" alt="" />
+	<img class="pad" src="/res/21-icpc-wf-1.jpg" alt="" />
 	<div class="row pad">
 		<div class="p25">
 			<h2>소개</h2>
