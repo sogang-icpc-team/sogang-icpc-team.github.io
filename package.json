@@ -21,7 +21,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "page": "^1.11.6",
     "sapper": "^0.29.1",
     "sirv-cli": "^1.0.0",
