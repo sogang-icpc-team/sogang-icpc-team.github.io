@@ -1,6 +1,9 @@
 <script>
-	import { onMount } from 'svelte';
+	export let params;
+	let latestOrganizerData = params?.latestOrganizerData;
 
+	import { onMount } from 'svelte';
+	
 	onMount(() => {
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
@@ -71,17 +74,17 @@
 			<h2>회장단</h2>
 		</div>
 		<div class="p75">
-			<h3>2021년 - 현재</h3>
+			<h3>{@html latestOrganizerData?.year}</h3>
 			<table style="margin-top: 16px">
 				<tr>
-					<td>이민희</td>
+					<td>{latestOrganizerData?.president.name}</td>
 					<td>학회장</td>
-					<td>mini@sogang.ac.kr</td>
+					<td>{latestOrganizerData?.president.email}</td>
 				</tr>
 				<tr>
-					<td>이동주</td>
+					<td>{latestOrganizerData?.vicePresident.name}</td>
 					<td>부학회장</td>
-					<td>nant0313@gmail.com</td>
+					<td>{latestOrganizerData?.vicePresident.email}</td>
 				</tr>
 			</table>
 		</div>

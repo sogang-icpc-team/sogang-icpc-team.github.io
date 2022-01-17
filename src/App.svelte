@@ -8,12 +8,26 @@
 	import Contact from './routes/Contact/Contact.svelte';
 	import Introduction from './routes/Introduction/Introduction.svelte';
 
-	let page;
+	// 필요한 데이터 fetch
+	let latestOrganizerData;
+	async function getLatestOrganizer(){
+		const response = await fetch('/history/organizer.json')
+		const data = await response.json();
+		return latestOrganizerData = data[0];
+	}
+	getLatestOrganizer()
+
+	// 라우터 정의
+	let page, params;
 	router('/', () => (page = Home));
 	router('/introduction', () => (page = Introduction));
 	router('/history', () => (page = History));
 	router('/spc', () => (page = Spc));
-	router('/contact', () => (page = Contact));
+	router('/contact', async (ctx, next) => {
+		ctx.params.latestOrganizerData = await getLatestOrganizer()
+		params = ctx.params
+		next()
+	}, () => page = Contact);
 
 	router.start();
 </script>
@@ -31,8 +45,8 @@
 </svelte:head>
 <div class="contents_container">
 	<NavBar />
-	<svelte:component this={page} />
-	<Footer />
+	<svelte:component this={page} params={params} />
+	<Footer data={latestOrganizerData} />
 </div>
 
 <style>
