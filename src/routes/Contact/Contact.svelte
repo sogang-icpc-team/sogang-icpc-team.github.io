@@ -1,6 +1,9 @@
 <script>
-	import { onMount } from 'svelte';
+	export let params;
+	let latestOrganizerData = params?.latestOrganizerData;
 
+	import { onMount } from 'svelte';
+	
 	onMount(() => {
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
@@ -19,12 +22,12 @@
 		</div>
 		<div class="p75">
 			<p>
-				<!--현재 모집기간이 아닙니다.-->
-				현재 2022년 Winter 신규 학회원 모집이 진행중입니다. 지원 마감은 12/17(금) 11:59까지이며, 12/20(월)~22(수)에 면접을
+				현재 모집기간이 아닙니다.
+				<!--현재 2022년 Winter 신규 학회원 모집이 진행중입니다. 지원 마감은 12/17(금) 11:59까지이며, 12/20(월)~22(수)에 면접을
 				통해 선발됩니다.<br /><br />
 				아래 폼에서 지원하실 수 있습니다.<br />
 				<a href="http://acmicpc.team/apply">http://acmicpc.team/apply</a>
-
+				-->
 			</p>
 		</div>
 	</div>
@@ -71,17 +74,17 @@
 			<h2>회장단</h2>
 		</div>
 		<div class="p75">
-			<h3>2021년 - 현재</h3>
+			<h3>{@html latestOrganizerData?.year}</h3>
 			<table style="margin-top: 16px">
 				<tr>
-					<td>이민희</td>
+					<td>{latestOrganizerData?.president.name}</td>
 					<td>학회장</td>
-					<td>mini@sogang.ac.kr</td>
+					<td>{latestOrganizerData?.president.email}</td>
 				</tr>
 				<tr>
-					<td>이동주</td>
+					<td>{latestOrganizerData?.vicePresident.name}</td>
 					<td>부학회장</td>
-					<td>nant0313@gmail.com</td>
+					<td>{latestOrganizerData?.vicePresident.email}</td>
 				</tr>
 			</table>
 		</div>

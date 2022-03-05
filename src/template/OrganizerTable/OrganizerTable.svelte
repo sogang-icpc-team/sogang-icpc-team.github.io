@@ -29,10 +29,10 @@
 					></td
 				>
 				<td>
-					{#if data.president.email}
-						<a href={`mailto:${data.president.email}`}>{data.president.email}</a>
-					{:else if data.president.link}
+					{#if data.president.link}
 						<a href={data.president.link}>{data.president.link}</a>
+					{:else if data.president.email}
+						<a href={`mailto:${data.president.email}`}>{data.president.email}</a>
 					{:else}{/if}
 				</td>
 			</tr>
@@ -46,10 +46,10 @@
 						>
                     </td>
                     <td>
-						{#if data.vicePresident.email}
-							<a href={`mailto:${data.vicePresident.email}`}>{data.vicePresident.email}</a>
-						{:else if data.vicePresident.link}
+						{#if data.vicePresident.link}
 							<a href={data.vicePresident.link}>{data.vicePresident.link}</a>
+						{:else if data.vicePresident.email}
+							<a href={`mailto:${data.vicePresident.email}`}>{data.vicePresident.email}</a>
 						{:else}{/if}
 					</td>
 				</tr>

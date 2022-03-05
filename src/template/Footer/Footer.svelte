@@ -1,4 +1,5 @@
 <script>
+	export let data;
 </script>
 
 <div class="footer">
@@ -19,15 +20,15 @@
 			<div>
 				<div class="left">학회장</div>
 				<div class="right">
-					이민희<br />
-					mini@sogang.ac.kr
+					{data?.president.name}<br />
+					{data?.president.email}
 				</div>
 			</div>
 			<div>
 				<div class="left">부학회장</div>
 				<div class="right">
-					이동주<br />
-					nant0313@gmail.com
+					{data?.vicePresident.name}<br />
+					{data?.vicePresident.email}
 				</div>
 			</div>
 		</div>

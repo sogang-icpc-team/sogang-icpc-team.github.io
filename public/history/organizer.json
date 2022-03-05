@@ -1,14 +1,29 @@
 [
     {
-        "year": "2021&mdash;현재",
+        "year": "2022&mdash;현재",
+        "president": {
+            "name": "김동건",
+            "boj": "dong_gas",
+            "email":"eastgun0211@naver.com"
+        },
+        "vicePresident": {
+            "name": "이재혁",
+            "boj": "duram21",
+            "email":"cubeenjoy@naver.com"
+        }
+    },
+    {
+        "year": "2021",
         "president": {
             "name": "이민희",
             "boj": "minigimbob",
+            "email":"mini@sogang.ac.kr",
             "link": "https://github.com/minigb"
         },
         "vicePresident": {
             "name": "이동주",
             "boj": "nant0313",
+            "email":"me@leed.at",
             "link": "https://github.com/nant0313"
         }
     },
