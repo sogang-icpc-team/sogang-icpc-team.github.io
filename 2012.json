@@ -1,65 +1,50 @@
 {
-    "year": 2012,
-    "contests": [
-        {
-            "title": "2012 ACM-ICPC Asia Daejeon Regional Contest",
-            "columns": ["#", "=", "팀", "멤버"],
-            "data": [
-                ["7", "6", "two_plus_two_equals_five", "최백준, 김택희, 박현수"],
-                ["11", "5", "CodekerCodeker", "-"],
-                ["17", "4", "O_lzi", "-"],
-                ["18", "4", "exclamation_point", "김상근, 고창영, 김정인"],
-                ["HM", "-", "1secStyle", "-"]
-            ],
-            "award": [
-                "silver",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "links": [
-                ["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]
-            ]
-        },
-        {
-            "title": "2012 ACM-ICPC Asia Daejeon Preliminary Contest",
-            "columns": ["#", "=", "팀", "멤버"],
-            "data": [
-                ["13", "6", "two_plus_two_equals_five", "최백준, 김택희, 박현수"],
-                ["26", "5", "1secStyle", "-"],
-                ["45", "4", "CodekerCodeker", "-"],
-                ["51", "3", "exclamation_point", "김상근, 고창영, 김정인"],
-                ["61", "3", "O_lzi", "-"],
-                ["80", "3", "aces", "-"],
-                ["HM", "2", "SexyBang", "-"],
-                ["HM", "2", "SexyBack", "-"]
-            ],
-            "award": [
-                "advanced",
-                "advanced",
-                "advanced",
-                "advanced",
-                "advanced",
-                "",
-                "",
-                ""
-            ],
-            "links": [
-                ["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]
-            ]
-        },
-        {
-            "title": "SK Planet Code Spring Round 1",
-            "columns": ["#", "이름"],
-            "data": [
-                ["3", "최백준"]
-            ],
-            "award": [
-                ""
-            ],
-            "links": [
-            ]
-        }
-    ]
+  "year": 2012,
+  "contests": [
+    {
+      "title": "2012 ACM-ICPC Asia Daejeon Regional Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["7", "6", "two_plus_two_equals_five", "최백준, 김택희, 박현수"],
+        ["11", "5", "CodekerCodeker", "-"],
+        ["17", "4", "O_lzi", "-"],
+        ["18", "4", "exclamation_point", "김상근, 고창영, 김정인"],
+        ["HM", "-", "1secStyle", "-"]
+      ],
+      "award": ["silver", "", "", "", ""],
+      "links": [["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]]
+    },
+    {
+      "title": "2012 ACM-ICPC Asia Daejeon Preliminary Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["13", "6", "two_plus_two_equals_five", "최백준, 김택희, 박현수"],
+        ["26", "5", "1secStyle", "-"],
+        ["45", "4", "CodekerCodeker", "-"],
+        ["51", "3", "exclamation_point", "김상근, 고창영, 김정인"],
+        ["61", "3", "O_lzi", "-"],
+        ["80", "3", "aces", "-"],
+        ["HM", "2", "SexyBang", "-"],
+        ["HM", "2", "SexyBack", "-"]
+      ],
+      "award": [
+        "advanced",
+        "advanced",
+        "advanced",
+        "advanced",
+        "advanced",
+        "",
+        "",
+        ""
+      ],
+      "links": [["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]]
+    },
+    {
+      "title": "SK Planet Code Spring Round 1",
+      "columns": ["#", "이름"],
+      "data": [["3", "최백준"]],
+      "award": [""],
+      "links": []
+    }
+  ]
 }

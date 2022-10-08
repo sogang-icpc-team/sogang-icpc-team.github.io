@@ -1,113 +1,94 @@
 {
-    "year": 2015,
-    "contests": [
-        {
-            "title": "2015 ACM-ICPC Asia Daejeon Regional Contest",
-            "columns": ["#", "=", "팀", "멤버"],
-            "data": [
-                ["6", "7", "PurpleNoon", "-"],
-                ["14", "6", "CoomChukCoomChuk", "-"],
-                ["20", "4", "E like memo", "-"],
-                ["31", "4", "Tchaikovsky", "-"]
-            ],
-            "award": [
-                "gold",
-                "",
-                "",
-                ""
-            ],
-            "links": [
-                ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
-                ["스코어보드", "http://icpckorea.org/2015/regional/scoreboard.html"]
-            ]
-        },
-        {
-            "title": "2015 ACM-ICPC Asia Daejeon Preliminary Contest",
-            "columns": ["#", "=", "팀", "멤버"],
-            "data": [
-                ["16", "6", "PurpleNoon", "-"],
-                ["39", "6", "CoomChukCoomChuk", "-"],
-                ["51", "6", "Tchaikovsky", "-"],
-                ["53", "6", "E like memo", "-"],
-                ["76", "5", "kkokkio", "-"],
-                ["90", "4", "s5b5r5", "-"],
-                ["93", "4", "firefox", "-"],
-                ["101", "4", "5959", "-"],
-                ["121", "4", "DrunkenPikachu", "-"],
-                ["160", "3", "kiki", "-"],
-                ["173", "3", "Nonamed", "-"],
-                ["215", "3", "ACC", "-"],
-                ["231", "3", "GG", "-"],
-                ["243", "3", "Marihanwha99", "-"],
-                ["264", "3", "dudumchit", "-"],
-                ["300", "3", "fenomeno", "-"],
-                ["413", "2", "BoodleBoodle", "-"]
-            ],
-            "award": [
-                "advanced",
-                "advanced",
-                "advanced",
-                "advanced",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "links": [
-                ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
-                ["스코어보드", "http://icpckorea.org/2015/ONLINE/scoreboard.html"]
-            ]
-        },
-        {
-            "title": "Samsung Collegiate Programming Contest 2015 Onsite Finals",
-            "columns": ["#", "이름"],
-            "data": [
-                ["5", "엄기문"],
-                ["5", "윤희원"]
-            ],
-            "award": [
-                "",
-                ""
-            ],
-            "links": [
-                ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"]
-            ]
-        },
-        {
-            "title": "UCPC 2015 본선",
-            "columns": ["#", "=", "팀", "멤버"],
-            "data": [
-                ["8", "7", "PurpleNoon", "-"],
-                ["9", "6", "kkokkio", "-"],
-                ["19", "4", "firefox2", "-"],
-                ["25", "4", "peach_pirates", "-"],
-                ["31", "3", "Asakasak", "-"],
-                ["33", "3", "freshman", "-"],
-                ["58", "1", "LAM", "-"],
-                ["HM", "-", "BboongBboong", "-"]
-            ],
-            "award": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "links": [
-                ["스코어보드", "https://www.acmicpc.net/contest/scoreboard/97"]
-            ]
-        }
-    ]
+  "year": 2015,
+  "contests": [
+    {
+      "title": "2015 ACM-ICPC Asia Daejeon Regional Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["6", "7", "PurpleNoon", "-"],
+        ["14", "6", "CoomChukCoomChuk", "-"],
+        ["20", "4", "E like memo", "-"],
+        ["31", "4", "Tchaikovsky", "-"]
+      ],
+      "award": ["gold", "", "", ""],
+      "links": [
+        ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
+        ["스코어보드", "http://icpckorea.org/2015/regional/scoreboard.html"]
+      ]
+    },
+    {
+      "title": "2015 ACM-ICPC Asia Daejeon Preliminary Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["16", "6", "PurpleNoon", "-"],
+        ["39", "6", "CoomChukCoomChuk", "-"],
+        ["51", "6", "Tchaikovsky", "-"],
+        ["53", "6", "E like memo", "-"],
+        ["76", "5", "kkokkio", "-"],
+        ["90", "4", "s5b5r5", "-"],
+        ["93", "4", "firefox", "-"],
+        ["101", "4", "5959", "-"],
+        ["121", "4", "DrunkenPikachu", "-"],
+        ["160", "3", "kiki", "-"],
+        ["173", "3", "Nonamed", "-"],
+        ["215", "3", "ACC", "-"],
+        ["231", "3", "GG", "-"],
+        ["243", "3", "Marihanwha99", "-"],
+        ["264", "3", "dudumchit", "-"],
+        ["300", "3", "fenomeno", "-"],
+        ["413", "2", "BoodleBoodle", "-"]
+      ],
+      "award": [
+        "advanced",
+        "advanced",
+        "advanced",
+        "advanced",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "links": [
+        ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
+        ["스코어보드", "http://icpckorea.org/2015/ONLINE/scoreboard.html"]
+      ]
+    },
+    {
+      "title": "Samsung Collegiate Programming Contest 2015 Onsite Finals",
+      "columns": ["#", "이름"],
+      "data": [
+        ["5", "엄기문"],
+        ["5", "윤희원"]
+      ],
+      "award": ["", ""],
+      "links": [
+        ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"]
+      ]
+    },
+    {
+      "title": "UCPC 2015 본선",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["8", "7", "PurpleNoon", "-"],
+        ["9", "6", "kkokkio", "-"],
+        ["19", "4", "firefox2", "-"],
+        ["25", "4", "peach_pirates", "-"],
+        ["31", "3", "Asakasak", "-"],
+        ["33", "3", "freshman", "-"],
+        ["58", "1", "LAM", "-"],
+        ["HM", "-", "BboongBboong", "-"]
+      ],
+      "award": ["", "", "", "", "", "", "", ""],
+      "links": [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/97"]]
+    }
+  ]
 }

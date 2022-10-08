@@ -3,128 +3,42 @@
   "contests": [
     {
       "title": "SUAPC 2022 Winter",
-      "columns": [
-        "#",
-        "=",
-        "팀",
-        "멤버"
-      ],
+      "columns": ["#", "=", "팀", "멤버"],
       "data": [
-        [
-          "1",
-          "7",
-          "5시간 집중하기 힘든 나이",
-          "박재형, 오재석, 진상우"
-        ],
-        [
-          "2",
-          "7",
-          "서강베스트",
-          "김동건, 이재혁, 조원빈"
-        ],
-        [
-          "4",
-          "7",
-          "No Seastar Can’t Win",
-          "김정모, 김준우, 박준서"
-        ],
-        [
-          "5",
-          "7",
-          "ECM",
-          "권지은, 김성현, 김창민"
-        ],
-        [
-          "6",
-          "7",
-          "BIROSO",
-          "김예진, 김용현, 박민성"
-        ],
-        [
-          "9",
-          "7",
-          "so강은 so 강하다",
-          "강효규, 김서인, 신동준"
-        ]
+        ["1", "7", "5시간 집중하기 힘든 나이", "박재형, 오재석, 진상우"],
+        ["2", "7", "서강베스트", "김동건, 이재혁, 조원빈"],
+        ["4", "7", "No Seastar Can’t Win", "김정모, 김준우, 박준서"],
+        ["5", "7", "ECM", "권지은, 김성현, 김창민"],
+        ["6", "7", "BIROSO", "김예진, 김용현, 박민성"],
+        ["9", "7", "so강은 so 강하다", "강효규, 김서인, 신동준"]
       ],
-      "award": [
-        "gold",
-        "silver",
-        "bronze",
-        "bronze",
-        "bronze"
-      ],
+      "award": ["gold", "silver", "bronze", "bronze", "bronze"],
       "links": [
-        [
-          "공식 사이트",
-          "https://suapc.kr"
-        ],
-        [
-          "스코어보드",
-          "https://www.acmicpc.net/contest/spotboard/764"
-        ]
+        ["공식 사이트", "https://suapc.kr"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/764"]
       ]
     },
     {
       "title": "2022 ICPC Sinchon Winter Algorithm Camp Contest - Novice",
-      "columns": [
-        "#",
-        "=",
-        "닉네임",
-        "이름"
-      ],
-      "data": [
-        [
-          "1",
-          "5",
-          "imearth01",
-          "이준하"
-        ]
-      ],
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["1", "5", "imearth01", "이준하"]],
       "award": ["gold"],
       "links": [
-        [
-          "공식 사이트",
-          "https://icpc-sinchon.io/campcontest"
-        ],
-        [
-          "스코어보드",
-          "https://www.acmicpc.net/contest/spotboard/759"
-        ]
+        ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/759"]
       ]
     },
     {
       "title": "2022 ICPC Sinchon Winter Algorithm Camp Contest - Advanced",
-      "columns": [
-        "#",
-        "=",
-        "닉네임",
-        "이름"
-      ],
+      "columns": ["#", "=", "닉네임", "이름"],
       "data": [
-        [
-          "2",
-          "5",
-          "meque",
-          "김정모"
-        ],
-        [
-          "3",
-          "5",
-          "p_jun",
-          "박준서"
-        ]
+        ["2", "5", "meque", "김정모"],
+        ["3", "5", "p_jun", "박준서"]
       ],
       "award": ["silver", "bronze"],
       "links": [
-        [
-          "공식 사이트",
-          "https://icpc-sinchon.io/campcontest"
-        ],
-        [
-          "스코어보드",
-          "https://www.acmicpc.net/contest/spotboard/758"
-        ]
+        ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/758"]
       ]
     }
   ]
