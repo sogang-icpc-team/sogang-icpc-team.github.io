@@ -4,7 +4,7 @@ services:
     container_name: sgicpc-official-website
     image: sgicpc-official-website
     restart: always
-    volumes: 
+    volumes:
       - "/web/sgicpc-official-website:/web/sgicpc-official-website"
     ports:
       - "4444:4444"
