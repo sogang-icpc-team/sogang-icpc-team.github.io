@@ -7,6 +7,7 @@
 	import Spc from './routes/Spc/Spc.svelte';
 	import Contact from './routes/Contact/Contact.svelte';
 	import Introduction from './routes/Introduction/Introduction.svelte';
+	import CleanWaterCup from './routes/CleanWaterCup/CleanWaterCup.svelte';
 
 	// 필요한 데이터 fetch
 	let latestOrganizerData;
@@ -23,6 +24,7 @@
 	router('/introduction', () => (page = Introduction));
 	router('/history', () => (page = History));
 	router('/spc', () => (page = Spc));
+	router('/clean-water-cup', () => (page = CleanWaterCup));
 	router('/contact', async (ctx, next) => {
 		ctx.params.latestOrganizerData = await getLatestOrganizer()
 		params = ctx.params
