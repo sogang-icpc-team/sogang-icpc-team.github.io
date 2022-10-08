@@ -17,7 +17,7 @@
 				<tbody>
 					{#each tbody as data, idx1}
 						<tr>
-							<td><a href={data[1]}>{data[0]}</a></td>
+							<td><a href={data[1]} target="_blank">{data[0]}</a></td>
 						</tr>
 					{/each}
 				</tbody>
