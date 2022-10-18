@@ -2,6 +2,91 @@
   "year": 2022,
   "contests": [
     {
+      "title": "2022 ICPC Asia Seoul Preliminary Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["18", "7", "DPS", "김동건, 이준석, 전민수"],
+        ["34", "6", "Last Coin", "강효규, 박재형, 채성우"],
+        ["48", "6", "SpartaMequeClub", "김정모, 정회윤, 조성훈"],
+        ["62", "5", "JaePiLee", "이선호, 이재혁, 한상필"],
+        ["63", "5", "AMUMAL", "성주희, 손기령, 이민희"],
+        ["100", "4", "BIROSO", "김용현, 김예진, 박민성"],
+        ["111", "3", "golgolgol", "김민성, 박정빈, 이성진"],
+        ["121", "3", "SirenOrder", "유호영, 이우진, 한성환"],
+        ["151", "3", "Introverts", "도정민, 성수빈, 오상윤"],
+        ["156", "3", "whynot", "안성훈, 윤성호, 이서일"],
+        ["158", "3", "BronzeKing123", "강다혜, 오승철, 천성원"],
+        ["174", "3", "HunMukGi", "강승묵, 하지훈, 한석기"],
+        ["201", "2", "JySyletsKo", "고재현, 김서연, 임정연"],
+        ["245", "2", "JunSung", "강준성, 김유이, 류지성"],
+        ["246", "2", "ABEFGCD", "김태규, 윤진우, 정파란"]
+      ],
+      "award": [
+        "advanced",
+        "advanced",
+        "advanced",
+        "advanced",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "links": [
+        ["공식 사이트", "http://icpckorea.org/2022-seoul/regional"],
+        [
+          "스코어보드",
+          "http://static.icpckorea.net/2022/scoreboard_preliminary/"
+        ]
+      ],
+      "review": [["김동건(dong_gas)", "https://dong-gas.tistory.com/80"]]
+    },
+    {
+      "title": "Google Kick Start Round C 2022",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["739 / 🇰🇷28", "59", "S4NGP1L", "한상필"]],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://codingcompetitions.withgoogle.com/kickstart"],
+        [
+          "스코어보드",
+          "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1"
+        ]
+      ]
+    },
+    {
+      "title": "Google Code Jam Round 2 2022",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["1661 / 🇰🇷109", "22", "Rebro", "박재형"]],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://codingcompetitions.withgoogle.com/codejam"],
+        [
+          "스코어보드",
+          "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec"
+        ]
+      ]
+    },
+    {
+      "title": "Google Code Jam Round 1B 2022",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["187 / 🇰🇷6", "85", "Rebro", "박재형"]],
+      "award": ["advanced"],
+      "links": [
+        ["공식 사이트", "https://codingcompetitions.withgoogle.com/codejam"],
+        [
+          "스코어보드",
+          "https://codingcompetitions.withgoogle.com/codejam/round/000000000087711b"
+        ]
+      ]
+    },
+    {
       "title": "Samsung Collegiate Programming Contest 2022 Finals",
       "columns": ["#", "이름"],
       "data": [["5", "조원빈"]],
