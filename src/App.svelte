@@ -8,7 +8,10 @@
   import Contact from "./routes/Contact/Contact.svelte";
   import Introduction from "./routes/Introduction/Introduction.svelte";
 
-  import { showTopBar as showTopBarStore } from "./template/NavBar/store";
+  import {
+    showTopBar as showTopBarStore,
+    showFooter as showFooterStore,
+  } from "./template/NavBar/store";
 
   // 필요한 데이터 fetch
   let latestOrganizerData;
@@ -37,8 +40,9 @@
 
   router.start();
 
-  let showTopBar;
+  let showTopBar, showFooter;
   showTopBarStore.subscribe((v) => (showTopBar = v));
+  showFooterStore.subscribe((v) => (showFooter = v));
 </script>
 
 <svelte:head>
@@ -63,7 +67,10 @@
 <div class="contents_container">
   <svelte:component this={showTopBar ? NavBar : null} />
   <svelte:component this={page} {params} />
-  <Footer data={latestOrganizerData} />
+  <svelte:component
+    this={showFooter ? Footer : null}
+    data={latestOrganizerData}
+  />
 </div>
 
 <style>
