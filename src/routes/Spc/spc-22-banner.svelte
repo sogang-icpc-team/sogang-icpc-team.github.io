@@ -47,9 +47,11 @@
     }
   }
   .close-icon {
-    position: fixed;
+    position: absolute;
     font-size: 2rem;
     font-weight: 700;
-    transform: translate(-100%, -130%);
+    top: 0;
+    right: 0;
+    transform: translateY(-130%);
   }
 </style>
