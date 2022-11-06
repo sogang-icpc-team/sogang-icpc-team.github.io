@@ -5,6 +5,7 @@
   import Home from "./routes/Home.svelte";
   import History from "./routes/History/History.svelte";
   import Spc from "./routes/Spc/Spc.svelte";
+  import Spc22 from "./routes/Spc/spc-22.svelte";
   import Contact from "./routes/Contact/Contact.svelte";
   import Introduction from "./routes/Introduction/Introduction.svelte";
 
@@ -28,6 +29,7 @@
   router("/introduction", () => (page = Introduction));
   router("/history", () => (page = History));
   router("/spc", () => (page = Spc));
+  router("/22-spc", () => (page = Spc22));
   router(
     "/contact",
     async (ctx, next) => {
