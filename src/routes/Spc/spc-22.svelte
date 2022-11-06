@@ -183,7 +183,7 @@
   <div class="section">
     <span class="section-title">일시 및 장소</span>
     <div class="section-body">
-      11월 26일 토요일 오후 2<i class="material-icons">arrow_forward</i>6시<br
+      11월 26일 토요일 오후 2시<i class="material-icons">arrow_forward</i>6시<br
       />@다산관 D104/105
     </div>
   </div>
@@ -258,6 +258,12 @@
     .section-body {
       margin-top: 2rem;
       font-size: 1.8rem;
+      @media only screen and (max-width: 768px) {
+        font-size: 1.2rem;
+        i {
+          font-size: 1.2rem;
+        }
+      }
     }
   }
   .sponser-images-wrapper {
