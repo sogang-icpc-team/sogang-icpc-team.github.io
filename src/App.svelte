@@ -29,7 +29,7 @@
   router("/introduction", () => (page = Introduction));
   router("/history", () => (page = History));
   router("/spc", () => (page = Spc));
-  router("/22-spc", () => (page = Spc22));
+  router("/spc-22", () => (page = Spc22));
   router(
     "/contact",
     async (ctx, next) => {

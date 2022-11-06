@@ -6,7 +6,7 @@
 <div class="popup_backdrop" />
 <div class="popup_wrapper" on:click={closePopup}>
   <div style="position: relative;">
-    <a href="/22-spc">
+    <a href="/spc-22">
       <img
         on:click={(e) => e.stopPropagation()}
         class="spc_image"
