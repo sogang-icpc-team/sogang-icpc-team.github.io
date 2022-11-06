@@ -3,6 +3,9 @@
 
   import HistoryTable from "../../template/HistoryTable/HistoryTable.svelte";
   import HistoryTab from "../../template/HistoryTab/HistoryTab.svelte";
+  import Spc22Banner from "./spc-22-banner.svelte";
+  export let showPopup = true;
+
   let spcData;
   let yearsList,
     curYear = "2021";
@@ -32,17 +35,12 @@
   // }
 </script>
 
+<svelte:component this={showPopup ? Spc22Banner : null} bind:showPopup />
 <div class="contents">
   <div class="pad">
     <span class="subtitle">Sogang Programming Contest</span>
     <h1>논리력과 문제 해결 능력을 겨루는 대회입니다.</h1>
   </div>
-  <!-- <div class="spc_banner_big_wrap" on:click={onBannerClick}>
-    <img class="spc_banner_big" src="/res/21-spc-banner-big.svg" />
-  </div>
-  <div class="spc_banner_small_wrap" on:click={onBannerClick}>
-    <img class="spc_banner_small" src="/res/21-spc-banner-small.svg" />
-  </div> -->
   <div class="row pad first_paragraph">
     <div class="p25">
       <h2>소개</h2>
@@ -128,9 +126,7 @@
           >언어 도움말</a
         >을 참조합니다.
       </p>
-      <p>
-        모든 문제는 출제진이 C++로 정답을 작성했음이 보장됩니다.
-      </p>
+      <p>모든 문제는 출제진이 C++로 정답을 작성했음이 보장됩니다.</p>
     </div>
   </div>
   <div class="row pad">
@@ -574,33 +570,3 @@
     학회장 메일로 메일을 보내 주세요.
   </div>
 </div>
-
-<style>
-  .spc_banner_big_wrap {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .spc_banner_big {
-    width: 91%;
-    margin: 10px 0 20px 0;
-  }
-  .spc_banner_small_wrap {
-    display: none;
-    width: 100%;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .spc_banner_small {
-    width: 100%;
-  }
-  @media only screen and (max-width: 768px) {
-    .spc_banner_big_wrap {
-      display: none;
-    }
-    .spc_banner_small_wrap {
-      display: flex;
-    }
-  }
-</style>
