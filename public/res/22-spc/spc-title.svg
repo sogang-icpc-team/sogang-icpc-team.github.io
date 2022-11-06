@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4907.49 1116.14">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5, .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-7, .cls-8 {
+        fill: #fff;
+        font-family: AvenirNext-Bold, 'Avenir Next';
+      }
+
+      .cls-9, .cls-4 {
+        font-size: 433.88px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #ab1f24;
+        font-family: AvenirNext-DemiBold, 'Avenir Next';
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.06em;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1" data-name="레이어 1">
+    <g id="_서강대학교_프로그래밍_대회" data-name="서강대학교 프로그래밍 대회">
+      <g id="SPC_영문" data-name="SPC 영문">
+        <text class="cls-9" transform="translate(464.64 370.53)"><tspan class="cls-8"><tspan class="cls-2" x="0" y="0">Sogang </tspan><tspan class="cls-12" x="1662.16" y="0">P</tspan><tspan class="cls-11" x="1912.51" y="0">r</tspan><tspan class="cls-1" x="2067.84" y="0">og</tspan><tspan class="cls-10" x="2610.17" y="0">r</tspan><tspan class="cls-5" x="2766.37" y="0">amming</tspan></tspan><tspan class="cls-7" x="0" y="534.75">C</tspan><tspan class="cls-3" x="288.1" y="534.75">ontest 2022</tspan><tspan class="cls-6" x="2749.89" y="534.75" xml:space="preserve"> */</tspan></text>
+        <text class="cls-4" transform="translate(3.9 370.53)"><tspan x="0" y="0">/* </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
