@@ -50,6 +50,6 @@
     position: fixed;
     font-size: 2rem;
     font-weight: 700;
-    transform: translate(-100%, -100%);
+    transform: translate(-100%, -130%);
   }
 </style>
