@@ -213,7 +213,7 @@
   <iframe
     src={admission_url}
     title="2022 SPC 신청"
-    height={2624}
+    height={3280}
     frameborder={0}
     marginheight={0}
     marginwidth={0}
