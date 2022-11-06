@@ -5,7 +5,7 @@
   import Home from "./routes/Home.svelte";
   import History from "./routes/History/History.svelte";
   import Spc from "./routes/Spc/Spc.svelte";
-  import Spc22 from "./routes/Spc/spc-22.svelte";
+  import Spc22 from "./routes/spc-22/spc-22.svelte";
   import Contact from "./routes/Contact/Contact.svelte";
   import Introduction from "./routes/Introduction/Introduction.svelte";
 
