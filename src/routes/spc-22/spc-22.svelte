@@ -189,7 +189,7 @@
   </div>
 
   <div class="section">
-    <span class="section-title">Sponsered by ❤️</span>
+    <span class="section-title">Sponsored by</span>
     <div class="section-body sponser-images-wrapper">
       {#each sponsers as sponser}
         <img alt="sponser" src={`/res/22-spc/sponser-${sponser}.svg`} />
