@@ -8,7 +8,7 @@
 
   let spcData;
   let yearsList,
-    curYear = "2021";
+    curYear = "2022";
   const spc_admission_url = "https://forms.gle/DTbtyNfrdpC35Ede9";
   // Re-fetch Whenever curYear Changes In HistoryTab Component
   $: fetch(`/spc/data/${curYear.trim()}.json`)
@@ -237,6 +237,33 @@
       <h2>역대 대회 문제</h2>
     </div>
     <div class="p75">
+      <h3>2022년 - 제 18회</h3>
+      <p>
+        2022년 11월 26일 토요일 오후 2시 ~ 5시<br />
+        다산관 D104/D105
+      </p>
+      <div class="button_container">
+        <span class="contest_section">스코어보드</span>
+        <a href="https://www.acmicpc.net/contest/spotboard/896" target="_blank"
+          ><div class="button">Master</div></a
+        >
+        <a href="https://www.acmicpc.net/contest/spotboard/897" target="_blank"
+          ><div class="button">Champion</div></a
+        >
+      </div>
+      <div class="button_container">
+        <span class="contest_section">문제 (BOJ)</span>
+        <a href="https://www.acmicpc.net/category/697" target="_blank"
+          ><div class="button">Integrated</div></a
+        >
+      </div>
+      <div class="button_container">
+        <span class="contest_section">해설 (PDF)</span>
+        <a href="/spc/contest/2022/solutions.pdf"
+          ><div class="button">Official Solutions</div></a
+        >
+      </div>
+      <p>출제 - 김동건, 강효규, 박수현, 이윤제, 임지환, 조원빈</p>
       <h3>2021년 - 제 17회</h3>
       <p>
         2021년 11월 27일 토요일 오후 2시 ~ 5시<br />
