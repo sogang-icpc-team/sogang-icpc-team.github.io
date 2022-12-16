@@ -26,9 +26,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Prepare CI
-        run: npm ci
+        run: yarn
       - name: Build svelte
-        run: npm run build
+        run: yarn build
       - name: Add .nojekyll
         run: touch public/.nojekyll
       - name: Add routers' html files
