@@ -4,7 +4,7 @@
   import HistoryTable from "../../template/HistoryTable/HistoryTable.svelte";
   import HistoryTab from "../../template/HistoryTab/HistoryTab.svelte";
   import Spc22Banner from "./spc-22-banner.svelte";
-  export let showPopup = true;
+  export let showPopup = false;
 
   let spcData;
   let yearsList,
