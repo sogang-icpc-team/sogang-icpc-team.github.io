@@ -75,15 +75,44 @@
       ]
     },
     {
+      "title": "Google Code Jam Round 3 2022",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["506 / 🇰🇷29", "30", "shiftpsh", "박수현"]],
+      "award": ["advanced"],
+      "links": [
+        ["공식 사이트", "https://codingcompetitions.withgoogle.com/codejam"],
+        [
+          "스코어보드",
+          "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4"
+        ]
+      ]
+    },
+    {
       "title": "Google Code Jam Round 2 2022",
       "columns": ["#", "=", "닉네임", "이름"],
-      "data": [["1661 / 🇰🇷109", "22", "Rebro", "박재형"]],
-      "award": [""],
+      "data": [
+        ["605 / 🇰🇷50", "35", "shiftpsh", "박수현"],
+        ["1661 / 🇰🇷109", "22", "Rebro", "박재형"]
+      ],
+      "award": ["advanced", ""],
       "links": [
         ["공식 사이트", "https://codingcompetitions.withgoogle.com/codejam"],
         [
           "스코어보드",
           "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec"
+        ]
+      ]
+    },
+    {
+      "title": "Google Code Jam Round 1A 2022",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["187 / 🇰🇷15", "100", "shiftpsh", "박수현"]],
+      "award": ["advanced"],
+      "links": [
+        ["공식 사이트", "https://codingcompetitions.withgoogle.com/codejam"],
+        [
+          "스코어보드",
+          "https://codingcompetitions.withgoogle.com/codejam/round/000000000087711b"
         ]
       ]
     },
