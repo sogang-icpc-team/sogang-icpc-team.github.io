@@ -1,6 +1,19 @@
 [
   {
-    "year": "2022&mdash;현재",
+    "year": "2023",
+    "president": {
+      "name": "정회윤",
+      "boj": "yunny_world",
+      "email": "yunnyworld@gmail.com"
+    },
+    "vicePresident": {
+      "name": "채성우",
+      "boj": "lem0nad3",
+      "email": "vermeil0625@gmail.com"
+    }
+  },
+  {
+    "year": "2022",
     "president": {
       "name": "김동건",
       "boj": "dong_gas",
@@ -24,7 +37,7 @@
       "name": "이동주",
       "boj": "nant0313",
       "email": "me@leed.at",
-      "link": "https://github.com/nant0313"
+      "link": "https://github.com/dongzoolee"
     }
   },
   {
