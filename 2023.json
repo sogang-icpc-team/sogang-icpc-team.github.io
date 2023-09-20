@@ -1,0 +1,94 @@
+{
+  "year": 2023,
+  "contests": [
+    {
+      "title": "2023 ICPC Sinchon Winter Algorithm Camp Contest - Novice",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [["1", "6", "gi9410", "김기철"]],
+      "award": ["gold"],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/947"]
+      ]
+    },
+    {
+      "title": "2023 ICPC Sinchon Winter Algorithm Camp Contest - Advanced",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [
+        ["1", "5", "tmdgud0617", "이승형"],
+        ["2", "3", "lem0nad3", "lem0nad3"]
+      ],
+      "award": ["gold", ""],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/948"]
+      ],
+      "review": [
+        ["유호영(tkfkddl59323)", "https://loftol.tistory.com/6"],
+        ["정회윤(yunny_world)", "https://yunny.world/65"]
+      ]
+    },
+    {
+      "title": "SUAPC 2023 Winter",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["5", "6", "혼혈 서강..준", "이승형, 이준석, 송근수"],
+        ["6", "6", "상 타면 군대 감ㅅㄱ", "손기령, 신동준, 김서인"],
+        [
+          "7",
+          "6",
+          "-------------------10등컷---------------------",
+          "김정모, 이소영, 박준하"
+        ],
+        ["8", "6", "tksvlf123의 last dance", "이우진, 유호영, 한상필"]
+      ],
+      "award": ["bronze", "bronze", "", ""],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/suapc"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/950"]
+      ],
+      "review": [["이지훈(maker29)", "https://maker29.tistory.com/2"]]
+    },
+    {
+      "title": "2023 ICPC Sinchon Summer Algorithm Camp Contest - Novice",
+      "columns": ["#", "=", "닉네임", "이름"],
+      "data": [
+        ["2", "4", "변미담", "변미담"],
+        ["3", "3", "임정연", "임정연"]
+      ],
+      "award": ["silver", "bronze"],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1101"]
+      ],
+      "review": [
+        ["정회윤(yunny_world)", "https://yunny.world/80"],
+        ["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223189879406"]
+      ]
+    },
+    {
+      "title": "SUAPC 2023 Summer",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["1", "12", "Redshift", "박수현, 이준석, 채성우"],
+        [
+          "3",
+          "11",
+          "월파출신 코치가 가르치고 있어요",
+          "박성준, 송근수, 이승형"
+        ],
+        ["7", "9", "조성훈", "김동건, 조성훈, 조원빈"],
+        ["8", "8", "기령손의 그녀들", "강효규, 김서인, 장유빈"],
+        ["9", "7", "WooJeans", "이우진, 유호영, 정회윤"]
+      ],
+      "award": ["gold", "silver", "", "", ""],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/suapc"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1104"]
+      ],
+      "review": [
+        ["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223200563487"]
+      ]
+    }
+  ]
+}
