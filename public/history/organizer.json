@@ -1,5 +1,18 @@
 [
   {
+    "year": "2024",
+    "president": {
+      "name": "박준영",
+      "boj": "sparkjy18",
+      "email": "sparkjy18@gmail.com"
+    },
+    "vicePresident": {
+      "name": "박정원",
+      "boj": "sanguineman",
+      "email": "sanguineman@naver.com"
+    }
+  },
+  {
     "year": "2023",
     "president": {
       "name": "정회윤",

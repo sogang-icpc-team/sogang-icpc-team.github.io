@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="footer_desc">
-		<span class="copyright">© 2005—2022 Sogang ICPC Team</span>
+		<span class="copyright">© 2005—2024 Sogang ICPC Team</span>
 		<ul>
 			<li><a href="http://cs.sogang.ac.kr" target="_blank">컴퓨터공학과</a></li>
 			<li><a href="https://www.acmicpc.net/group/4963" target="_blank">BOJ 그룹</a></li>
