@@ -8,7 +8,7 @@
 
   let spcData;
   let yearsList,
-    curYear = "2022";
+    curYear = "2023";
   const spc_admission_url = "https://forms.gle/DTbtyNfrdpC35Ede9";
   // Re-fetch Whenever curYear Changes In HistoryTab Component
   $: fetch(`/spc/data/${curYear.trim()}.json`)

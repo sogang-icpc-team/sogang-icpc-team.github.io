@@ -7,7 +7,7 @@
 	import ReviewTable from '../../template/ReviewTable/ReviewTable.svelte';
 	let yearsList,
 		history,
-		curYear = `2022`;
+		curYear = `2023`;
 
 	// Re-fetch Whenever curYear Changes In HistoryTab Component
 	$: fetch(`/history/data/${curYear.trim()}.json`)
