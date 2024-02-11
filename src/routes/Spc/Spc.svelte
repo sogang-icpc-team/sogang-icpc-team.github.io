@@ -263,7 +263,7 @@
         ><div class="button">Official Solutions</div></a
         >
       </div>
-      <p>출제 - 김동건, 강효규, 박수현, 이윤제, 임지환, 조원빈</p>
+      <p>출제 - 정회윤, 박한나, 강효규, 김동건, 채성우</p>
       <div class="hl" />
       <h3>2022년 - 제 18회</h3>
       <p>
