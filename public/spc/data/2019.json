@@ -1,5 +1,22 @@
 {
   "year": 2019,
+  "meta": {
+    "date": "2019년 11월 22일 금요일 오후 7시 ~ 10시",
+    "place": "다산관 D104/D105",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/spotboard/487",
+      "champion": "https://www.acmicpc.net/contest/spotboard/488"
+    },
+    "problem": {
+      "pdf" : {
+        "master": "/spc/contest/2019/master.pdf",
+        "champion": "/spc/contest/2019/champion.pdf"
+      },
+      "Integrated": "https://www.acmicpc.net/category/693"
+    },
+    "solution": "/spc/contest/2019/solutions.pdf",
+    "author": ["박건", "박수현", "이준석", "손정연", "윤기영", "정진욱"]
+  },
   "contests": [
     {
       "title": "SPC 2019 Master",

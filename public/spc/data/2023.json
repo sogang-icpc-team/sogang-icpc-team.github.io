@@ -1,5 +1,18 @@
 {
   "year": 2023,
+  "meta": {
+    "date": "2023년 11월 11일 토요일 오후 2시 ~ 5시",
+    "place": "다산관 D104/D105",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/spotboard/1157",
+      "champion": "https://www.acmicpc.net/contest/spotboard/1158"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/996"
+    },
+    "solution": "/spc/contest/2023/solutions.pdf",
+    "author": ["정회윤", "박한나", "강효규", "김동건", "채성우"]
+  },
   "contests": [
     {
       "title": "SPC 2023 Master",

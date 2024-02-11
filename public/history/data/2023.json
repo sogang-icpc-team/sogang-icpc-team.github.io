@@ -92,8 +92,8 @@
       "title": "2023 ICPC Sinchon Summer Algorithm Camp Contest - Novice",
       "columns": ["#", "=", "닉네임", "이름"],
       "data": [
-        ["2", "4", "변미담", "변미담"],
-        ["3", "3", "임정연", "임정연"]
+        ["2", "4", "midamida", "변미담"],
+        ["3", "3", "aprilfo01s", "임정연"]
       ],
       "award": ["silver", "bronze"],
       "links": [

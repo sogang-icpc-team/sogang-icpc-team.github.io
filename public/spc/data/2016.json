@@ -1,5 +1,16 @@
 {
   "year": 2016,
+  "meta": {
+    "date": "2016년 11월 21일 월요일 오후 7시 ~ 10시",
+    "place": "리치과학관 R912 / R914",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/board/204",
+      "champion": "https://www.acmicpc.net/contest/board/203"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/690"
+    }
+  },
   "contests": [
     {
       "title": "제 12회 총장배 서강대학교 프로그래밍 대회 Master",

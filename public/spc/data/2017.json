@@ -1,5 +1,17 @@
 {
   "year": 2017,
+  "meta": {
+    "date": "2017년 11월 20일 월요일 오후 7시 ~ 10시",
+    "place": "다산관 D104",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/board/265",
+      "champion": "https://www.acmicpc.net/contest/board/266"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/691"
+    },
+    "author": ["박건", "이준석", "최윤영", "고성빈", "정성엽", "하태훈"]
+  },
   "contests": [
     {
       "title": "SPC 2017 Master",

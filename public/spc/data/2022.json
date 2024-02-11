@@ -1,5 +1,18 @@
 {
   "year": 2022,
+  "meta": {
+    "date": "2022년 11월 26일 토요일 오후 2시 ~ 5시",
+    "place": "다산관 D104/D105",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/spotboard/896",
+      "champion": "https://www.acmicpc.net/contest/spotboard/897"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/697"
+    },
+    "solution": "/spc/contest/2022/solutions.pdf",
+    "author": ["김동건", "강효규", "박수현", "이윤제", "임지환", "조원빈"]
+  },
   "contests": [
     {
       "title": "SPC 2022 Master",

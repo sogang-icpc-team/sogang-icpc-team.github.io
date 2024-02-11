@@ -232,367 +232,6 @@
     src="/res/spc2018.jpg"
     alt="Sogang Programming Contest posters"
   />
-  <div class="row pad">
-    <div class="p25">
-      <h2>역대 대회 문제</h2>
-    </div>
-    <div class="p75">
-      <h3>2023년 - 제 19회</h3>
-      <p>
-        2023년 11월 11일 토요일 오후 2시 ~ 5시<br />
-        다산관 D104/D105
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/spotboard/1157" target="_blank"
-        ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/spotboard/1158" target="_blank"
-        ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (BOJ)</span>
-        <a href="https://www.acmicpc.net/category/996" target="_blank"
-        ><div class="button">Integrated</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">해설 (PDF)</span>
-        <a href="/spc/contest/2023/solutions.pdf"
-        ><div class="button">Official Solutions</div></a
-        >
-      </div>
-      <p>출제 - 정회윤, 박한나, 강효규, 김동건, 채성우</p>
-      <div class="hl" />
-      <h3>2022년 - 제 18회</h3>
-      <p>
-        2022년 11월 26일 토요일 오후 2시 ~ 5시<br />
-        다산관 D104/D105
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/spotboard/896" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/spotboard/897" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (BOJ)</span>
-        <a href="https://www.acmicpc.net/category/697" target="_blank"
-          ><div class="button">Integrated</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">해설 (PDF)</span>
-        <a href="/spc/contest/2022/solutions.pdf"
-          ><div class="button">Official Solutions</div></a
-        >
-      </div>
-      <p>출제 - 김동건, 강효규, 박수현, 이윤제, 임지환, 조원빈</p>
-      <div class="hl" />
-      <h3>2021년 - 제 17회</h3>
-      <p>
-        2021년 11월 27일 토요일 오후 2시 ~ 5시<br />
-        다산관 D104/D105
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/scoreboard/724" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/scoreboard/726" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (PDF)</span>
-        <a href="/spc/contest/2021/master.pdf"
-          ><div class="button">Master</div></a
-        >
-        <a href="/spc/contest/2021/champion.pdf"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (BOJ)</span>
-        <a href="https://www.acmicpc.net/category/detail/2884" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/2885" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/2886" target="_blank"
-          ><div class="button">Open</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">해설 (PDF)</span>
-        <a href="/spc/contest/2021/solutions.pdf"
-          ><div class="button">Official Solutions</div></a
-        >
-      </div>
-      <p>출제 - 강효규, 박수현, 이상원, 이선호, 이준석, 조원빈</p>
-      <div class="hl" />
-      <h3>2020년 - 제 16회</h3>
-      <p>
-        2020년 11월 28일 토요일 오후 2시 ~ 5시<br />
-        Online
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/scoreboard/562" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/scoreboard/563" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (PDF)</span>
-        <a href="/spc/contest/2020/master.pdf"
-          ><div class="button">Master</div></a
-        >
-        <a href="/spc/contest/2020/champion.pdf"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (BOJ)</span>
-        <a href="https://www.acmicpc.net/category/detail/2355" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/2354" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/2356" target="_blank"
-          ><div class="button">Open</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">해설 (PDF)</span>
-        <a href="/spc/contest/2020/solutions.pdf"
-          ><div class="button">Official Solutions</div></a
-        >
-      </div>
-      <p>출제 - 이기현, 이윤제, 임지환, 김주현, 안향빈, 이상원</p>
-      <div class="hl" />
-
-      <h3>2019년 - 제 15회</h3>
-      <p>
-        2019년 11월 22일 금요일 오후 7시 ~ 10시<br />
-        다산관 D104/D105
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/scoreboard/487" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/scoreboard/488" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (PDF)</span>
-        <a href="/spc/contest/2019/master.pdf"
-          ><div class="button">Master</div></a
-        >
-        <a href="/spc/contest/2019/champion.pdf"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제 (BOJ)</span>
-        <a href="https://www.acmicpc.net/category/detail/2129" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/2128" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">해설 (PDF)</span>
-        <a href="/spc/contest/2019/solutions.pdf"
-          ><div class="button">Official Solutions</div></a
-        >
-      </div>
-      <p>출제 - 박건, 박수현, 이준석, 손정연, 윤기영, 정진욱</p>
-      <div class="hl" />
-
-      <h3>2018년 - 제 14회</h3>
-      <p>
-        2018년 11월 23일 금요일 오후 7시 ~ 10시<br />
-        다산관 D104
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/board/368" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/board/379" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/category/detail/1961" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/1962" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <p>출제 - 이준석, 최윤영, 최지원, 손정연, 윤기영, 정진욱</p>
-      <div class="hl" />
-
-      <h3>2017년 - 제 13회</h3>
-      <p>
-        2017년 11월 20일 월요일 오후 7시 ~ 10시<br />
-        다산관 D104
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/board/265" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/board/266" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/category/detail/1809" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/1810" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <p>출제 - 박건, 이준석, 최윤영, 고성빈, 정성엽, 하태훈</p>
-      <div class="hl" />
-
-      <h3>2016년 - 제 12회</h3>
-      <p>
-        2016년 11월 21일 월요일 오후 7시 ~ 10시<br />
-        리치과학관 R912 / R914
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/board/204" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/board/203" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/category/detail/1577" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/1576" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="hl" />
-
-      <h3>2015년 - 제 11회</h3>
-      <p>
-        2015년 11월 23일 월요일 오후 7시 ~ 10시<br />
-        리치과학관 R912 / R914
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/board/141" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/board/142" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/category/detail/1420" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/1421" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="hl" />
-
-      <h3>2014년 - 제 10회</h3>
-      <p>
-        2014년 11월 20일 월요일 오후 7시 ~ 10시<br />
-        리치과학관 R912 / R914
-      </p>
-      <div class="button_container">
-        <span class="contest_section">스코어보드</span>
-        <a href="https://www.acmicpc.net/contest/scoreboard/74" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/contest/scoreboard/75" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/category/detail/1299" target="_blank"
-          ><div class="button">Master</div></a
-        >
-        <a href="https://www.acmicpc.net/category/detail/1300" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="hl" />
-
-      <h3>2013년 - 제 9회</h3>
-      <p>
-        2013년 11월 28일 목요일 오후 6시 30분 ~ 9시 30분<br />
-        김대건관 K512 / 리치과학관 R914
-      </p>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/workbook/view/75" target="_blank"
-          ><div class="button">Challenger</div></a
-        >
-        <a href="https://www.acmicpc.net/workbook/view/77" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="hl" />
-
-      <h3>2012년 - 제 8회</h3>
-      <p>
-        2012년 11월 29일 목요일 오후 6시 30분 ~ 9시 30분<br />
-        리치과학관 R912 / R914
-      </p>
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/workbook/view/33" target="_blank"
-          ><div class="button">Challenger</div></a
-        >
-        <a href="https://www.acmicpc.net/workbook/view/34" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-      <div class="hl" />
-
-      <h3>2011년 - 제 7회</h3>
-      <p />
-      <div class="button_container">
-        <span class="contest_section">문제</span>
-        <a href="https://www.acmicpc.net/workbook/view/24" target="_blank"
-          ><div class="button">Challenger</div></a
-        >
-        <a href="https://www.acmicpc.net/workbook/view/25" target="_blank"
-          ><div class="button">Champion</div></a
-        >
-      </div>
-    </div>
-  </div>
   <div class="pad_v">
     <div class="pad_h">
       <h2>역대 대회 기록</h2>
@@ -605,6 +244,52 @@
   </div>
   <div class="history_contents">
     {#if spcData}
+      {#if spcData.meta}
+        <div class="row pad p75">
+          <p>
+            {spcData.meta.date}<br />
+            {spcData.meta.place}
+          </p>
+          <div class="button_container">
+            <span class="contest_section">스코어보드</span>
+            <a href={spcData.meta.scoreboard.master} target="_blank"
+            ><div class="button">Master</div></a
+            >
+            <a href={spcData.meta.scoreboard.champion} target="_blank"
+            ><div class="button">Champion</div></a
+            >
+          </div>
+          {#if spcData.meta.problem.pdf}
+            <div class="button_container">
+              <span class="contest_section">문제 (PDF)</span>
+              <a href={spcData.meta.problem.pdf.master} target="_blank"
+              ><div class="button">Master</div></a
+              >
+              <a href={spcData.meta.problem.pdf.champion} target="_blank"
+              ><div class="button">Champion</div></a
+              >
+            </div>
+          {/if}
+          <div class="button_container">
+            <span class="contest_section">문제 (BOJ)</span>
+            <a href={spcData.meta.problem.Integrated} target="_blank"
+            ><div class="button">Integrated</div></a
+            >
+          </div>
+          {#if spcData.meta.solution}
+            <div class="button_container">
+              <span class="contest_section">해설 (PDF)</span>
+              <a href={spcData.meta.solution}
+              ><div class="button">Official Solutions</div></a
+              >
+            </div>
+          {/if}
+          {#if spcData.meta.author}
+            <p>출제 - {spcData.meta.author.join(", ")}</p>
+          {/if}
+        </div>
+        <div class="hl" />
+      {/if}
       {#each spcData.contests as contest}
         <HistoryTable
           title={contest.title}

@@ -1,5 +1,22 @@
 {
   "year": 2020,
+  "meta": {
+    "date": "2020년 11월 28일 토요일 오후 2시 ~ 5시",
+    "place": "Online",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/spotboard/562",
+      "champion": "https://www.acmicpc.net/contest/spotboard/563"
+    },
+    "problem": {
+      "pdf" : {
+        "master": "/spc/contest/2020/master.pdf",
+        "champion": "/spc/contest/2020/champion.pdf"
+      },
+      "Integrated": "https://www.acmicpc.net/category/694"
+    },
+    "solution": "/spc/contest/2020/solutions.pdf",
+    "author": ["이기현", "이윤제", "임지환", "김주현", "안향빈", "이상원"]
+  },
   "contests": [
     {
       "title": "SPC 2020 Master",

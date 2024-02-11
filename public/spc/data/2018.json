@@ -1,5 +1,17 @@
 {
   "year": 2018,
+  "meta": {
+    "date": "2018년 11월 23일 금요일 오후 7시 ~ 10시",
+    "place": "다산관 D104",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/board/368",
+      "champion": "https://www.acmicpc.net/contest/board/379"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/692"
+    },
+    "author": ["이준석", "최윤영", "최지원", "손정연", "윤기영", "정진욱"]
+  },
   "contests": [
     {
       "title": "SPC 2018 Master",

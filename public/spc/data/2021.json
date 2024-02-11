@@ -1,5 +1,24 @@
 {
   "year": 2021,
+  "meta": {
+    "date": "2021년 11월 27일 토요일 오후 2시 ~ 5시",
+    "place": "다산관 D104/D105",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/scoreboard/724",
+      "champion": "https://www.acmicpc.net/contest/scoreboard/726"
+    },
+    "problem": {
+      "pdf" : {
+        "master": "/spc/contest/2021/master.pdf",
+        "champion": "/spc/contest/2021/champion.pdf"
+      },
+      "Integrated": "https://www.acmicpc.net/category/695",
+      "master": "https://www.acmicpc.net/category/detail/2884",
+      "champioin": "https://www.acmicpc.net/category/detail/2885"
+    },
+    "solution": "/spc/contest/2021/solutions.pdf",
+    "author": ["강효규", "박수현", "이상원", "이선호", "이준석", "조원빈"]
+  },
   "contests": [
     {
       "title": "SPC 2021 Master",

@@ -1,5 +1,16 @@
 {
   "year": 2015,
+  "meta": {
+    "date": "2015년 11월 23일 월요일 오후 7시 ~ 10시",
+    "place": "리치과학관 R912 / R914",
+    "scoreboard": {
+      "master": "https://www.acmicpc.net/contest/board/141",
+      "champion": "https://www.acmicpc.net/contest/board/142"
+    },
+    "problem": {
+      "Integrated": "https://www.acmicpc.net/category/689"
+    }
+  },
   "contests": [
     {
       "title": "SPC 2015 Master",
