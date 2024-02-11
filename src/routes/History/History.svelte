@@ -52,6 +52,7 @@
 			{#each history.contests as contest}
 				<HistoryTable
 					title={contest.title}
+					info={contest.info}
 					award={contest.award}
 					thead={contest.columns}
 					tbody={contest.data}

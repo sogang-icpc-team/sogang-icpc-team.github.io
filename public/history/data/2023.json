@@ -3,6 +3,10 @@
   "contests": [
     {
       "title": "2023 ICPC Asia Jakarta Regional Contest",
+      "info": {
+        "date": "2023.12.3",
+        "place": "Vinus University, Jakarta, Indonesia"
+      },
       "columns": ["#", "=", "팀", "멤버"],
       "data": [
         ["15", "6", "Redshift", "박수현, 이준석, 채성우"]

@@ -1,5 +1,5 @@
 <script>
-	export let title, award, thead, tbody, link, isReviewAvail;
+	export let title, info, award, thead, tbody, link, isReviewAvail;
 
 	const onReviewClick = (e) => {
 		let nextElem = e.target.closest('.pad').nextElementSibling;
@@ -11,6 +11,12 @@
 <div class={`row pad`}>
 	<div class="p25">
 		<h2>{title}</h2>
+		{#if info}
+			<div>
+				{info.date}<br/>
+				{info.place}
+			</div>
+		{/if}
 	</div>
 	<div class="p75">
 		<div class="table_container">
