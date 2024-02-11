@@ -32,7 +32,7 @@
         ["공식 사이트", "http://icpckorea.org/2023-seoul/regional"],
         ["스코어보드", "http://static.icpckorea.net/2023/regional/scoreboard"]
       ],
-      "review": [["임지환(raararaara, 스태프 후기)", "https://blog.naver.com/raararaara/223297965004"]]
+      "review": [["임지환(raararaara, 스태프 후기)", "https://blog.naver.com/raararaara/223297965004"],["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223284913439"]]
     },
     {
       "title": "2023 ICPC Asia Seoul Preliminary Contest",
@@ -105,6 +105,24 @@
       ]
     },
     {
+      "title": "23년 현대모비스 알고리즘 경진대회(학생부)",
+      "columns": ["#", "이름"],
+      "data": [["우수상", "박성준"],["장려상", "송근수"],["장려상", "이승형"]],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://career.programmers.co.kr/competitions/3419"]
+      ]
+    },
+    {
+      "title": "23년 현대모비스 알고리즘 경진대회(일반부)",
+      "columns": ["#", "이름"],
+      "data": [["우수상", "이윤제"],["우수상", "임지환"],["장려상", "한상필"]],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://career.programmers.co.kr/competitions/3419"]
+      ],"review": [["임지환(raararaara)", "https://blog.naver.com/raararaara/223150522621"]]
+    },
+    {
       "title": "SUAPC 2023 Winter",
       "columns": ["#", "=", "팀", "멤버"],
       "data": [
@@ -130,7 +148,7 @@
       "columns": ["#", "=", "닉네임", "이름"],
       "data": [
         ["1", "5", "tmdgud0617", "이승형"],
-        ["2", "3", "lem0nad3", "lem0nad3"]
+        ["2", "3", "lem0nad3", "채성우"]
       ],
       "award": ["gold", ""],
       "links": [
