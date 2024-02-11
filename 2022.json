@@ -13,6 +13,11 @@
       "links": [
         ["공식 사이트", "http://icpckorea.org/2022-seoul/regional"],
         ["스코어보드", "http://static.icpckorea.net/20221119/scoreboard/"]
+      ],
+      "review": [
+        ["김동건(dong_gas)", "https://dong-gas.tistory.com/82"],
+        ["이민희(minigimbob, 스태프 후기)", "https://www.minigb.io/220"],
+        ["임지환(raararaara, 스태프 후기)", "https://blog.naver.com/raararaara/222944043938"]
       ]
     },
     {
@@ -59,7 +64,10 @@
           "http://static.icpckorea.net/2022/scoreboard_preliminary/"
         ]
       ],
-      "review": [["김동건(dong_gas)", "https://dong-gas.tistory.com/80"]]
+      "review": [
+        ["김동건(dong_gas)", "https://dong-gas.tistory.com/80"],
+        ["이민희(minigimbob)", "https://www.minigb.io/217"]
+      ]
     },
     {
       "title": "Google Kick Start Round C 2022",

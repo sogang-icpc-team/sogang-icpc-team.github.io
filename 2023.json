@@ -32,7 +32,10 @@
         ["공식 사이트", "http://icpckorea.org/2023-seoul/regional"],
         ["스코어보드", "http://static.icpckorea.net/2023/regional/scoreboard"]
       ],
-      "review": [["임지환(raararaara, 스태프 후기)", "https://blog.naver.com/raararaara/223297965004"],["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223284913439"]]
+      "review": [
+        ["임지환(raararaara, 스태프 후기)", "https://blog.naver.com/raararaara/223297965004"],
+        ["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223284913439"]
+      ]
     },
     {
       "title": "2023 ICPC Asia Seoul Preliminary Contest",
@@ -65,6 +68,22 @@
       "review": [["김동건(dong_gas)", "https://blog.naver.com/dong_gas/223244723211"]]
     },
     {
+      "title": "Samsung Collegiate Programming Contest 2023 Finals",
+      "columns": ["#", "이름"],
+      "data": [
+        ["-", "강효규"],
+        ["-", "김동건"],
+        ["-", "조원빈"],
+        ["-", "이승형"],
+        ["-", "박성준"],
+        ["-", "송근수"]
+      ],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"]
+      ]
+    },
+    {
       "title": "SUAPC 2023 Summer",
       "columns": ["#", "=", "팀", "멤버"],
       "data": [
@@ -92,10 +111,11 @@
       "title": "2023 ICPC Sinchon Summer Algorithm Camp Contest - Novice",
       "columns": ["#", "=", "닉네임", "이름"],
       "data": [
-        ["2", "4", "변미담", "변미담"],
-        ["3", "3", "임정연", "임정연"]
+        ["1", "5", "alzflost", "김현서"],
+        ["2", "4", "midamida", "변미담"],
+        ["3", "3", "aprilfo01s", "임정연"]
       ],
-      "award": ["silver", "bronze"],
+      "award": ["gold","silver", "bronze"],
       "links": [
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1101"]

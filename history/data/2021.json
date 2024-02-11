@@ -40,7 +40,8 @@
           "스코어보드",
           "http://static.icpckorea.net/2021/scoreboard_preliminary"
         ]
-      ]
+      ],
+      "review": [["이민희(minigimbob)", "https://www.minigb.io/111"]]
     },
     {
       "title": "ICPC World Finals Moscow",
@@ -50,7 +51,8 @@
       "links": [
         ["공식 사이트", "https://worldfinals.icpc.global"],
         ["스코어보드", "https://pc2.ecs.baylor.edu/scoreboard"]
-      ]
+      ],
+      "review": [["임지환(raararaara)", "https://blog.naver.com/raararaara/222519851530"]]
     },
     {
       "title": "SUAPC 2021 Summer",
