@@ -2,6 +2,21 @@
   "year": 2024,
   "contests": [
     {
+      "title": "2024 ICPC Asia Pacific Championship",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["37", "5", "Redshift", "박수현, 이준석, 채성우"],
+        ["42", "5", "Raa FanClub", "박성준, 송근수, 이승형"]
+      ],
+      "award": [
+        "",""
+      ],
+      "links": [
+        ["공식 사이트", "https://icpc.asia"],
+        ["스코어보드", "https://icpcasia.firebaseapp.com/standings"]
+      ]
+    },
+    {
       "title": "solved.ac Grand Arena Party × NEXON - Div 2",
       "columns": ["#", "=", "이름"],
       "data": [
