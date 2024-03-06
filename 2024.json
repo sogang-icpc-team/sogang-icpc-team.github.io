@@ -15,6 +15,28 @@
         ["공식 사이트", "https://icpc.asia"],
         ["스코어보드", "https://icpcasia.firebaseapp.com/standings"]
       ]
+      "review": [["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223371572976"]]
+    },
+    {
+      "title": "SUAPC 2024 Winter",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["2", "9", "goraani", "강효규, 김동건, 조원빈"],
+        ["3", "9", "Raa FanClub", "박성준, 송근수, 이승형"]
+        ["9", "8", "기령손", "김서인, 손기령, 이하윤"]
+        ["11", "7", "Die Bremer Stadtmusikanten", "이지훈, 정재헌, 최환"]
+        ["13", "5", "김정모사랑해", "강승묵, 김정모, 이도안"]
+        ["15", "5", "관물대정리장인이성진", "박준영, 박정원, 이성진"]
+        ["20", "4", "맞왜틀", "공경민, 김다은, 이서일"]
+        ["34", "3", "물플래", "김민성, 도정민, 박정빈"]
+      ],
+      "award": [
+        "",""
+      ],
+      "links": [
+        ["공식 사이트", "https://icpc-sinchon.io/suapc"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1237"]
+      ]
     },
     {
       "title": "solved.ac Grand Arena Party × NEXON - Div 2",
