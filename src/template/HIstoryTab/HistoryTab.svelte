@@ -17,7 +17,7 @@
 
 {#if yearsList}
 	{#each yearsList as data, idx}
-		<li class={idx == 0 ? 'selected' : ''} on:click={switchSelected}>
+		<li class={curYear == data ? 'selected' : ''} on:click={switchSelected}>
 			<span class="tab_text">{data}</span>
 		</li>
 	{/each}
