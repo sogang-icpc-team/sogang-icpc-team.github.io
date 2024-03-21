@@ -36,7 +36,8 @@
       "links": [
         ["공식 사이트", "https://icpc-sinchon.io/suapc"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1237"]
-      ]
+      ],
+      "review": [["김동건(dong_gas)", "https://blog.naver.com/dong_gas/223358906873"]]
     },
     {
       "title": "solved.ac Grand Arena Party × NEXON - Div 2",
