@@ -30,7 +30,7 @@
 		</div>
 		<div class="p75">
 			<p>
-				<a href="https://icpc.baylor.edu" target="_blank">ICPC</a>(International Collegiate Programming
+				<a href="https://icpckorea.org" target="_blank">ICPC</a>(International Collegiate Programming
 				Contest)는 국제 대학생 프로그래밍 경시대회로, 가장 긴 역사를 가지고 있는 권위 있는 프로그래밍
 				대회입니다. 학부생 3명이 한 팀을 구성해 참가해 제한된 시간 내에 주어진 문제들을 프로그래밍으로 해결해야
 				합니다. 학회의 이름에서 보이듯이 매년 이 대회에 참가하는 것이 학회 활동의 주 목적 중 하나이기도 합니다.
@@ -57,7 +57,7 @@
 			</p>
 			<p>
 				또한 전국 대학생 프로그래밍 대회 동아리 연합 (전대프연)
-				<a href="https://2018.ucpc.io" target="_blank">프로그래밍 대회</a>(UCPC) 등의 대회에도 참가하고
+				<a href="https://ucpc.me" target="_blank">프로그래밍 대회</a>(UCPC) 등의 대회에도 참가하고
 				있습니다.
 			</p>
 			<div class="button_container">
@@ -76,7 +76,7 @@
 				알고리즘 스터디를 진행합니다.
 			</p>
 			<p>
-				스터디는 수준에 따라 초급, 중급, 고급으로 나뉘어져 있고, 주로
+				스터디는 수준에 따라 초급, 중급으로 나뉘어져 있고, 주로
 				<a href="https://www.acmicpc.net" target="_blank">Baekjoon OJ</a>에서 문제를 푸는 방식으로 진행됩니다.
 				학회원 누구나 자유롭게 참여할 수 있습니다. 계절학기에도 쉬지 않고 진행합니다!
 			</p>
