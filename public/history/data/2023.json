@@ -141,7 +141,10 @@
       "award": [""],
       "links": [
         ["공식 사이트", "https://career.programmers.co.kr/competitions/3419"]
-      ],"review": [["임지환(raararaara)", "https://blog.naver.com/raararaara/223150522621"]]
+      ],"review": [
+      ["임지환(raararaara)", "https://blog.naver.com/raararaara/223150522621"],
+      ["이윤제(yjyj1027)", "https://blog.naver.com/yjyj1027/223150325945"]
+    ]
     },
     {
       "title": "SUAPC 2023 Winter",
