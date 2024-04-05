@@ -15,6 +15,7 @@
 			<li class="nav_item"><a href="/introduction">소개</a></li>
 			<li class="nav_item"><a href="/history">기록</a></li>
 			<li class="nav_item"><a href="/spc">SPC</a></li>
+			<li class="nav_item"><a href="/apply-k512">K512컵</a></li>
 			<li class="nav_item"><a href="/contact">가입 및 문의</a></li>
 		</ul>
 	</div>
