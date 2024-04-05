@@ -13,6 +13,7 @@
     showTopBar as showTopBarStore,
     showFooter as showFooterStore,
   } from "./template/NavBar/store";
+  import ApplyK512 from "./routes/apply-k512/apply-k512.svelte";
 
   // 필요한 데이터 fetch
   let latestOrganizerData;
@@ -29,6 +30,7 @@
   router("/introduction", () => (page = Introduction));
   router("/history", () => (page = History));
   router("/spc", () => (page = Spc));
+  router("/apply-k512", () => (page = ApplyK512));
   router("/spc-22", () => (page = Spc22));
   router(
     "/contact",
