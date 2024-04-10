@@ -14,106 +14,12 @@
 
     showTopBarStore.update(() => false);
     showFooterStore.update(() => false);
-
-    // const JS_APP_KEY = "22e8d42a348bb0483c4b92fcee947685";
-    // if (!Kakao.isInitialized()) {
-    //   Kakao.init(JS_APP_KEY);
-    // }
   });
   onDestroy(() => {
     document.querySelector(".contents_container").style = "max-width: 1600px;";
     showTopBarStore.update(() => true);
     showFooterStore.update(() => true);
   });
-
-  const getParam = (name) => {
-    const params = location.search.substring(1).split("&");
-    return params
-      .map((param) => {
-        const [key, value] = param.split("=");
-        if (key === name) {
-          return value;
-        }
-      })
-      .filter((v) => v !== undefined)[0];
-  };
-
-  // if (Kakao.isInitialized() && getParam("code")) {
-  //   Kakao.Auth.setAccessToken(getParam("code"));
-  // }
-  // const sendAuth = () => {
-  //   Kakao.Auth.authorize({
-  //     redirectUri: "http://localhost:4444/22-spc",
-  //   });
-  // };
-  // if (Kakao.isInitialized())
-  //   Kakao.Share.sendDefault({
-  //     objectType: "feed",
-  //     content: {
-  //       title: "오늘의 디저트",
-  //       description: "아메리카노, 빵, 케익",
-  //       imageUrl:
-  //         "https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg",
-  //       link: {
-  //         mobileWebUrl: "https://developers.kakao.com",
-  //         webUrl: "https://developers.kakao.com",
-  //       },
-  //     },
-  //     itemContent: {
-  //       profileText: "Kakao",
-  //       profileImageUrl:
-  //         "https://mud-kage.kakao.com/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png",
-  //       titleImageUrl:
-  //         "https://mud-kage.kakao.com/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png",
-  //       titleImageText: "Cheese cake",
-  //       titleImageCategory: "Cake",
-  //       items: [
-  //         {
-  //           item: "Cake1",
-  //           itemOp: "1000원",
-  //         },
-  //         {
-  //           item: "Cake2",
-  //           itemOp: "2000원",
-  //         },
-  //         {
-  //           item: "Cake3",
-  //           itemOp: "3000원",
-  //         },
-  //         {
-  //           item: "Cake4",
-  //           itemOp: "4000원",
-  //         },
-  //         {
-  //           item: "Cake5",
-  //           itemOp: "5000원",
-  //         },
-  //       ],
-  //       sum: "총 결제금액",
-  //       sumOp: "15000원",
-  //     },
-  //     social: {
-  //       likeCount: 10,
-  //       commentCount: 20,
-  //       sharedCount: 30,
-  //     },
-  //     buttons: [
-  //       {
-  //         title: "웹으로 이동",
-  //         link: {
-  //           mobileWebUrl: "https://developers.kakao.com",
-  //           webUrl: "https://developers.kakao.com",
-  //         },
-  //       },
-  //       {
-  //         title: "앱으로 이동",
-  //         link: {
-  //           mobileWebUrl: "https://developers.kakao.com",
-  //           webUrl: "https://developers.kakao.com",
-  //         },
-  //       },
-  //     ],
-  //   });
 </script>
 
 <a class="go_back_icon" href="/spc">
@@ -163,15 +69,6 @@
     />
     <img alt="spc-title" class="spc_title" src="/res/22-spc/spc-title.svg" />
   </div>
-  <!-- 
-  <div class="section">
-    <span class="section-title"
-      >1문제 이상 해결하면 <sub>추첨을 통해</sub> 에어팟 프로를 드립니다</span
-    >
-    <div class="section-body">
-      <img alt="airpods" src="/res/22-spc/airpods.png" />
-    </div>
-  </div> -->
 
   <!-- <div class="section">
     <span class="section-title">신청 기간</span>
