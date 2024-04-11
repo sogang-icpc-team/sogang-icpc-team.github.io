@@ -14,6 +14,7 @@
     showFooter as showFooterStore,
   } from "./template/NavBar/store";
   import ApplyK512 from "./routes/apply-k512/apply-k512.svelte";
+  import CleanWaterCupPage from "./routes/clean-water-cup/CleanWaterCupPage.svelte";
 
   // 필요한 데이터 fetch
   let latestOrganizerData;
@@ -29,6 +30,7 @@
   router("/", () => (page = Home));
   router("/introduction", () => (page = Introduction));
   router("/history", () => (page = History));
+  router("/clean-water-cup", () => (page = CleanWaterCupPage));
   router("/spc", () => (page = Spc));
   router("/apply-k512", () => (page = ApplyK512));
   router("/spc-22", () => (page = Spc22));
