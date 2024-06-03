@@ -5,6 +5,13 @@
     showFooter as showFooterStore,
   } from "../../template/NavBar/store";
 
+  import { CWC_DATASET } from "./res/cwc-dataset";
+  import AwardBadge from "./AwardBadge.svelte";
+
+  let selectedYear = CWC_DATASET[0].year,
+    selectedData = CWC_DATASET[0],
+    yearsList = CWC_DATASET.map(({ year }) => year);
+
   onMount(() => {
     document.querySelector(".contents_container").style = "max-width: unset;";
 
@@ -17,9 +24,16 @@
     showFooterStore.update(() => true);
   });
 
-  const handleGlidingTabItemClick = (offset) => {
+  const switchSelectedYear = (yearNum) => {
+    selectedYear = yearNum;
+    selectedData = CWC_DATASET.find(({ year }) => year === yearNum);
+  };
+
+  const handleGlidingTabItemClick = (yearNum, offset) => {
     document.querySelector(".year-switch__glider").style.transform =
       `translateX(${offset * 100}%)`;
+
+    switchSelectedYear(yearNum);
   };
 </script>
 
@@ -50,10 +64,9 @@
     </div>
   </div>
   <div class="description">
-    서강대학교 청정수컵은 남남을 배려함으로써 나의 진진짜 모습을 찾게되는 과정을
-    안내랗합니다. 그 뿐만이겠습니까.<br />
-    임원진은 모두가 학회원들을 챙기며, 학교 또한 학생들 한명한명을 사랑합니다. 고맙습니다.
-    여기까지 발걸음 해주신 것에 경의를 표합니다.
+    서강대학교 청정수컵은 ㅇㅇㅇ 취지로 도입되어, <br />
+    컴퓨터공학과 신입생 그리고 아직 프로그래밍 대회에서 수상해보지 못한 학부생 모두,
+    수상의 즐거움을 경험하기를 기대합니다.
   </div>
   <div class="hero-image__wrapper">
     <img
@@ -74,12 +87,10 @@
     <div class="section-header">
       <div>
         <div class="section-header__title">
-          🐣<br />새내기를 위한 대회
+          🐣<br />뉴비를 위한 대회
         </div>
         <div class="section-header__desc">
-          아직 문제해결에 익숙하지 않은 신입생들도 부담없이 수상할 수 있도록,<br
-          />
-          새내기는 새내기끼리 경쟁하세요.
+          새내기는 새내기끼리, 헌내기는 헌내기끼리
         </div>
       </div>
       <img
@@ -128,13 +139,8 @@
       <div>
         <div class="section-header__title">⚔<br />오프라인 경쟁의 장</div>
         <div class="section-header__desc">
-          쫄깃한 오프라인 화합의 장에서 누가누가 끈기있게 끝까지 마라톤을
-          완주해낼 것인가?
+          쫄깃한 오프라인 화합의 장, 누가 제일 많은 풍선을 가져가게 될까요?
           <br />
-          옆 사람에게 알록달록한 풍선이 하나 추가되는 순간 나 또한 그 기싸움에서
-          지지않겠다.
-          <br />
-          결심하는 자가 승리를 쟁취하는 것이다.
         </div>
       </div>
       <img
@@ -155,14 +161,14 @@
       </div>
       <div class="year-switch__wrapper">
         <div class="year-switch__glider" />
-        {#each [2024, 2023, 2022, 2021] as year, index}
+        {#each yearsList as year, index}
           <label class="year-switch-item">
             {year}
             <input
               type="radio"
               name="gliding-tab-year"
-              checked={index === 0}
-              on:click={() => handleGlidingTabItemClick(index)}
+              checked={year === selectedYear}
+              on:click={() => handleGlidingTabItemClick(year, index)}
             />
           </label>
         {/each}
@@ -172,7 +178,7 @@
     <div class="contest">
       <div>
         <div class="contest__title">
-          제 5회<br />서강대학교 청정수컵
+          제 {selectedData.nth}회<br />서강대학교 청정수컵
         </div>
         <button class="contest-link__button">BOJ 대회 바로가기 →</button>
       </div>
@@ -180,61 +186,78 @@
       <div class="contest-info-item__wrapper">
         <div class="contest-info-item">
           <div class="contest-info-item__title">일자</div>
-          <div>2023년 12월 29일(금) 오전 11시 ~ 오후 5시</div>
+          <div>{selectedData.dateStr}</div>
         </div>
         <div class="contest-info-item">
           <div class="contest-info-item__title">장소</div>
-          <div>서강대학교 다산관(D관) D101, 102호</div>
+          <div>{selectedData.location}</div>
         </div>
       </div>
     </div>
 
     <div class="award-history__wrapper">
       <div class="caption">수상내역</div>
-      <table class="award-history__table">
-        <thead>
-          <tr>
-            <th style="width: 104px;">구분</th>
-            <th style="width: 84px;">순위</th>
-            <th style="width: 88px;">솔브 수</th>
-            <th>이름</th>
-          </tr>
-        </thead>
-        <tbody>
-          {#each [{ rank: 1, solved: 3, name: "김철수" }, { rank: 2, solved: 2, name: "강동주" }] as data, index}
-            <tr
-              style={index % 2
-                ? "background-color: rgba(206, 223, 200, 0.35)"
-                : ""}
-            >
-              {#if index === 0}
-                <td rowspan="2" style="background-color: #cedfc8;">
-                  새내기 Round
-                </td>
-              {/if}
-              <td>{data.rank}</td>
-              <td>{data.solved}</td>
-              <td>{data.name}</td>
-            </tr>
-          {/each}
-          {#each [{ rank: 1, solved: 3, name: "김철수" }, { rank: 2, solved: 2, name: "강동주" }] as data, index}
-            <tr
-              style={index % 2
-                ? "background-color: rgba(200, 221, 223, 0.35)"
-                : ""}
-            >
-              {#if index === 0}
-                <td rowspan="2" style="background-color: #c8dddf;">
-                  청정수 Round
-                </td>
-              {/if}
-              <td>{data.rank}</td>
-              <td>{data.solved}</td>
-              <td>{data.name}</td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
+      <div class="newbie-oldbie__wrapper">
+        <div class="newbie__wrapper">
+          <div class="round-info__badge" style="border-color:#cedfc8;">
+            새내기 Round
+          </div>
+          <table class="award-history__table">
+            <thead>
+              <tr>
+                <th style="width: 84px;">순위</th>
+                <th style="width: 88px;">솔브 수</th>
+                <th>이름</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each selectedData.awards.round.newbie as data}
+                <tr>
+                  <td>{data.rank}<AwardBadge variant={data.variant} /></td>
+                  <td>{data.solved}</td>
+                  <td
+                    >{data.name}<a
+                      href="https://acmicpc.net/user/{data.bojHandle}"
+                      target="_blank"
+                      rel="noreferrer">({data.bojHandle})</a
+                    >
+                  </td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="oldbie__wrapper">
+          <div class="round-info__badge" style="border-color: #b4d9dd">
+            청정수 Round
+          </div>
+          <table class="award-history__table">
+            <thead>
+              <tr>
+                <th style="width: 84px;">순위</th>
+                <th style="width: 88px;">솔브 수</th>
+                <th>이름</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each selectedData.awards.round.oldbie as data, index}
+                <tr>
+                  <td>{data.rank}<AwardBadge variant={data.variant} /></td>
+                  <td>{data.solved}</td>
+                  <td
+                    >{data.name}<a
+                      href="https://acmicpc.net/user/{data.bojHandle}"
+                      target="_blank"
+                      rel="noreferrer">({data.bojHandle})</a
+                    >
+                  </td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
     <div class="maker-checker__wrapper">
       <div class="maker__wrapper">
@@ -242,19 +265,29 @@
         <table>
           <thead>
             <tr>
-              <th style="width: 136px;">이름</th>
+              <th>이름</th>
+              <th>BOJ</th>
               <th>소속</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>김철수</td>
-              <td>서강대학교</td>
-            </tr>
-            <tr>
-              <td>김철수</td>
-              <td>서강대학교</td>
-            </tr>
+            {#each selectedData.examiners as p}
+              <tr>
+                <td>
+                  {p.name}
+                </td>
+                <td>
+                  <a
+                    href="https://acmicpc.net/user/{p.bojHandle}"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {p.bojHandle}
+                  </a>
+                </td>
+                <td>{p.school}</td>
+              </tr>
+            {/each}
           </tbody>
         </table>
       </div>
@@ -263,26 +296,43 @@
         <table>
           <thead>
             <tr>
-              <th style="width: 136px;">이름</th>
+              <th>이름</th>
+              <th>BOJ 핸들</th>
               <th>소속</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>김철수</td>
-              <td>서강대학교</td>
-            </tr>
-            <tr>
-              <td>김철수</td>
-              <td>서강대학교</td>
-            </tr>
+            {#each selectedData.checkers as p}
+              <tr>
+                <td>{p.name}</td>
+                <td>
+                  <a
+                    href="https://acmicpc.net/user/{p.bojHandle}"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {p.bojHandle}
+                  </a>
+                </td>
+                <td>{p.school}</td>
+              </tr>
+            {/each}
           </tbody>
         </table>
       </div>
     </div>
     <div class="sponser__wrapper">
       <div class="caption">스폰서</div>
-      <div></div>
+      <div class="sponser__wrapper__logo-image__wrapper">
+        {#each selectedData.sponsers as s}
+          {#if s.logoImage.type === "png"}
+            <img src={s.logoImage.url} alt={s.name} />
+          {/if}
+          {#if s.logoImage.type === "svg"}
+            <img src={s.logoImage.url} alt={s.name} />
+          {/if}
+        {/each}
+      </div>
     </div>
   </div>
 </div>
@@ -294,7 +344,7 @@
     color: #212427;
   }
   ::selection {
-    background: #c8dddf;
+    background: #e2e0cf;
     color: unset;
   }
   table {
@@ -393,6 +443,29 @@
   .maker-checker__wrapper {
     margin-top: 58px;
   }
+  .newbie-oldbie__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 154px;
+  }
+  .round-info__badge {
+    border-left: 6px solid;
+    padding-left: 6px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  .sponser__wrapper {
+    &__logo-image__wrapper {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      img {
+        width: 105px;
+        height: fit-content;
+      }
+    }
+  }
   .maker-checker__wrapper {
     display: flex;
     justify-content: space-between;
@@ -401,10 +474,18 @@
     .maker__wrapper,
     .checker__wrapper {
       width: 100%;
+
+      th:first-child {
+        width: 132px;
+      }
+      th:nth-child(2) {
+        width: 160px;
+      }
     }
   }
   .caption {
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     margin-bottom: 12px;
   }
   .contest {
@@ -445,9 +526,6 @@
     }
   }
 
-  body {
-    background-color: black;
-  }
   .page {
     --padding-left: 96px;
 
