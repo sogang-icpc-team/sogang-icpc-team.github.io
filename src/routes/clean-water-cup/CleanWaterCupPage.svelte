@@ -54,19 +54,31 @@
         <span>서강대학교 학부생 누구나</span>
       </div>
       <div class="info-item">
-        <span class="info-item__title">참여 대상</span>
-        <span>서강대학교 학부생 누구나</span>
+        <span class="info-item__title">대회 구분</span>
+        <span>
+          <ul>
+            <li>새내기 라운드</li>
+            <li>청정수 라운드</li>
+          </ul>
+        </span>
       </div>
       <div class="info-item">
-        <span class="info-item__title">참여 대상</span>
-        <span>서강대학교 학부생 누구나</span>
+        <span class="info-item__title">지원 언어</span>
+        <span>
+          <ul>
+            <li>C/C++</li>
+            <li>Python3/Pypy3</li>
+            <li>Java/Kotlin</li>
+          </ul>
+        </span>
       </div>
     </div>
   </div>
   <div class="description">
-    서강대학교 청정수컵은 ㅇㅇㅇ 취지로 도입되어, <br />
-    컴퓨터공학과 신입생 그리고 아직 프로그래밍 대회에서 수상해보지 못한 학부생 모두,
-    수상의 즐거움을 경험하기를 기대합니다.
+    서강대학교 청정수컵은 아직 프로그래밍에 익숙하지 않은 프로그래밍 '청정수'를
+    위한 대회입니다.<br />
+    컴퓨터공학과 신입생 그리고 아직 프로그래밍 대회에서 수상해보지 못한 학부생 모두
+    청정수컵을 통해 수상의 즐거움을 경험하기를 기대합니다.
   </div>
   <div class="hero-image__wrapper">
     <img
