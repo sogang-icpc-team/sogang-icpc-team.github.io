@@ -1,0 +1,8 @@
+@import "./fonts.scss";
+
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1");
+
+* {
+  box-sizing: border-box !important;
+  font-family: Metropolis, "Noto Sans KR", "Sans-serif", sans-serif !important;
+}
