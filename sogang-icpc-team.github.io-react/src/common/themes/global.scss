@@ -4,5 +4,17 @@
 
 * {
   box-sizing: border-box !important;
-  font-family: Metropolis, "Noto Sans KR", "Sans-serif", sans-serif !important;
+  font-family: Metropolis, "Pretendard", "Sans-serif", sans-serif !important;
+}
+
+body {
+  max-width: 1600px;
+  background: #f1f1f1;
+  line-height: 1.2;
+  letter-spacing: -0.02ch;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
