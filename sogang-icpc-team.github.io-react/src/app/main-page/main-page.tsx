@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 import { Page } from "@ui/page/page";
-import { Link } from "react-router-dom";
+
+import ICPCWF21Image from "./assets/21-icpc-wf-1.jpg";
 
 const HeroTitle = styled.div`
   font-size: 4rem;
@@ -80,7 +82,7 @@ const _MainPage = ({ className }: { className?: string }) => {
             <br />
           </HeroDescription>
         </Pad>
-        <HeroImage src="/res/21-icpc-wf-1.jpg" alt="21 ICPC World Finals" />
+        <HeroImage src={ICPCWF21Image} alt="21 ICPC World Finals" />
         <RowPad>
           <P25>
             <h2>소개</h2>
