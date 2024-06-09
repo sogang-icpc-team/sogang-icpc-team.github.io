@@ -19,8 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "react:dev": "PORT=8001 react-scripts start",
-    "react:build": "react-scripts build"
+    "react:dev": "PORT=8001 craco start",
+    "react:build": "craco build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,9 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.34"
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@types/styled-components": "^5.1.34",
+    "tsconfig-paths-webpack-plugin": "^4.1.0"
   }
 }
