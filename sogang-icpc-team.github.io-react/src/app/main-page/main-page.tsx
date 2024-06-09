@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 import { Page } from "@ui/page/page";
 
@@ -26,45 +27,51 @@ const Contents = styled.div`
 const Pad = styled.div`
   padding: 32px 64px;
 
-  @media only screen and (max-width: 768px) {
+  ${({ theme }) => theme.breakpoints.mobile} {
     padding: 32px 32px;
   }
 `;
-const RowPad = styled(Pad)`
+const ColPad = styled(Pad)`
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 `;
 const HeroImage = styled.img`
   margin: 32px 0;
 `;
 const Hr = styled.hr`
+  border: unset;
   margin: 32px 64px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd !important;
 
-  @media only screen and (max-width: 768px) {
+  ${({ theme }) => theme.breakpoints.mobile} {
     margin: 32px 32px;
   }
 `;
 const P25 = styled.div`
-  width: 25%;
-
   font-size: 1rem;
 
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-
+  ${({ theme }) => theme.breakpoints.mobile} {
     padding-right: 0;
     margin-bottom: 32px;
   }
 `;
 const P75 = styled.div`
-  width: 75%;
-
   font-size: 1rem;
+`;
+const IconLink = styled(Link)`
+  display: inline-flex;
+  align-items: center;
 
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-  }
+  vertical-align: baseline;
+`;
+const ArrowRight = styled(ArrowRightIcon)`
+  width: 1.6rem;
+
+  font-size: inherit;
+  line-height: inherit;
+
+  color: ${({ theme }) => theme.color.primary};
 `;
 const _MainPage = ({ className }: { className?: string }) => {
   return (
@@ -83,63 +90,75 @@ const _MainPage = ({ className }: { className?: string }) => {
           </HeroDescription>
         </Pad>
         <HeroImage src={ICPCWF21Image} alt="21 ICPC World Finals" />
-        <RowPad>
+        <ColPad>
           <P25>
             <h2>소개</h2>
           </P25>
           <P75>
             <h1>
               우리는 알고리즘을 공부하고, 알고리즘으로 문제를 해결합니다.{" "}
-              <Link to="/introduction">
-                <i className="material-icons main">arrow_forward</i>
-              </Link>
+              <IconLink to="/introduction">
+                <ArrowRight />
+              </IconLink>
             </h1>
           </P75>
-        </RowPad>
+        </ColPad>
         <Hr />
-        <RowPad>
+        <ColPad>
           <P25>
             <h2>기록</h2>
           </P25>
           <P75>
             <h1>
               매년 여러 대회에 참가해 우수한 성적을 거두고 있습니다.{" "}
-              <Link to="/history">
-                <i className="material-icons main">arrow_forward</i>
-              </Link>
+              <IconLink to="/history">
+                <ArrowRight />
+              </IconLink>
             </h1>
           </P75>
-        </RowPad>
+        </ColPad>
         <Hr />
-        <RowPad>
+        <ColPad>
           <P25>
             <h2>Sogang Programming Contest</h2>
           </P25>
           <P75>
             <h1>
               논리력과 문제 해결 능력을 겨루는 대회입니다.{" "}
-              <Link to="/spc">
-                <i className="material-icons main">arrow_forward</i>
-              </Link>
+              <IconLink to="/spc">
+                <ArrowRight />
+              </IconLink>
             </h1>
           </P75>
-        </RowPad>
+        </ColPad>
         <Hr />
-        <RowPad>
+        <ColPad>
           <P25>
             <h2>가입 및 문의</h2>
           </P25>
           <P75>
             <h1>
               서강대학교 학부생이라면 누구나 함께할 수 있습니다.{" "}
-              <Link to="/contact">
-                <i className="material-icons main">arrow_forward</i>
-              </Link>
+              <IconLink to="/contact">
+                <ArrowRight />
+              </IconLink>
             </h1>
           </P75>
-        </RowPad>
+        </ColPad>
       </Contents>
     </Page>
   );
 };
-export const MainPage = styled(_MainPage)``;
+export const MainPage = styled(_MainPage)`
+  h1 {
+    font-size: 2rem !important;
+    font-weight: bold;
+    letter-spacing: -0.07ch;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 1.4rem !important;
+    font-weight: bold;
+    color: ${({ theme }) => theme.color.primary};
+  }
+`;
