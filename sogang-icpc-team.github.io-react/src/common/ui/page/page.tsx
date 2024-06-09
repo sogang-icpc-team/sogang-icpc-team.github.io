@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
+import { NavigationBar } from "@ui/navigation-bar/navigation-bar";
+
 const Children = styled.div``;
 const _Page = ({
   className,
-  showNavigationBar,
+  showNavigationBar = true,
   showFooter,
   children,
 }: {
@@ -14,11 +16,13 @@ const _Page = ({
 }) => {
   return (
     <div className={className}>
-      {showNavigationBar && <></>}
+      {showNavigationBar && <NavigationBar />}
       <Children>{children}</Children>
       {showFooter && <></>}
     </div>
   );
 };
 
-export const Page = styled(_Page)``;
+export const Page = styled(_Page)`
+  background-color: ${({ theme }) => theme.page.backgroundColor};
+`;
