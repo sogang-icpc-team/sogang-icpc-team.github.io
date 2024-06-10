@@ -1,6 +1,7 @@
 import _ from "lodash";
 
 import { MainPage } from "../app/main-page/main-page";
+import { ContactPage } from "../app/contact-page/contact-page";
 
 const _routes = {
   "/": {
@@ -22,7 +23,7 @@ const _routes = {
     component: <></>,
   },
   contact: {
-    component: <></>,
+    component: <ContactPage />,
   },
 } as const;
 
