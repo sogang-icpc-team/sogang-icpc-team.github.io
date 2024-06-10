@@ -5,6 +5,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import { Page } from "@ui/page/page";
 
 import ICPCWF21Image from "./assets/21-icpc-wf-1.jpg";
+import { Section } from "@ui/section/section";
 
 const HeroTitle = styled.div`
   font-size: 4rem;
@@ -13,30 +14,9 @@ const HeroTitle = styled.div`
   line-height: 0.9;
   margin-bottom: 32px;
 `;
-const HeroDescription = styled.div`
-  line-height: 1.4;
-`;
-const Contents = styled.div`
-  margin-top: 72px;
-  line-height: 1.4;
-
-  img {
-    width: 100%;
-  }
-`;
-const Pad = styled.div`
-  padding: 32px 64px;
-
-  ${({ theme }) => theme.breakpoints.mobile} {
-    padding: 32px 32px;
-  }
-`;
-const ColPad = styled(Pad)`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-`;
+const HeroDescription = styled.div``;
 const HeroImage = styled.img`
+  width: 100%;
   margin: 32px 0;
 `;
 const Hr = styled.hr`
@@ -76,8 +56,8 @@ const ArrowRight = styled(ArrowRightIcon)`
 const _MainPage = ({ className }: { className?: string }) => {
   return (
     <Page className={className}>
-      <Contents>
-        <Pad>
+      <Page.Body>
+        <Section>
           <HeroTitle>
             Make it.
             <br />
@@ -88,12 +68,10 @@ const _MainPage = ({ className }: { className?: string }) => {
             서강대학교 컴퓨터공학과 알고리즘 문제해결 학회
             <br />
           </HeroDescription>
-        </Pad>
+        </Section>
         <HeroImage src={ICPCWF21Image} alt="21 ICPC World Finals" />
-        <ColPad>
-          <P25>
-            <h2>소개</h2>
-          </P25>
+        <Section>
+          <Section.Title>소개</Section.Title>
           <P75>
             <h1>
               우리는 알고리즘을 공부하고, 알고리즘으로 문제를 해결합니다.{" "}
@@ -102,12 +80,10 @@ const _MainPage = ({ className }: { className?: string }) => {
               </IconLink>
             </h1>
           </P75>
-        </ColPad>
+        </Section>
         <Hr />
-        <ColPad>
-          <P25>
-            <h2>기록</h2>
-          </P25>
+        <Section>
+          <Section.Title>기록</Section.Title>
           <P75>
             <h1>
               매년 여러 대회에 참가해 우수한 성적을 거두고 있습니다.{" "}
@@ -116,12 +92,10 @@ const _MainPage = ({ className }: { className?: string }) => {
               </IconLink>
             </h1>
           </P75>
-        </ColPad>
+        </Section>
         <Hr />
-        <ColPad>
-          <P25>
-            <h2>Sogang Programming Contest</h2>
-          </P25>
+        <Section>
+          <Section.Title>Sogang Programming Contest</Section.Title>
           <P75>
             <h1>
               논리력과 문제 해결 능력을 겨루는 대회입니다.{" "}
@@ -130,12 +104,10 @@ const _MainPage = ({ className }: { className?: string }) => {
               </IconLink>
             </h1>
           </P75>
-        </ColPad>
+        </Section>
         <Hr />
-        <ColPad>
-          <P25>
-            <h2>가입 및 문의</h2>
-          </P25>
+        <Section>
+          <Section.Title>가입 및 문의</Section.Title>
           <P75>
             <h1>
               서강대학교 학부생이라면 누구나 함께할 수 있습니다.{" "}
@@ -144,8 +116,8 @@ const _MainPage = ({ className }: { className?: string }) => {
               </IconLink>
             </h1>
           </P75>
-        </ColPad>
-      </Contents>
+        </Section>
+      </Page.Body>
     </Page>
   );
 };
@@ -154,7 +126,6 @@ export const MainPage = styled(_MainPage)`
     font-size: 2rem !important;
     font-weight: bold;
     letter-spacing: -0.07ch;
-    line-height: 1.2;
   }
   h2 {
     font-size: 1.4rem !important;
