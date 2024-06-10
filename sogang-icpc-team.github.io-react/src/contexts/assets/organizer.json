@@ -1,0 +1,153 @@
+[
+  {
+    "year": "2024",
+    "president": {
+      "name": "박준영",
+      "boj": "sparkjy18",
+      "email": "sparkjy18@gmail.com"
+    },
+    "vicePresident": {
+      "name": "박정원",
+      "boj": "sanguineman",
+      "email": "sanguineman@naver.com"
+    }
+  },
+  {
+    "year": "2023",
+    "president": {
+      "name": "정회윤",
+      "boj": "yunny_world",
+      "email": "yunnyworld@gmail.com"
+    },
+    "vicePresident": {
+      "name": "채성우",
+      "boj": "lem0nad3",
+      "email": "vermeil0625@gmail.com"
+    }
+  },
+  {
+    "year": "2022",
+    "president": {
+      "name": "김동건",
+      "boj": "dong_gas",
+      "email": "eastgun0211@naver.com"
+    },
+    "vicePresident": {
+      "name": "이재혁",
+      "boj": "duram21",
+      "email": "cubeenjoy@naver.com"
+    }
+  },
+  {
+    "year": "2021",
+    "president": {
+      "name": "이민희",
+      "boj": "minigimbob",
+      "email": "minigimbob@gmail.com",
+      "link": "http://minhee.io"
+    },
+    "vicePresident": {
+      "name": "이동주",
+      "boj": "nant0313",
+      "email": "me@leed.at",
+      "link": "https://github.com/dongzoolee"
+    }
+  },
+  {
+    "year": "2020",
+    "president": {
+      "name": "임지환",
+      "boj": "raararaara",
+      "email": "raararaara@gmail.com"
+    },
+    "vicePresident": {
+      "name": "김진수",
+      "boj": "fakingate",
+      "email": "fakingate@gmail.com"
+    }
+  },
+  {
+    "year": "2019",
+    "president": {
+      "name": "박수현",
+      "boj": "shiftpsh",
+      "email": "me@shiftpsh.com",
+      "link": "https://shiftpsh.com"
+    },
+    "vicePresident": {
+      "name": "이태한",
+      "boj": "sogangcse"
+    }
+  },
+  {
+    "year": "2018",
+    "president": {
+      "name": "최윤영",
+      "boj": "ainch96"
+    },
+    "vicePresident": {
+      "name": "김인호",
+      "boj": ""
+    }
+  },
+  {
+    "year": "2017",
+    "president": {
+      "name": "최윤영",
+      "boj": "ainch96"
+    },
+    "vicePresident": {
+      "name": "정성엽",
+      "boj": "scka"
+    }
+  },
+  {
+    "year": "2016",
+    "president": {
+      "name": "김도현",
+      "boj": "",
+      "link": "https://ddyokim.github.io"
+    },
+    "vicePresident": {
+      "name": "최윤영",
+      "boj": "ainch96"
+    }
+  },
+  {
+    "year": "2015",
+    "president": {
+      "name": "김선영",
+      "boj": "",
+      "link": "https://www.linkedin.com/in/seon-young-kim-38a058a0"
+    },
+    "vicePresident": {
+      "name": "김도현",
+      "boj": "",
+      "link": "https://ddyokim.github.io"
+    }
+  },
+  {
+    "year": "2014",
+    "president": {
+      "name": "고창영",
+      "boj": "WeissBlume",
+      "link": "https://lucent.me"
+    }
+  },
+  {
+    "year": "2012&mdash;2013",
+    "president": {
+      "name": "김상근",
+      "boj": "hihihi",
+      "link": "https://sisobus.com"
+    }
+  },
+  {
+    "year": "2007&mdash;2011",
+    "president": {
+      "name": "최백준",
+      "boj": "baekjoon",
+      "link": "https://baekjoon.com"
+    }
+  }
+]

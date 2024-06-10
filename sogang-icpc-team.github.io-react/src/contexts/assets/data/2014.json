@@ -1,0 +1,57 @@
+{
+  "year": 2014,
+  "contests": [
+    {
+      "title": "2014 ACM-ICPC Asia Daejeon Regional Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["12", "7", "Kim N Kang", "김상근, 김우현, 강민균"],
+        ["15", "6", "ManiAc", "-"],
+        ["21", "4", "FireFox", "-"]
+      ],
+      "award": ["bronze", "", ""],
+      "links": [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]]
+    },
+    {
+      "title": "2014 ACM-ICPC Asia Daejeon Preliminary Contest",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["16", "6", "ManiAc", "-"],
+        ["21", "6", "Kim N Kang", "김상근, 김우현, 강민균"],
+        ["42", "5", "FireFox", "-"],
+        ["59", "4", "GoHome", "-"],
+        ["63", "4", "Mentalist2", "-"],
+        ["67", "4", "GoHomeqt", "-"],
+        ["71", "4", "Ah ACM!", "-"],
+        ["78", "4", "your favorite coders", "-"],
+        ["95", "4", "KOI_plus_failures", "-"],
+        ["114", "4", "RippleEffect", "-"],
+        ["139", "4", "YesUJam", "-"],
+        ["174", "3", "SiMooLook", "-"],
+        ["175", "3", "JYJ", "-"],
+        ["196", "3", "bAllOonoOllAd", "-"],
+        ["234", "3", "JoonGyu", "-"],
+        ["HM", "2", "blessyou", "-"]
+      ],
+      "award": [
+        "advanced",
+        "advanced",
+        "advanced",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "links": [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]]
+    }
+  ]
+}
