@@ -11,7 +11,16 @@ export const theme = {
   zIndex: {
     navigationBar: 2_000,
   },
-  page: { backgroundColor: "#ffffff" },
+  page: {
+    backgroundColor: "#ffffff",
+    padding: {
+      default: "0 64px",
+      mobile: "0 32px",
+    },
+  },
+  navigationBar: {
+    height: "72px",
+  },
   breakpoints: {
     mobile: "@media only screen and (max-width: 768px)",
   },
