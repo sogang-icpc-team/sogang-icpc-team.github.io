@@ -56,12 +56,12 @@ const _NavigationBar = ({ className }: { className?: string }) => {
 };
 
 export const NavigationBar = styled(_NavigationBar)`
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
 
   width: 100%;
-  height: 72px;
+  height: ${({ theme }) => theme.navigationBar.height};
 
   padding: 0 64px;
 
