@@ -2,6 +2,8 @@ import _ from "lodash";
 
 import { MainPage } from "../app/main-page/main-page";
 import { ContactPage } from "../app/contact-page/contact-page";
+import { IntroductionPage } from "../app/introduction-page/introduction-page";
+import { SpcPage } from "../app/spc-page/spc-page";
 
 const _routes = {
   "/": {
@@ -11,13 +13,13 @@ const _routes = {
     component: <MainPage />,
   },
   introduction: {
-    component: <></>,
+    component: <IntroductionPage />,
   },
   history: {
     component: <></>,
   },
   spc: {
-    component: <></>,
+    component: <SpcPage />,
   },
   applyK512: {
     component: <></>,
