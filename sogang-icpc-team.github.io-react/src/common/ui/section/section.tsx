@@ -10,7 +10,7 @@ const _SectionTitle = ({
   return <div className={className}>{children}</div>;
 };
 const SectionTitle = styled(_SectionTitle)`
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 
   font-size: 1.4rem !important;
   font-weight: bold;
@@ -26,7 +26,9 @@ const _SectionBody = ({
 }) => {
   return <div className={className}>{children}</div>;
 };
-const SectionBody = styled(_SectionBody)``;
+const SectionBody = styled(_SectionBody)`
+  line-height: 1.4;
+`;
 
 const _Section = ({
   className,

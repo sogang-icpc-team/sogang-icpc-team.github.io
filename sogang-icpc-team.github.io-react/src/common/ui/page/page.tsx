@@ -9,7 +9,9 @@ const Title = styled.div`
 
   padding-bottom: 12px;
 `;
-const Description = styled.div``;
+const Description = styled.div`
+  font-size: 20px;
+`;
 const _PageTitle = styled(
   ({
     className,

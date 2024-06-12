@@ -12,7 +12,7 @@ const RoutesWrapper = styled.div`
 
     li {
       font-weight: bold;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 `;
