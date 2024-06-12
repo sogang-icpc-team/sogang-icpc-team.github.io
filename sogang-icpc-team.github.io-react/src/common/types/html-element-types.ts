@@ -1,5 +1,13 @@
 import React from "react";
 
+export type THTMLButtonElementAttributes = Omit<
+  React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  >,
+  "ref"
+>;
+
 export type THTMLTableElementAttributes = Omit<
   React.DetailedHTMLProps<
     React.HTMLAttributes<HTMLTableElement>,

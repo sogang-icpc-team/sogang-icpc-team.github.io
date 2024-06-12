@@ -4,6 +4,7 @@ import { Page } from "@ui/page/page";
 import { Section } from "@ui/section/section";
 import { Table } from "@ui/table/table";
 import { FlexRow } from "@ui/flex/flex";
+import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 
 import MapSogangSvg from "./assets/map-sogang.svg";
 import MapKSvg from "./assets/map-k.svg";
@@ -38,14 +39,12 @@ const _ContactPage = ({ className }: { className?: string }) => {
             <br />
             학회 관련, 프로그래밍 대회 관련, ICPC 관련해 궁금한 점이 있으시다면
             언제든 sogang@acmicpc.team 혹은{" "}
-            <a
+            <OpenInANewTab
               href="https://pf.kakao.com/_xewSPK"
-              target="_blank"
-              rel="noopener noreferrer"
               style={{ wordBreak: "keep-all" }}
             >
               카카오톡 플러스친구
-            </a>
+            </OpenInANewTab>
             로 문의 부탁드립니다.
           </Section.Body>
         </Section>
@@ -54,13 +53,9 @@ const _ContactPage = ({ className }: { className?: string }) => {
           <Section.Body>
             <p>
               K512 랩실은{" "}
-              <a
-                href="https://www.google.com/maps/place/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90+%EA%B9%80%EB%8C%80%EA%B1%B4%EA%B4%80/@37.5500361,126.940057,15z/data=!4m5!3m4!1s0x0:0x64853caa3a841c2b!8m2!3d37.5500361!4d126.940057"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <OpenInANewTab href="https://www.google.com/maps/place/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90+%EA%B9%80%EB%8C%80%EA%B1%B4%EA%B4%80/@37.5500361,126.940057,15z/data=!4m5!3m4!1s0x0:0x64853caa3a841c2b!8m2!3d37.5500361!4d126.940057">
                 서강대학교 김대건관
-              </a>{" "}
+              </OpenInANewTab>{" "}
               5층 중간 즈음에 위치하고 있습니다.
             </p>
             <FlexRow flexWrap="wrap">
