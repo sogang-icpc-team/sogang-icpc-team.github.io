@@ -1,23 +1,23 @@
-{
-  "year": 2016,
-  "contests": [
+export default {
+  year: 2016,
+  contests: [
     {
-      "title": "2016 ACM-ICPC Asia Daejeon Regional Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2016 ACM-ICPC Asia Daejeon Regional Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["12", "5", "Trilobite", "-"],
-        ["HM", "3", "NINANO", "-"]
+        ["HM", "3", "NINANO", "-"],
       ],
-      "award": ["bronze", ""],
-      "links": [
+      award: ["bronze", ""],
+      links: [
         ["공식 사이트", "http://icpckorea.org/2016-daejeon/regional"],
-        ["스코어보드", "http://icpckorea.org/2016/REGIONAL/scoreboard.html"]
-      ]
+        ["스코어보드", "http://icpckorea.org/2016/REGIONAL/scoreboard.html"],
+      ],
     },
     {
-      "title": "2016 ACM-ICPC Asia Daejeon Preliminary Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2016 ACM-ICPC Asia Daejeon Preliminary Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["33", "6", "Trilobite", "-"],
         ["49", "5", "NINANO", "-"],
         ["65", "5", "SIGKILL", "-"],
@@ -33,9 +33,9 @@
         ["299", "2", "Daeheung", "-"],
         ["348", "2", "pro_programmer", "-"],
         ["549", "1", "mojito", "-"],
-        ["550", "1", "OMEGAMON", "-"]
+        ["550", "1", "OMEGAMON", "-"],
       ],
-      "award": [
+      award: [
         "advanced",
         "advanced",
         "",
@@ -51,24 +51,24 @@
         "",
         "",
         "",
-        ""
+        "",
       ],
-      "links": [
+      links: [
         ["공식 사이트", "http://icpckorea.org/2016-daejeon/regional"],
-        ["스코어보드", "http://icpckorea.org/2016/ONLINE/scoreboard"]
-      ]
+        ["스코어보드", "http://icpckorea.org/2016/ONLINE/scoreboard"],
+      ],
     },
     {
-      "title": "UCPC 2016 본선",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "UCPC 2016 본선",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["30", "5", "DrunkenPikachu", "-"],
         ["35", "5", "talsogang", "-"],
         ["50", "3", "Overheat", "-"],
         ["53", "3", "algorhythm", "-"],
-        ["54", "3", "AngMerDdi", "-"]
+        ["54", "3", "AngMerDdi", "-"],
       ],
-      "award": ["", "", "", "", ""]
-    }
-  ]
-}
+      award: ["", "", "", "", ""],
+    },
+  ],
+};

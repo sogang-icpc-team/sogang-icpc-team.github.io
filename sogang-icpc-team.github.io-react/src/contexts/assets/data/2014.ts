@@ -1,21 +1,21 @@
-{
-  "year": 2014,
-  "contests": [
+export default {
+  year: 2014,
+  contests: [
     {
-      "title": "2014 ACM-ICPC Asia Daejeon Regional Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2014 ACM-ICPC Asia Daejeon Regional Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["12", "7", "Kim N Kang", "김상근, 김우현, 강민균"],
         ["15", "6", "ManiAc", "-"],
-        ["21", "4", "FireFox", "-"]
+        ["21", "4", "FireFox", "-"],
       ],
-      "award": ["bronze", "", ""],
-      "links": [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]]
+      award: ["bronze", "", ""],
+      links: [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]],
     },
     {
-      "title": "2014 ACM-ICPC Asia Daejeon Preliminary Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2014 ACM-ICPC Asia Daejeon Preliminary Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["16", "6", "ManiAc", "-"],
         ["21", "6", "Kim N Kang", "김상근, 김우현, 강민균"],
         ["42", "5", "FireFox", "-"],
@@ -31,9 +31,9 @@
         ["175", "3", "JYJ", "-"],
         ["196", "3", "bAllOonoOllAd", "-"],
         ["234", "3", "JoonGyu", "-"],
-        ["HM", "2", "blessyou", "-"]
+        ["HM", "2", "blessyou", "-"],
       ],
-      "award": [
+      award: [
         "advanced",
         "advanced",
         "advanced",
@@ -49,9 +49,9 @@
         "",
         "",
         "",
-        ""
+        "",
       ],
-      "links": [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]]
-    }
-  ]
-}
+      links: [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]],
+    },
+  ],
+};
