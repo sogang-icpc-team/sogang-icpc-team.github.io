@@ -1,22 +1,22 @@
-{
-  "year": 2011,
-  "contests": [
+export default {
+  year: 2011,
+  contests: [
     {
-      "title": "2011 ACM-ICPC Asia Daejeon Regional Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2011 ACM-ICPC Asia Daejeon Regional Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["7", "6", "Chamfaky", "백승환, 조규현, 김동규"],
         ["9", "4", "Conquer", "최백준, 김택희, 나원익"],
         ["17", "2", "SGAC", "정지윤, 정해인, 한윤정"],
-        ["HM", "-", "docontae", "엄기문, 최도근, 홍태석"]
+        ["HM", "-", "docontae", "엄기문, 최도근, 홍태석"],
       ],
-      "award": ["silver", "", "", ""],
-      "links": [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]]
+      award: ["silver", "", "", ""],
+      links: [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]],
     },
     {
-      "title": "2011 ACM-ICPC Asia Daejeon Preliminary Contest",
-      "columns": ["#", "=", "팀", "멤버"],
-      "data": [
+      title: "2011 ACM-ICPC Asia Daejeon Preliminary Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
         ["7", "6", "Conquer", "최백준, 김택희, 나원익"],
         ["25", "4", "Chamfaky", "백승환, 조규현, 김동규"],
         ["28", "4", "docontae", "엄기문, 최도근, 홍태석"],
@@ -25,9 +25,9 @@
         ["95", "2", "The_wizard_of_OZ", "-"],
         ["112", "2", "SLUG", "-"],
         ["127", "2", "sasuatang", "-"],
-        ["HM", "-", "Tosorl", "-"]
+        ["HM", "-", "Tosorl", "-"],
       ],
-      "award": [
+      award: [
         "advanced",
         "advanced",
         "advanced",
@@ -36,9 +36,9 @@
         "",
         "",
         "",
-        ""
+        "",
       ],
-      "links": [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]]
-    }
-  ]
-}
+      links: [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]],
+    },
+  ],
+};
