@@ -4,6 +4,7 @@ import { MainPage } from "../app/main-page/main-page";
 import { ContactPage } from "../app/contact-page/contact-page";
 import { IntroductionPage } from "../app/introduction-page/introduction-page";
 import { SpcPage } from "../app/spc-page/spc-page";
+import { HistoryPage } from "../app/history-page/history-page";
 
 const _routes = {
   "/": {
@@ -16,7 +17,7 @@ const _routes = {
     component: <IntroductionPage />,
   },
   history: {
-    component: <></>,
+    component: <HistoryPage />,
   },
   spc: {
     component: <SpcPage />,
