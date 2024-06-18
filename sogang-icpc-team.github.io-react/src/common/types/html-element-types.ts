@@ -16,6 +16,15 @@ export type THTMLTableElementAttributes = Omit<
   "ref"
 >;
 
+export type THTMLTableHeaderElementAttributes = Omit<
+  React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLTableSectionElement>,
+    HTMLTableSectionElement
+  >,
+  "ref"
+>;
+export type THTMLTableBodyElementAttributes = THTMLTableHeaderElementAttributes;
+
 export type THTMLTrElementAttributes = Omit<
   React.DetailedHTMLProps<
     React.HTMLAttributes<HTMLTableRowElement>,

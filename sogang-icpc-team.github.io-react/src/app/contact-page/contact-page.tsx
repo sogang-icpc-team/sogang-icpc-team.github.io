@@ -70,20 +70,22 @@ const _ContactPage = ({ className }: { className?: string }) => {
           <Section.Body>
             <Table.Caption>{latestOrganizerData.year}</Table.Caption>
             <OrganizerTable>
-              <Table.Row>
-                <Table.Cell>{latestOrganizerData.president.name}</Table.Cell>
-                <Table.Cell>학회장</Table.Cell>
-                <Table.Cell>{latestOrganizerData.president.email}</Table.Cell>
-              </Table.Row>
-              <Table.Row>
-                <Table.Cell>
-                  {latestOrganizerData.vicePresident?.name}
-                </Table.Cell>
-                <Table.Cell>부학회장</Table.Cell>
-                <Table.Cell>
-                  {latestOrganizerData.vicePresident?.email}
-                </Table.Cell>
-              </Table.Row>
+              <Table.Body>
+                <Table.Row>
+                  <Table.Cell>{latestOrganizerData.president.name}</Table.Cell>
+                  <Table.Cell>학회장</Table.Cell>
+                  <Table.Cell>{latestOrganizerData.president.email}</Table.Cell>
+                </Table.Row>
+                <Table.Row>
+                  <Table.Cell>
+                    {latestOrganizerData.vicePresident?.name}
+                  </Table.Cell>
+                  <Table.Cell>부학회장</Table.Cell>
+                  <Table.Cell>
+                    {latestOrganizerData.vicePresident?.email}
+                  </Table.Cell>
+                </Table.Row>
+              </Table.Body>
             </OrganizerTable>
           </Section.Body>
         </Section>
