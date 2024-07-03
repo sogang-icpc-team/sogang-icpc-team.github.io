@@ -21,7 +21,7 @@ const _SpcPage = ({ className }: { className?: string }) => {
   return (
     <Page className={className}>
       <Page.Title description="논리력과 문제 해결 능력을 겨루는 대회입니다.">
-        Sogang Programming Contest
+        Sogang Programming Contest (SPC)
       </Page.Title>
       <Page.Body>
         <Section>
