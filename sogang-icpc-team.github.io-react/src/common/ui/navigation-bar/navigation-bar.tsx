@@ -63,7 +63,11 @@ export const NavigationBar = styled(_NavigationBar)`
   width: 100%;
   height: ${({ theme }) => theme.navigationBar.height};
 
-  padding: 0 64px;
+  padding: ${({ theme }) => theme.page.padding.default};
+
+  ${({ theme }) => theme.breakpoints.mobile} {
+    padding: ${({ theme }) => theme.page.padding.mobile};
+  }
 
   display: flex;
   justify-content: space-between;
