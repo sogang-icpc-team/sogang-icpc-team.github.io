@@ -1,6 +1,7 @@
 {
   "name": "sogang-icpc-team.github.io-react",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.1.3",
