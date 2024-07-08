@@ -10,6 +10,7 @@ import MapSogangSvg from "./assets/map-sogang.svg";
 import MapKSvg from "./assets/map-k.svg";
 import LabK512Image from "./assets/labk512.jpg";
 import { useOrganizerDataContext } from "../../contexts/organizer-data-context";
+import constants from "../../contexts/assets/constants";
 
 const HeroImage = styled.img`
   width: 100%;
@@ -38,9 +39,9 @@ const _ContactPage = ({ className }: { className?: string }) => {
             질문은 언제나 환영합니다!
             <br />
             학회 관련, 프로그래밍 대회 관련, ICPC 관련해 궁금한 점이 있으시다면
-            언제든 sogang@acmicpc.team 혹은{" "}
+            언제든 {constants.emailAddress} 혹은{" "}
             <OpenInANewTab
-              href="https://pf.kakao.com/_xewSPK"
+              href={constants.kakaoPfUrl}
               style={{ wordBreak: "keep-all" }}
             >
               카카오톡 플러스친구
@@ -98,3 +99,7 @@ export const ContactPage = styled(_ContactPage)`
     margin-top: 16px;
   }
 `;
+
+const encode = (email: string) => {
+  return email.replace("@", "[at]");
+};
