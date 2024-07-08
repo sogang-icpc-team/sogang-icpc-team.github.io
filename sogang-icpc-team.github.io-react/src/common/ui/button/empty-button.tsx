@@ -19,6 +19,7 @@ export const EmptyButton = styled(_EmptyButton)`
 
   background: unset;
   border: unset;
+  padding: unset;
 
   cursor: pointer !important;
 `;

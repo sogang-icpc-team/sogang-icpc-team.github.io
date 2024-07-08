@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 import { NavigationBar } from "@ui/navigation-bar/navigation-bar";
 
+import { Footer } from "./footer";
+
 const Title = styled.div`
   color: ${({ theme }) => theme.color.primary};
   font-size: 32px;
@@ -53,7 +55,7 @@ const Children = styled.div``;
 const _Page = ({
   className,
   showNavigationBar = true,
-  showFooter,
+  showFooter = true,
   children,
 }: {
   className?: string;
@@ -65,7 +67,7 @@ const _Page = ({
     <div className={className}>
       {showNavigationBar && <NavigationBar />}
       <Children>{children}</Children>
-      {showFooter && <></>}
+      {showFooter && <Footer />}
     </div>
   );
 };
