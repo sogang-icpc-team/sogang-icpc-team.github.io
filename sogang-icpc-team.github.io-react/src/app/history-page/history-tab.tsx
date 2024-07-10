@@ -1,8 +1,7 @@
 import styled, { createGlobalStyle, css } from "styled-components";
-import { Dropdown } from "antd";
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 import { EmptyButton } from "@ui/button/empty-button";
+import { Dropdown } from "@ui/dropdown/dropdown";
 
 import { useSelectedHistoryContext } from "./contexts/selected-history-context";
 
@@ -37,28 +36,35 @@ const Item = styled(_Item)`
 `;
 
 const DropdownTriggerButton = styled(EmptyButton)`
-  align-items: baseline;
-  gap: 0.3rem;
-  padding: 0.2rem 0.6rem 0.2rem 0.8rem;
-  border: 2px solid #a5a5a5;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 1rem;
+
+  border-radius: 12px;
+  background-color: #535353;
+  color: white;
 
   font-size: 1.6rem;
   letter-spacing: -1px;
   cursor: pointer;
-  color: black;
   font-weight: bold;
 
   transition: 0.3s color ease;
 `;
+
+const DROPDOWN_CLASSNAME = "history-tab__year__dropdown";
 const DropdownStyles = createGlobalStyle`
-  .ant-dropdown-menu {
+  .${DROPDOWN_CLASSNAME} ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
-    &-item{
+    li {
       justify-content: center;
     }
   }
+`;
+const TriangleDownIcon = styled.span`
+  font-size: 12px;
 `;
 const _HistoryTab = ({
   className,
@@ -73,6 +79,7 @@ const _HistoryTab = ({
     <ul className={className}>
       <DropdownStyles />
       <Dropdown
+        overlayClassName={DROPDOWN_CLASSNAME}
         placement="bottomLeft"
         trigger={["click"]}
         menu={{
@@ -89,7 +96,7 @@ const _HistoryTab = ({
             }}
           >
             <span>{year}</span>
-            <ChevronDownIcon width={20} color="#A5A5A5" />
+            <TriangleDownIcon>▼</TriangleDownIcon>
           </DropdownTriggerButton>
         }
       />
@@ -101,7 +108,6 @@ export const HistoryTab = styled(_HistoryTab)`
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  padding-bottom: 8px;
 
   &::-webkit-scrollbar {
     height: 5px;
