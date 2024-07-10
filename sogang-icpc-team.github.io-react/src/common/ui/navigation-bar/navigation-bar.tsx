@@ -2,6 +2,10 @@ import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+import { FlexRow } from "@ui/flex/flex";
+import { Dropdown } from "@ui/dropdown/dropdown";
+import { EmptyLink } from "@ui/button/empty-link";
+
 import LogoSvg from "../assets/logo-crimson.svg";
 import { routes } from "../../../routes/routes";
 
@@ -9,12 +13,11 @@ const RoutesWrapper = styled.div`
   ul {
     display: flex;
     gap: 18px;
-
-    li {
-      font-weight: bold;
-      font-size: 1rem;
-    }
   }
+`;
+const RouteItem = styled.li`
+  font-weight: bold;
+  font-size: 1rem;
 `;
 const Logo = styled.img.attrs({
   src: LogoSvg,
@@ -25,13 +28,58 @@ const Logo = styled.img.attrs({
 
   ${({ theme }) => theme.nonSelectableStyle};
 `;
+const ContestDropdownTriggerButton = styled(FlexRow).attrs({
+  alignItems: "center",
+  gap: "4px",
+})``;
+const TriangleDownIcon = styled.span`
+  font-size: 12px;
+`;
 const _NavigationBar = ({ className }: { className?: string }) => {
   const navRoutes = useMemo(
     () => [
       { to: routes.introduction.path(), label: "소개" },
       { to: routes.history.path(), label: "기록" },
-      { to: routes.spc.path(), label: "SPC" },
-      { to: routes.applyK512.path(), label: "K512컵" },
+      {
+        label: (
+          <Dropdown
+            placement="bottomRight"
+            trigger={["click"]}
+            menu={{
+              items: [
+                {
+                  value: "spc",
+                  label: <RouteItem>SPC</RouteItem>,
+                  to: routes.spc.path(),
+                },
+                // {
+                //   value: "ccc",
+                //   label: <RouteItem>청정수컵</RouteItem>,
+                //   onClick: () => {},
+                // },
+              ].map((item) => ({
+                key: item.value,
+                // onClick: item.onClick,
+                label: item.to ? (
+                  <EmptyLink to={item.to}>{item.label}</EmptyLink>
+                ) : (
+                  item.label
+                ),
+              })),
+            }}
+            children={
+              <ContestDropdownTriggerButton
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
+                <span>대회</span>
+                <TriangleDownIcon>▼</TriangleDownIcon>
+              </ContestDropdownTriggerButton>
+            }
+          />
+        ),
+      },
       { to: routes.contact.path(), label: "가입 및 문의" },
     ],
     [],
@@ -44,11 +92,20 @@ const _NavigationBar = ({ className }: { className?: string }) => {
       </Link>
       <RoutesWrapper>
         <ul>
-          {navRoutes.map(({ to, label }) => (
-            <li key={to}>
-              <Link to={to}>{label}</Link>
-            </li>
-          ))}
+          {navRoutes.map(({ to, label }) => {
+            if (to) {
+              return (
+                <RouteItem key={to}>
+                  <Link to={to}>{label}</Link>
+                </RouteItem>
+              );
+            }
+            return (
+              <RouteItem key={to}>
+                <div>{label}</div>
+              </RouteItem>
+            );
+          })}
         </ul>
       </RoutesWrapper>
     </header>
