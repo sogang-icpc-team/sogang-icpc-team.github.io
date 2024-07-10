@@ -10,6 +10,7 @@ export const theme = {
   },
   zIndex: {
     navigationBar: 2_000,
+    dropdown: 2_001,
   },
   page: {
     backgroundColor: "#ffffff",
