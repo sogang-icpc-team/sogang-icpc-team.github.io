@@ -5,6 +5,7 @@ import { ContactPage } from "../app/contact-page/contact-page";
 import { IntroductionPage } from "../app/introduction-page/introduction-page";
 import { SpcPage } from "../app/spc-page/spc-page";
 import { HistoryPage } from "../app/history-page/history-page";
+import { CleanWaterCupPage } from "../app/clean-water-cup-page/clean-water-cup-page";
 
 const _routes = {
   "/": {
@@ -27,6 +28,9 @@ const _routes = {
   },
   contact: {
     component: <ContactPage />,
+  },
+  cleanWaterCup: {
+    component: <CleanWaterCupPage />,
   },
 } as const;
 

@@ -52,11 +52,11 @@ const _NavigationBar = ({ className }: { className?: string }) => {
                   label: <RouteItem>SPC</RouteItem>,
                   to: routes.spc.path(),
                 },
-                // {
-                //   value: "ccc",
-                //   label: <RouteItem>청정수컵</RouteItem>,
-                //   onClick: () => {},
-                // },
+                {
+                  value: "clean-water-cup",
+                  label: <RouteItem>청정수컵</RouteItem>,
+                  to: routes.cleanWaterCup.path(),
+                },
               ].map((item) => ({
                 key: item.value,
                 // onClick: item.onClick,
