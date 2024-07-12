@@ -4,13 +4,15 @@ import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 
 import { AwardBadge, TAwardBadgeVariant } from "@ui/award-badge/award-badge";
 import { OpenInANewTab } from "@ui/open-in-a-new-tab";
+import { EmptyLink } from "@ui/button/empty-link";
 
 import { CWC_DATASET } from "./assets/cwc-dataset";
 import HeroImage1Jpg from "./assets/images/IMG_1380.jpg";
 import HeroImage2Jpg from "./assets/images/IMG_1445.jpg";
 import SectionHeaderRightJpg from "./assets/images/IMG_1394.jpg";
+import { routes } from "../../routes/routes";
 
-const GoBackIcon = styled.a`
+const GoBackIcon = styled(EmptyLink)`
   position: absolute;
   top: 28px;
   left: 28px;
@@ -299,7 +301,7 @@ const _CleanWaterCupPage = ({ className }: { className?: string }) => {
 
   return (
     <Page className={className}>
-      <GoBackIcon href="/">
+      <GoBackIcon to={routes.main.path()}>
         <ArrowLeftIcon width={17} />
         <span>홈으로 돌아가기</span>
       </GoBackIcon>
@@ -455,7 +457,7 @@ const _CleanWaterCupPage = ({ className }: { className?: string }) => {
         <Contest>
           <div>
             <ContestTitle>
-              제 {selectedData.nth}회<br />
+              제{selectedData.nth}회<br />
               서강대학교 청정수컵
             </ContestTitle>
             <ContestLinkButton className="contest-link__button">
