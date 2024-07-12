@@ -6,6 +6,7 @@ declare module "styled-components" {
 
 export const theme = {
   color: {
+    black: "var(--black)",
     primary: "#b60005",
   },
   zIndex: {
