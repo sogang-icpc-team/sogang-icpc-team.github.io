@@ -4,15 +4,14 @@ import {
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
 
-import LogoSilver from "./assets/logo-silver.svg";
 import { FlexRow } from "@ui/flex/flex";
 import { IconButton } from "@ui/button/icon-button";
 
+// Is it better to place the logo on footer?
+// import LogoSilver from "./assets/logo-silver.svg";
 import constants from "../../../contexts/assets/constants";
 
 const Sitename = styled.div`
-  /* color: #1c110a; */
-  color: #7f7f7f;
   font-weight: 600;
   font-size: 16px;
 `;
@@ -77,7 +76,7 @@ export const Footer = styled(_Footer)`
   padding-top: 40px !important;
 
   font-size: 14px;
-  /* color: #a5a5a5; */
+
   color: #7f7f7f;
 
   padding: ${({ theme }) => theme.page.padding.default};
