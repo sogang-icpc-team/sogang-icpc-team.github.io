@@ -625,4 +625,8 @@ const _CleanWaterCupPage = ({ className }: { className?: string }) => {
 export const CleanWaterCupPage = styled(_CleanWaterCupPage)`
   --year-switch-item-width: 92px;
   --year-switch-item-height: 36px;
+
+  li {
+    list-style: inside;
+  }
 `;
