@@ -3,6 +3,8 @@
 @import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1");
 
 * {
+  --black: #212427;
+
   box-sizing: border-box !important;
   font-family: Metropolis, "Pretendard", "Tossface", "Sans-serif", sans-serif !important;
 
@@ -11,6 +13,7 @@
 
 body {
   max-width: 1600px;
+  color: var(--black);
   background: #f1f1f1;
   line-height: 1.2;
   letter-spacing: -0.02ch;
@@ -18,5 +21,5 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
