@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "react:dev": "PORT=8001 craco start",
+    "react:dev": "craco start",
     "react:build": "craco build"
   },
   "eslintConfig": {

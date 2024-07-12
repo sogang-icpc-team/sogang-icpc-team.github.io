@@ -26,12 +26,17 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
         <Section>
           <Section.Title>이곳은</Section.Title>
           <Section.Body>
-            컴퓨터과학과 소프트웨어 공학의 근간이 되는, 알고리즘을 공부하는
-            서강대학교 컴퓨터공학과 학회입니다. 2005년에 이한승, 심재은, 김영욱
-            동문께서 주축이 되어 ICPC 출전을 준비하기 위해 Sogang ACM-ICPC
-            Team으로 시작해서, 지금은 ICPC 뿐만 아니라 Google Code Jam, SCPC,
-            Kakao Code Festival 등 여러 대회에 참가하고 있습니다. 또한 교내
-            대회인 Sogang Programming Contest를 주관하고 있습니다.
+            <p>
+              Sogang ICPC Team은 컴퓨터과학과 소프트웨어 공학의 근간이 되는
+              알고리즘을 공부하는 학회입니다.
+              <br />
+              2005년 이한승, 심재은, 김영욱 동문께서 ICPC 출전을 준비하기 위해
+              활동을 시작하여, 현재는 ICPC뿐만 아니라 Google Code Jam, SCPC,
+              Kakao Code Festival 등 다양한 대회에 참가하고 있습니다.
+              <br />
+              또한 교내 프로그래밍 대회인 Sogang Programming Contest를 주관하고
+              있습니다.
+            </p>
           </Section.Body>
         </Section>
         <Section>
@@ -41,14 +46,16 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
               <OpenInANewTab href="https://icpckorea.org">ICPC</OpenInANewTab>
               (International Collegiate Programming Contest)는 국제 대학생
               프로그래밍 경시대회로, 가장 긴 역사를 가지고 있는 권위 있는
-              프로그래밍 대회입니다. 학부생 3명이 한 팀을 구성해 참가해 제한된
-              시간 내에 주어진 문제들을 프로그래밍으로 해결해야 합니다. 학회의
-              이름에서 보이듯이 매년 이 대회에 참가하는 것이 학회 활동의 주 목적
-              중 하나이기도 합니다.
+              프로그래밍 대회입니다.
+              <br />
+              학부생 3명이 한 팀을 구성하여 대회에 참가하며, 제한된 시간 내에
+              주어진 문제들을 빠르고 정확하게 해결해야 합니다.
             </p>
+            <br />
             <p>
-              Sogang ICPC Team이 생긴 2007년부터 지금까지 매년 한국 지역 본선에
-              꾸준히 참가해 왔고, 우수한 성적을 거두고 있습니다.
+              매년 이 대회에 참가하여 수상하는 것이 본 학회의 목표 중 하나이며,
+              활동이 시작된 2005년부터 지금까지 매년 한국 지역 본선에 꾸준히
+              참가하여 우수한 성적을 거두고 있습니다.
             </p>
             <ButtonWrapper>
               <LinkButton to={routes.history.path()}>참여 기록</LinkButton>
@@ -59,26 +66,30 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
           <Section.Title>프로그래밍 대회 참가</Section.Title>
           <Section.Body>
             <p>
-              Google{" "}
-              <OpenInANewTab href="https://codingcompetitions.withgoogle.com/codejam">
-                Code Jam
+              <OpenInANewTab href="https://codingcompetitionsonair.withgoogle.com/#code-jam">
+                Google Code Jam
               </OpenInANewTab>
-              , 삼성
-              <OpenInANewTab href="https://www.codeground.org">
-                대학생 프로그래밍 경진대회
+              ,{" "}
+              <OpenInANewTab href="https://research.samsung.com/scpc">
+                삼성 대학생 프로그래밍 경진대회
               </OpenInANewTab>
-              (SCPC), Kakao
+              (SCPC),{" "}
               <OpenInANewTab href="https://www.kakaocode.com">
-                Code Festival
+                Kakao Code Festival
               </OpenInANewTab>{" "}
               등 여러 기업 주최 오프라인 대회에도 참가하고 있습니다.
             </p>
             <p>
-              또한 전국 대학생 프로그래밍 대회 동아리 연합 (전대프연)
-              <OpenInANewTab href="https://ucpc.me">
-                프로그래밍 대회
+              또한{" "}
+              <OpenInANewTab href="https://icpc-sinchon.io/suapc">
+                신촌지역 대학교 프로그래밍 동아리 연합 대회
               </OpenInANewTab>
-              (UCPC) 등의 대회에도 참가하고 있습니다.
+              (SUAPC) ,{" "}
+              <OpenInANewTab href="https://ucpc.me">
+                전국 대학생 프로그래밍 대회 동아리 연합(전대프연) 프로그래밍
+                대회
+              </OpenInANewTab>
+              (UCPC) 등의 다양한 대학교 연합 대회에도 참가하고 있습니다.
             </p>
             <ButtonWrapper>
               <LinkButton to={routes.history.path()}>참여 기록</LinkButton>
@@ -94,8 +105,10 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
               능력을 업그레이드하기 위해 매 학기 알고리즘 스터디를 진행합니다.
             </p>
             <p>
-              스터디는 수준에 따라 초급, 중급으로 나뉘어져 있고, 주로
-              <OpenInANewTab>백준 온라인 저지</OpenInANewTab>
+              스터디는 수준에 따라 초급, 중급으로 나뉘어져 있고, 주로{" "}
+              <OpenInANewTab href="https://acmicpc.net">
+                백준 온라인 저지
+              </OpenInANewTab>
               에서 문제를 푸는 방식으로 진행됩니다. 학회원 누구나 자유롭게
               참여할 수 있습니다. 계절학기에도 쉬지 않고 진행합니다!
             </p>
@@ -107,21 +120,24 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
             <p>
               <OpenInANewTab href="https://www.acmicpc.net">
                 백준 온라인 저지
-              </OpenInANewTab>{" "}
-              등의 온라인 저지에 있는 많은 문제들을 해결해 나갑니다. 또한{" "}
+              </OpenInANewTab>
+              를 비롯한 다양한 온라인 저지에서 문제를 해결하며 알고리즘
+              문제해결능력을 향상시킵니다.
+              <br />
+              또한{" "}
               <OpenInANewTab href="https://codeforces.com">
                 Codeforces
               </OpenInANewTab>
               , <OpenInANewTab href="https://atcoder.jp">AtCoder</OpenInANewTab>{" "}
-              등에서 주기적으로 열리는 많은 온라인 대회에도 꾸준히 참가하면서
-              알고리즘 실력을 함께 키워나갑니다.
+              등의 국제 온라인 저지 플랫폼에서 정기적으로 열리는 온라인 대회에도
+              꾸준히 참가하여 우수한 성적을 거두고 있습니다.
             </p>
             <ButtonWrapper>
               <OpenInANewTabButton href="https://www.acmicpc.net/school/ranklist/292">
-                BOJ 랭킹
+                서강대학교 BOJ 랭킹
               </OpenInANewTabButton>
               <OpenInANewTabButton href="https://codeforces.com/ratings/organization/1637">
-                Codeforces 랭킹
+                서강대학교 Codeforces 랭킹
               </OpenInANewTabButton>
             </ButtonWrapper>
           </Section.Body>
