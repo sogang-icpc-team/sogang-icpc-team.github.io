@@ -2,6 +2,22 @@
   "year": 2024,
   "contests": [
     {
+      "title": "UCPC 2024 본선",
+      "columns": ["#", "=", "팀", "멤버"],
+      "data": [
+        ["15", "8", "Some_Time_Legend", "송근수, 이승형, 조원빈"],
+        ["39", "5", "일단팀명에조민수를넣고민수가좋아하는블루아카도넣으면되겠는데", "박성준, 박용한, 채성우"],
+        ["42", "5", "goraani never stop", "김동건, 강효규, 유호영"]
+      ],
+      "award": [
+        "special","",""
+      ],
+      "links": [
+        ["공식 사이트", "https://ucpc.me/"]
+      ],
+      "review": [["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223540305208"]]
+    },
+    {
       "title": "2024 ICPC Asia Pacific Championship",
       "columns": ["#", "=", "팀", "멤버"],
       "data": [
