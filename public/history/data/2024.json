@@ -14,7 +14,8 @@
         "bronze","special","",""
       ],
       "links": [
-        ["공식 사이트", "https://ucpc.me/"]
+        ["공식 사이트", "https://ucpc.me/"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1316"]
       ],
       "review": [["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223540305208"]]
     },
