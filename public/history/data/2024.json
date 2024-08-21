@@ -20,6 +20,15 @@
       "review": [["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223540305208"]]
     },
     {
+      "title": "24년 현대모비스 알고리즘 경진대회(학생부)",
+      "columns": ["#", "이름"],
+      "data": [["우수상", "조원빈"]],
+      "award": [""],
+      "links": [
+        ["공식 사이트", "https://career.programmers.co.kr/competitions/3980"]
+      ]
+    },
+    {
       "title": "2024 ICPC Asia Pacific Championship",
       "columns": ["#", "=", "팀", "멤버"],
       "data": [
