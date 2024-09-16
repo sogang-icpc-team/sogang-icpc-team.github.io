@@ -93,6 +93,7 @@ const _Table = ({
   return <table {...htmlAttrs}>{children}</table>;
 };
 export const Table = styled(_Table)`
+  min-width: 800px;
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
