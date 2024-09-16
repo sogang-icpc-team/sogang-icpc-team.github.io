@@ -8,7 +8,14 @@ import { HistoryTab } from "./history-tab";
 import { useHistoryDataContext } from "../../contexts/history-data-context";
 import { SelectedHistoryContextProvider } from "./contexts/selected-history-context";
 import { HistoryDisplay } from "./history-display";
+import constants from "../../contexts/assets/constants";
 
+const GrayText = styled.div`
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.gray[500]};
+
+  margin-top: 8px;
+`;
 const HeroImage = styled.img`
   width: 100%;
   margin: 32px 0;
@@ -34,6 +41,12 @@ const _HistoryPage = ({ className }: { className?: string }) => {
                   .map((y) => ({ label: y, value: y }))}
               />
               <HistoryDisplay />
+              <GrayText>
+                *2019년 이전의 기록에는 누락된 정보가 있을 수 있습니다.
+                <br />
+                *정보 등록 및 수정 요청은 {constants.emailAddress}로 메일
+                부탁드립니다.
+              </GrayText>
             </SelectedHistoryContextProvider>
           </Section.Body>
         </Section>
