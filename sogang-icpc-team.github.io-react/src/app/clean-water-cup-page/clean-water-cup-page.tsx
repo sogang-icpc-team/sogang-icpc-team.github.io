@@ -265,11 +265,11 @@ const Caption = styled.div`
   margin-bottom: 12px;
 `;
 
-const SponserWrapper = styled.div`
+const SponsorWrapper = styled.div`
   margin-top: 58px;
 `;
 
-const SponserLogoImageWrapper = styled.div`
+const SponsorLogoImageWrapper = styled.div`
   display: flex;
   align-items: baseline;
   gap: 20px;
@@ -611,14 +611,14 @@ const _CleanWaterCupPage = ({ className }: { className?: string }) => {
           </div>
         </MakerCheckerWrapper>
 
-        <SponserWrapper>
+        <SponsorWrapper>
           <Caption>스폰서</Caption>
-          <SponserLogoImageWrapper>
-            {selectedData.sponsers.map((s) => (
+          <SponsorLogoImageWrapper>
+            {selectedData.sponsors.map((s) => (
               <img key={s.name} src={s.logoImage.url} alt={s.name} />
             ))}
-          </SponserLogoImageWrapper>
-        </SponserWrapper>
+          </SponsorLogoImageWrapper>
+        </SponsorWrapper>
       </Section>
     </Page>
   );

@@ -1,9 +1,9 @@
 import {
-  SPONSER_SOGANG,
-  SPONSER_STARTLINK,
-  SPONSER_MOBIS,
-  SPONSER_NAVERD2,
-} from "./sponser";
+  SPONSOR_SOGANG,
+  SPONSOR_STARTLINK,
+  SPONSOR_MOBIS,
+  SPONSOR_NAVERD2,
+} from "./sponsor";
 
 export const CWC_2022 = {
   nth: 1,
@@ -197,5 +197,5 @@ export const CWC_2022 = {
       school: "서강대학교",
     },
   ],
-  sponsers: [SPONSER_SOGANG, SPONSER_STARTLINK, SPONSER_MOBIS, SPONSER_NAVERD2],
+  sponsors: [SPONSOR_SOGANG, SPONSOR_STARTLINK, SPONSOR_MOBIS, SPONSOR_NAVERD2],
 };
