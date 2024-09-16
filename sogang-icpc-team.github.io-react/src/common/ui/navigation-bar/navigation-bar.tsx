@@ -61,7 +61,9 @@ const _NavigationBar = ({ className }: { className?: string }) => {
                 key: item.value,
                 // onClick: item.onClick,
                 label: item.to ? (
-                  <EmptyLink to={item.to}>{item.label}</EmptyLink>
+                  <EmptyLink key={item.to} to={item.to}>
+                    {item.label}
+                  </EmptyLink>
                 ) : (
                   item.label
                 ),
@@ -92,16 +94,16 @@ const _NavigationBar = ({ className }: { className?: string }) => {
       </Link>
       <RoutesWrapper>
         <ul>
-          {navRoutes.map(({ to, label }) => {
+          {navRoutes.map(({ to, label }, index) => {
             if (to) {
               return (
-                <RouteItem key={to}>
+                <RouteItem key={index}>
                   <Link to={to}>{label}</Link>
                 </RouteItem>
               );
             }
             return (
-              <RouteItem key={to}>
+              <RouteItem key={index}>
                 <div>{label}</div>
               </RouteItem>
             );
