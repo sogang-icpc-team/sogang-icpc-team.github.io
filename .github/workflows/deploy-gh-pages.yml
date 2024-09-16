@@ -1,0 +1,21 @@
+name: deploy-gh-pages
+
+on:
+  push:
+    branches: [migrate-to-react]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Prepare CI
+        run: yarn --cwd "./sogang-icpc-team.github.io-react"
+      - name: Build react project
+        run: yarn --cwd "./sogang-icpc-team.github.io-react" react:build
+      - name: Deploy with GitHub Pages v3
+        uses: peaceiris/actions-github-pages@v3.1.12
+        with:
+          publish_dir: sogang-icpc-team.github.io-react/build/
+          github_token: ${{ secrets.SGICPC_API_KEY }}
