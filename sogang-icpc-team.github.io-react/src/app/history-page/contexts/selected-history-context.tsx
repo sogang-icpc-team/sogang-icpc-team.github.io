@@ -28,6 +28,7 @@ export const SelectedHistoryContextProvider = ({
 
   useEffect(() => {
     setData(historyDataset.find((d) => d.year === year));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [year]);
 
   if (!data) {
