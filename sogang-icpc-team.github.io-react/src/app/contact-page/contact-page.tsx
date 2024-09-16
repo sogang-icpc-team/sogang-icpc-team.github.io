@@ -99,7 +99,3 @@ export const ContactPage = styled(_ContactPage)`
     margin-top: 16px;
   }
 `;
-
-const encode = (email: string) => {
-  return email.replace("@", "[at]");
-};
