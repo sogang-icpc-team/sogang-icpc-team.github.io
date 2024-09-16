@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "https://icpc.team/static/css/main.66b941d9.css",
+    "main.js": "https://icpc.team/static/js/main.dddb36c9.js",
+    "static/media/21-icpc-wf-1.jpg": "https://icpc.team/static/media/21-icpc-wf-1.a80e47393c0d97682bb0.jpg",
+    "static/media/IMG_1380.jpg": "https://icpc.team/static/media/IMG_1380.9ec8299cf7346c68c131.jpg",
+    "static/media/IMG_1445.jpg": "https://icpc.team/static/media/IMG_1445.966e5fd2844150d724f3.jpg",
+    "static/media/spc2019.jpg": "https://icpc.team/static/media/spc2019.53d606996e069ca240af.jpg",
+    "static/media/icpc2019-redshift.jpg": "https://icpc.team/static/media/icpc2019-redshift.21f93acc26a65627c118.jpg",
+    "static/media/acm-solving.jpg": "https://icpc.team/static/media/acm-solving.60ab6dbab68c45b4d7d7.jpg",
+    "static/media/scoreboard.jpg": "https://icpc.team/static/media/scoreboard.aba87cb8876d5f0a3131.jpg",
+    "static/media/labk512.jpg": "https://icpc.team/static/media/labk512.07665db212bb0cc3175f.jpg",
+    "static/media/IMG_1394.jpg": "https://icpc.team/static/media/IMG_1394.80013a291de510c107c6.jpg",
+    "static/media/map-k.svg": "https://icpc.team/static/media/map-k.5ea8a1959cb05ca3fa0144a1c307ce0f.svg",
+    "static/media/map-sogang.svg": "https://icpc.team/static/media/map-sogang.a53f2becca71ef6c52a3c6c16f458b7e.svg",
+    "static/media/sponsor-naverd2.png": "https://icpc.team/static/media/sponsor-naverd2.299c30a91e4ccbd718bd.png",
+    "static/media/sponsor-startlink.svg": "https://icpc.team/static/media/sponsor-startlink.6df2664fd32b39e61454636f366abab7.svg",
+    "static/media/sponsor-mobis.svg": "https://icpc.team/static/media/sponsor-mobis.c4da0538cb14f07e222346f9c54fbe31.svg",
+    "index.html": "https://icpc.team/index.html",
+    "static/media/logo-crimson.svg": "https://icpc.team/static/media/logo-crimson.4b95846be8ed781a6eb083e76887bb8b.svg",
+    "main.66b941d9.css.map": "https://icpc.team/static/css/main.66b941d9.css.map",
+    "main.dddb36c9.js.map": "https://icpc.team/static/js/main.dddb36c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66b941d9.css",
+    "static/js/main.dddb36c9.js"
+  ]
+}
