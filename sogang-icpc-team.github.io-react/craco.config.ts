@@ -2,11 +2,20 @@ import type { CracoConfig } from "@craco/types";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 
 const config: CracoConfig = {
+  eslint: {
+    enable: true,
+    mode: "file",
+  },
   webpack: {
     alias: {},
     plugins: {},
     configure: (webpackConfig) => {
-      webpackConfig.resolve?.plugins?.push(new TsconfigPathsPlugin({}));
+      if (webpackConfig.resolve && webpackConfig.resolve.plugins) {
+        const plugins = webpackConfig.resolve.plugins;
+
+        plugins.push(new TsconfigPathsPlugin({}));
+      }
+
       return webpackConfig;
     },
   },
