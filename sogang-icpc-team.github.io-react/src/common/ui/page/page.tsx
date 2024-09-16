@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { NavigationBar } from "@ui/navigation-bar/navigation-bar";
 
 import { Footer } from "./footer";
+import { ScrollTopOnRouteChange } from "../../../routes/scroll-top-on-route-change";
 
 const Title = styled.div`
   color: ${({ theme }) => theme.color.primary};
@@ -65,6 +66,7 @@ const _Page = ({
 }) => {
   return (
     <div className={className}>
+      <ScrollTopOnRouteChange />
       {showNavigationBar && <NavigationBar />}
       <Children>{children}</Children>
       {showFooter && <Footer />}
