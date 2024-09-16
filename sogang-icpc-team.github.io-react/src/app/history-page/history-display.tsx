@@ -7,6 +7,11 @@ import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 
 import { useSelectedHistoryContext } from "./contexts/selected-history-context";
 
+const TableWrapper = styled.div`
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+`;
 const LinksWrapper = styled.ul`
   margin-top: 16px;
 `;
@@ -21,39 +26,41 @@ const _HistoryDisplay = () => {
           <Section key={title}>
             <Section.Title>{title}</Section.Title>
             <Section.Body>
-              <Table>
-                <Table.Header>
-                  <Table.Row>
-                    {columns.map((h, i) => (
-                      <Table.Head key={i}>{h}</Table.Head>
-                    ))}
-                  </Table.Row>
-                </Table.Header>
-                <Table.Body>
-                  {data.map((r, rowIndex) => (
-                    <Table.Row key={rowIndex}>
-                      {r.map((c, colIndex) => {
-                        // FIXME: data 형식을 string[] -> json으로 일괄 변경해야 함
-                        if (colIndex === 1) {
-                          return (
-                            <Table.Cell key={colIndex}>
-                              {c}
-                              {award[rowIndex] ? (
-                                <AwardBadge
-                                  variant={
-                                    award[rowIndex] as TAwardBadgeVariant
-                                  }
-                                />
-                              ) : null}
-                            </Table.Cell>
-                          );
-                        }
-                        return <Table.Cell key={colIndex}>{c}</Table.Cell>;
-                      })}
+              <TableWrapper>
+                <Table>
+                  <Table.Header>
+                    <Table.Row>
+                      {columns.map((h, i) => (
+                        <Table.Head key={i}>{h}</Table.Head>
+                      ))}
                     </Table.Row>
-                  ))}
-                </Table.Body>
-              </Table>
+                  </Table.Header>
+                  <Table.Body>
+                    {data.map((r, rowIndex) => (
+                      <Table.Row key={rowIndex}>
+                        {r.map((c, colIndex) => {
+                          // FIXME: data 형식을 string[] -> json으로 일괄 변경해야 함
+                          if (colIndex === 1) {
+                            return (
+                              <Table.Cell key={colIndex}>
+                                {c}
+                                {award[rowIndex] ? (
+                                  <AwardBadge
+                                    variant={
+                                      award[rowIndex] as TAwardBadgeVariant
+                                    }
+                                  />
+                                ) : null}
+                              </Table.Cell>
+                            );
+                          }
+                          return <Table.Cell key={colIndex}>{c}</Table.Cell>;
+                        })}
+                      </Table.Row>
+                    ))}
+                  </Table.Body>
+                </Table>
+              </TableWrapper>
               <LinksWrapper>
                 {links?.map((link) => {
                   return (
