@@ -1,3 +1,5 @@
+import _ from "lodash";
+import { Fragment } from "react";
 import { styled } from "styled-components";
 
 import { Page } from "@ui/page/page";
@@ -6,16 +8,33 @@ import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 import { LinkButton } from "@ui/button/link-button";
 import { OpenInANewTabButton } from "@ui/button/open-in-a-new-tab-button";
 import { ButtonWrapper } from "@ui/button/button-wrapper";
+import { Table } from "@ui/table/table";
 
 import { routes } from "../../routes/routes";
+import { useOrganizerDataContext } from "../../contexts/organizer-data-context";
 import ICPC2019RedshiftImage from "./assets/icpc2019-redshift.jpg";
 import AcmSolvingImage from "./assets/acm-solving.jpg";
+import { Join } from "@ui/join";
 
+const EmailLinkCell = styled(Table.Cell)`
+  white-space: break-spaces;
+`;
+const OrganizersTable = styled(Table)`
+  th,
+  td {
+    vertical-align: middle;
+  }
+`;
+const YearTableCell = styled(Table.Cell)`
+  font-weight: bold;
+  vertical-align: middle;
+`;
 const HeroImage = styled.img`
   width: 100%;
   margin: 32px 0;
 `;
 const _IntroductionPage = ({ className }: { className?: string }) => {
+  const { all: organizerDatas } = useOrganizerDataContext();
   return (
     <Page className={className}>
       <Page.Title description="우리는 알고리즘을 공부하고, 알고리즘으로 문제를 해결합니다.">
@@ -166,6 +185,98 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
             <ButtonWrapper>
               <LinkButton to="/contact">랩실 위치 안내</LinkButton>
             </ButtonWrapper>
+          </Section.Body>
+        </Section>
+        <Section>
+          <Section.Title>역대 운영진</Section.Title>
+          <Section.Body>
+            <Table.Wrapper>
+              <OrganizersTable>
+                <Table.Header>
+                  <Table.Row>
+                    <Table.Head>연도</Table.Head>
+                    <Table.Head>이름</Table.Head>
+                    <Table.Head>직책</Table.Head>
+                    <Table.Head>BOJ 핸들</Table.Head>
+                    <Table.Head>비고</Table.Head>
+                  </Table.Row>
+                </Table.Header>
+                <Table.Body>
+                  {organizerDatas.map(({ year, president, vicePresident }) => {
+                    const rowSpan = president && vicePresident ? 2 : 1;
+                    return (
+                      <Fragment key={year}>
+                        <Table.Row>
+                          <YearTableCell rowSpan={rowSpan}>
+                            {year}
+                          </YearTableCell>
+                          <Table.Cell>{president.name}</Table.Cell>
+                          <Table.Cell>학회장</Table.Cell>
+                          <Table.Cell>
+                            <OpenInANewTab
+                              href={`https://www.acmicpc.net/user/${president.boj}`}
+                            >
+                              {president.boj}
+                            </OpenInANewTab>
+                          </Table.Cell>
+                          <EmailLinkCell>
+                            <Join
+                              items={_.compact([
+                                president.email ? (
+                                  <OpenInANewTab
+                                    href={`mailto:${president.email}`}
+                                  >
+                                    {president.email}
+                                  </OpenInANewTab>
+                                ) : null,
+                                president.link ? (
+                                  <OpenInANewTab href={president.link}>
+                                    {president.link}
+                                  </OpenInANewTab>
+                                ) : null,
+                              ])}
+                              separator={<br />}
+                            />
+                          </EmailLinkCell>
+                        </Table.Row>
+                        {vicePresident ? (
+                          <Table.Row>
+                            <Table.Cell>{vicePresident.name}</Table.Cell>
+                            <Table.Cell>학회장</Table.Cell>
+                            <Table.Cell>
+                              <OpenInANewTab
+                                href={`https://www.acmicpc.net/user/${vicePresident.boj}`}
+                              >
+                                {vicePresident.boj}
+                              </OpenInANewTab>
+                            </Table.Cell>
+                            <EmailLinkCell>
+                              <Join
+                                items={_.compact([
+                                  vicePresident.email ? (
+                                    <OpenInANewTab
+                                      href={`mailto:${vicePresident.email}`}
+                                    >
+                                      {vicePresident.email}
+                                    </OpenInANewTab>
+                                  ) : null,
+                                  vicePresident.link ? (
+                                    <OpenInANewTab href={vicePresident.link}>
+                                      {vicePresident.link}
+                                    </OpenInANewTab>
+                                  ) : null,
+                                ])}
+                                separator={<br />}
+                              />
+                            </EmailLinkCell>
+                          </Table.Row>
+                        ) : null}
+                      </Fragment>
+                    );
+                  })}
+                </Table.Body>
+              </OrganizersTable>
+            </Table.Wrapper>
           </Section.Body>
         </Section>
       </Page.Body>
