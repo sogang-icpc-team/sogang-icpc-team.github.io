@@ -13,6 +13,7 @@ export default {
       ],
       award: ["silver", "", "", "", ""],
       links: [["공식 사이트", "http://icpckorea.org/2013-daejeon/regional"]],
+      review: [],
     },
     {
       title: "2013 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -48,6 +49,7 @@ export default {
         "",
       ],
       links: [["공식 사이트", "http://icpckorea.org/2013-daejeon/regional"]],
+      review: [],
     },
   ],
 };

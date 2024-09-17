@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 import { type THistoryData } from "../../../contexts/history-data-context";
 
-type TSelectedHistoryContext = {
+export type TSelectedHistoryContext = {
   year: number;
   setYear: React.Dispatch<React.SetStateAction<number>>;
   data: THistoryData["all"][number];

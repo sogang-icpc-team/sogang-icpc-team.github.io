@@ -7,6 +7,7 @@ export default {
       data: [["6", "-", "Kuru", "김우현, 안재원, 최백준"]],
       award: ["silver"],
       links: [["공식 사이트", "http://icpckorea.org/2007-seoul/regional"]],
+      review: [],
     },
   ],
 };

@@ -7,6 +7,7 @@ export default {
       data: [["9", "-", "Weird-OS", "김영욱, 심재은, 이한승"]],
       award: ["bronze"],
       links: [["공식 사이트", "http://icpckorea.org/2005-seoul/regional"]],
+      review: [],
     },
   ],
 };

@@ -7,7 +7,7 @@ import ScoreboardImage from "./assets/scoreboard.jpg";
 import { HistoryTab } from "./history-tab";
 import { useHistoryDataContext } from "../../contexts/history-data-context";
 import { SelectedHistoryContextProvider } from "./contexts/selected-history-context";
-import { HistoryDisplay } from "./history-display";
+import { HistoryDisplay } from "./history-display/history-display";
 import constants from "../../contexts/assets/constants";
 
 const GrayText = styled.div`

@@ -13,6 +13,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2017-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2017/regional/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "2017 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -36,6 +37,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2017-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2017/preliminary/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 3 2017",
@@ -48,6 +50,7 @@ export default {
           "https://code.google.com/codejam/contest/8304486/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2017",
@@ -63,6 +66,7 @@ export default {
           "https://code.google.com/codejam/contest/5314486/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2017",
@@ -78,6 +82,7 @@ export default {
           "https://code.google.com/codejam/contest/5304486/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1B 2017",
@@ -93,6 +98,7 @@ export default {
           "https://code.google.com/codejam/contest/8294486/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1C 2017",
@@ -105,6 +111,7 @@ export default {
           "https://code.google.com/codejam/contest/3274486/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Samsung Collegiate Programming Contest 2017 Onsite Finals",
@@ -114,6 +121,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "2017 Kakao Code Festival 본선",
@@ -131,6 +139,7 @@ export default {
           "http://t1.kakaocdn.net/codefestival/round-2-scoreboard/index.html",
         ],
       ],
+      review: [],
     },
   ],
 };

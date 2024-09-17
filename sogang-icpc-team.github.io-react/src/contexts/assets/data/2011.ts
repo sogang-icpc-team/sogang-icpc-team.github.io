@@ -12,6 +12,7 @@ export default {
       ],
       award: ["silver", "", "", ""],
       links: [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]],
+      review: [],
     },
     {
       title: "2011 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -39,6 +40,7 @@ export default {
         "",
       ],
       links: [["공식 사이트", "http://icpckorea.org/2011-daejeon/regional"]],
+      review: [],
     },
   ],
 };

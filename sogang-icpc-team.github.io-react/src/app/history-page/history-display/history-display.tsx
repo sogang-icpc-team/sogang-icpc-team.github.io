@@ -3,13 +3,9 @@ import { styled } from "styled-components";
 import { Section } from "@ui/section/section";
 import { Table } from "@ui/table/table";
 import { AwardBadge, TAwardBadgeVariant } from "@ui/award-badge/award-badge";
-import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 
-import { useSelectedHistoryContext } from "./contexts/selected-history-context";
-
-const LinksWrapper = styled.ul`
-  margin-top: 16px;
-`;
+import { useSelectedHistoryContext } from "../contexts/selected-history-context";
+import { LinksAndReviews } from "./links-and-reviews";
 
 const _HistoryDisplay = ({ className }: { className?: string }) => {
   const selectedHistory = useSelectedHistoryContext();
@@ -17,7 +13,7 @@ const _HistoryDisplay = ({ className }: { className?: string }) => {
   return (
     <div className={className}>
       {selectedHistory.data.contests.map(
-        ({ title, columns, data, award, links }) => (
+        ({ title, columns, data, award, links, review }) => (
           <Section key={title}>
             <Section.Title>{title}</Section.Title>
             <Section.Body>
@@ -56,16 +52,7 @@ const _HistoryDisplay = ({ className }: { className?: string }) => {
                   </Table.Body>
                 </Table>
               </Table.Wrapper>
-              <LinksWrapper>
-                {links?.map((link) => {
-                  return (
-                    <li key={link[1]}>
-                      <OpenInANewTab href={link[1]}>{link[0]}</OpenInANewTab>
-                    </li>
-                  );
-                })}
-                {/* TODO: Show Review Table */}
-              </LinksWrapper>
+              <LinksAndReviews links={links} review={review} />
             </Section.Body>
           </Section>
         ),

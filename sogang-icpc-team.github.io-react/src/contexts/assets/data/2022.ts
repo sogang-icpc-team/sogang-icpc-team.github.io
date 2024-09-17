@@ -84,6 +84,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 3 2022",
@@ -97,6 +98,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2022",
@@ -113,6 +115,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2022",
@@ -126,6 +129,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000087711b",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1B 2022",
@@ -139,6 +143,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000087711b",
         ],
       ],
+      review: [],
     },
     {
       title: "Samsung Collegiate Programming Contest 2022 Finals",
@@ -148,6 +153,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "SUAPC 2022 Summer",
@@ -196,6 +202,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/841"],
       ],
+      review: [],
     },
     {
       title: "SUAPC 2022 Winter",
@@ -213,6 +220,7 @@ export default {
         ["공식 사이트", "https://suapc.kr"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/764"],
       ],
+      review: [],
     },
     {
       title: "2022 ICPC Sinchon Winter Algorithm Camp Contest - Advanced",
@@ -226,6 +234,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/758"],
       ],
+      review: [],
     },
     {
       title: "2022 ICPC Sinchon Winter Algorithm Camp Contest - Novice",
@@ -236,6 +245,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/759"],
       ],
+      review: [],
     },
   ],
 };

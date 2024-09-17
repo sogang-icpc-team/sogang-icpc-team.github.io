@@ -75,6 +75,7 @@ export default {
         ["공식 사이트", "https://suapc.kr"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/678"],
       ],
+      review: [],
     },
     {
       title: "2021 ICPC Sinchon Summer Algorithm Camp Contest - Intermediate",
@@ -85,6 +86,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/677"],
       ],
+      review: [],
     },
     {
       title: "2021 ICPC Sinchon Summer Algorithm Camp Contest - Novice",
@@ -98,6 +100,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/676"],
       ],
+      review: [],
     },
     {
       title: "UCPC 2021 본선",
@@ -111,6 +114,7 @@ export default {
         ["공식 사이트", "https://ucpc.me"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/670"],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2021",
@@ -127,6 +131,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/0000000000435915",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2021",
@@ -144,6 +149,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000043585d",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Hash Code 2021 Online Qualification Round",
@@ -166,6 +172,7 @@ export default {
           "https://hashcodejudge.withgoogle.com/#/rounds/5879728443490304/scoreboards",
         ],
       ],
+      review: [],
     },
     {
       title: "SUAPC 2021 Winter",
@@ -213,6 +220,7 @@ export default {
         ["문제", "https://www.acmicpc.net/category/detail/2428"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/588"],
       ],
+      review: [],
     },
   ],
 };

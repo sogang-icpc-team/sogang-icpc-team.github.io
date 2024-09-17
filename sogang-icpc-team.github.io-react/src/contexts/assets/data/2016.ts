@@ -13,6 +13,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2016-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2016/REGIONAL/scoreboard.html"],
       ],
+      review: [],
     },
     {
       title: "2016 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -57,6 +58,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2016-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2016/ONLINE/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "UCPC 2016 본선",
@@ -69,6 +71,8 @@ export default {
         ["54", "3", "AngMerDdi", "-"],
       ],
       award: ["", "", "", "", ""],
+      links: [],
+      review: [],
     },
   ],
 };

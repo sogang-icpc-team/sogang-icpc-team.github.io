@@ -32,6 +32,7 @@ export default {
       links: [
         ["공식 사이트", "https://career.programmers.co.kr/competitions/3980"],
       ],
+      review: [],
     },
     {
       title: "2024 ICPC Asia Pacific Championship",
