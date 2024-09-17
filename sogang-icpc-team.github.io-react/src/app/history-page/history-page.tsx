@@ -29,17 +29,20 @@ const _HistoryPage = ({ className }: { className?: string }) => {
       </Page.Title>
       <Page.Body>
         <HeroImage src={ScoreboardImage} alt="scoreboard" />
-        <Section>
-          <Section.Body>
-            <SelectedHistoryContextProvider
-              historyDataset={historyData.all}
-              initialValue={{ year: 2024 }}
-            >
+        <SelectedHistoryContextProvider
+          historyDataset={historyData.all}
+          initialValue={{ year: 2024 }}
+        >
+          <Section>
+            <Section.Title>
+              <span>연도별 대회 기록</span>
               <HistoryTab
                 items={historyData.years
                   .reverse()
                   .map((y) => ({ label: y, value: y }))}
               />
+            </Section.Title>
+            <Section.Body>
               <HistoryDisplay />
               <GrayText>
                 *2019년 이전의 기록에는 누락된 정보가 있을 수 있습니다.
@@ -47,11 +50,20 @@ const _HistoryPage = ({ className }: { className?: string }) => {
                 *정보 등록 및 수정 요청은 {constants.emailAddress}로 메일
                 부탁드립니다.
               </GrayText>
-            </SelectedHistoryContextProvider>
-          </Section.Body>
-        </Section>
+            </Section.Body>
+          </Section>
+        </SelectedHistoryContextProvider>
       </Page.Body>
     </Page>
   );
 };
-export const HistoryPage = styled(_HistoryPage)``;
+
+export const HistoryPage = styled(_HistoryPage)`
+  ${Section.Title} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 18px;
+  }
+`;
