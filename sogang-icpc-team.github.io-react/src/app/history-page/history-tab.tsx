@@ -41,8 +41,8 @@ const DropdownTriggerButton = styled(EmptyButton)`
   padding: 0.2rem 1rem;
 
   border-radius: 12px;
-  background-color: #535353;
-  color: white;
+  background-color: #0000000f;
+  color: #535353;
 
   font-size: 1.6rem;
   letter-spacing: -1px;
@@ -76,7 +76,7 @@ const _HistoryTab = ({
   const { year, setYear } = useSelectedHistoryContext();
 
   return (
-    <ul className={className}>
+    <div className={className}>
       <DropdownStyles />
       <Dropdown
         overlayClassName={DROPDOWN_CLASSNAME}
@@ -100,7 +100,7 @@ const _HistoryTab = ({
           </DropdownTriggerButton>
         }
       />
-    </ul>
+    </div>
   );
 };
 

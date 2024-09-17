@@ -7,26 +7,21 @@ import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 
 import { useSelectedHistoryContext } from "./contexts/selected-history-context";
 
-const TableWrapper = styled.div`
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-`;
 const LinksWrapper = styled.ul`
   margin-top: 16px;
 `;
 
-const _HistoryDisplay = () => {
+const _HistoryDisplay = ({ className }: { className?: string }) => {
   const selectedHistory = useSelectedHistoryContext();
 
   return (
-    <div>
+    <div className={className}>
       {selectedHistory.data.contests.map(
         ({ title, columns, data, award, links }) => (
           <Section key={title}>
             <Section.Title>{title}</Section.Title>
             <Section.Body>
-              <TableWrapper>
+              <Table.Wrapper>
                 <Table>
                   <Table.Header>
                     <Table.Row>
@@ -60,7 +55,7 @@ const _HistoryDisplay = () => {
                     ))}
                   </Table.Body>
                 </Table>
-              </TableWrapper>
+              </Table.Wrapper>
               <LinksWrapper>
                 {links?.map((link) => {
                   return (
@@ -78,4 +73,8 @@ const _HistoryDisplay = () => {
     </div>
   );
 };
-export const HistoryDisplay = styled(_HistoryDisplay)``;
+export const HistoryDisplay = styled(_HistoryDisplay)`
+  ${Section.Title} {
+    font-size: 1.2rem !important;
+  }
+`;
