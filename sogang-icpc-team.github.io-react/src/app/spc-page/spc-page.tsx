@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 import { Page } from "@ui/page/page";
 import { Section } from "@ui/section/section";
-
-import Spc2019Image from "./assets/spc2019.jpg";
 import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 import { List } from "@ui/list/list";
+import { Table } from "@ui/table/table";
 
+import SpcPostersImage from "./assets/spc-posters.jpg";
+import Spc2019Image from "./assets/spc2019.jpg";
+
+const CorrectText = styled.span`
+  font-weight: bold;
+  color: #009874;
+`;
 const HeroImage = styled.img`
   width: 100%;
   margin: 32px 0;
@@ -39,15 +45,11 @@ const _SpcPage = ({ className }: { className?: string }) => {
           <Section.Title>개요</Section.Title>
           <Section.Body>
             <p>
+              대회는 3시간 동안 진행되며 난이도에 따라 Master와 Champion
+              Division으로 나누어 진행됩니다.
+              <br />
               논리적인 사고력과 알고리즘 작성 능력을 평가하는 ICPC 유형의 문제가
-              출제됩니다.
-            </p>
-            <p>
-              대회는 난이도에 따라 Master와 Champion로 나누어져 3시간 동안
-              진행되며, 대회 참가자들은 해당 Division에서 총 8문제를 풀게
-              됩니다. Champion에는 모든 학생, Master에는 4학기 이하 학생만이
-              참가할 수 있습니다. 시상은 Master와 Champion으로 나뉘어
-              진행됩니다.
+              출제되며, 대회 참가자들은 각 Division에서 총 8문제를 풀게 됩니다.
             </p>
           </Section.Body>
         </Section>
@@ -55,8 +57,11 @@ const _SpcPage = ({ className }: { className?: string }) => {
           <Section.Title>참가</Section.Title>
           <Section.Body>
             대학원생과 휴학생을 제외한 모든 서강대학교 학부생이 참가할 수
-            있습니다. 단, Champion 대상, 금상 수상자는 다음 해부터 참가할 수
-            없고, Master 금상 수상자는 다음 해부터 Master에 참가할 수 없습니다.
+            있으며, Champion에는 모든 학생, Master에는 4학기 이하 학생만이
+            참가할 수 있습니다.
+            <br />
+            단, Champion 대상, 금상 수상자는 다음 해부터 참가할 수 없고, Master
+            금상 수상자는 다음 해부터 Master에 참가할 수 없습니다.
           </Section.Body>
         </Section>
         <Section>
@@ -64,9 +69,9 @@ const _SpcPage = ({ className }: { className?: string }) => {
           <Section.Body>
             <p>
               대회 중 제출한 소스코드는 채점 서버에 의해 자동으로 채점되며,
-              실시간으로 결과를 알 수 있습니다. 코드를 제출하였을 때 '
-              <b>맞았습니다!!</b>'를 받으면 문제를 푼 것으로, 이외의 결과를
-              받으면 틀린 것으로 간주합니다.
+              실시간으로 결과를 알 수 있습니다. 코드를 제출하였을 때{" "}
+              <CorrectText>맞았습니다!!</CorrectText>를 받으면 문제를 푼 것으로,
+              이외의 결과를 받으면 틀린 것으로 간주합니다.
             </p>
             <p>
               문제를 풀 때마다 패널티 점수가 누적됩니다. 패널티 점수는 모든 맞은
@@ -78,16 +83,17 @@ const _SpcPage = ({ className }: { className?: string }) => {
               순위는 푼 문제가 많은 순서대로, 푼 문제 수가 같을 경우에는 패널티
               점수의 합이 적은 순서대로 결정됩니다.
             </p>
+            <br />
             <p>
               대회는{" "}
               <OpenInANewTab href="https://www.acmicpc.net">
                 Baekjoon Online Judge
-              </OpenInANewTab>
-              플랫폼에서 진행되며, 채점 관련 규칙은 BOJ의
+              </OpenInANewTab>{" "}
+              플랫폼에서 진행되며, 채점 관련 규칙은 BOJ의{" "}
               <OpenInANewTab href="https://www.acmicpc.net/help/judge">
                 채점 도움말
               </OpenInANewTab>
-              ,
+              ,{" "}
               <OpenInANewTab href="https://www.acmicpc.net/help/language">
                 언어 도움말
               </OpenInANewTab>
@@ -118,6 +124,80 @@ const _SpcPage = ({ className }: { className?: string }) => {
             />
           </Section.Body>
         </Section>
+        <Section>
+          <Section.Title>시상</Section.Title>
+          <Section.Body>
+            <Table.Wrapper>
+              <Table>
+                <Table.Header>
+                  <Table.Row>
+                    <Table.Head>Division</Table.Head>
+                    <Table.Head>상</Table.Head>
+                    <Table.Head>인원</Table.Head>
+                    <Table.Head>상금</Table.Head>
+                    <Table.Head>총액</Table.Head>
+                  </Table.Row>
+                </Table.Header>
+                <Table.Body>
+                  <Table.Row>
+                    <Table.Cell rowSpan={4} style={{ verticalAlign: "middle" }}>
+                      Champion
+                    </Table.Cell>
+                    <Table.Cell>대상</Table.Cell>
+                    <Table.Cell>1명</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>금상</Table.Cell>
+                    <Table.Cell>1명</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>은상</Table.Cell>
+                    <Table.Cell>2명</Table.Cell>
+                    <Table.Cell>₩200,000</Table.Cell>
+                    <Table.Cell>₩400,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>동상</Table.Cell>
+                    <Table.Cell>3명</Table.Cell>
+                    <Table.Cell>₩150,000</Table.Cell>
+                    <Table.Cell>₩450,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell rowSpan={3} style={{ verticalAlign: "middle" }}>
+                      Master
+                    </Table.Cell>
+                    <Table.Cell>금상</Table.Cell>
+                    <Table.Cell>1명</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>은상</Table.Cell>
+                    <Table.Cell>2명</Table.Cell>
+                    <Table.Cell>₩200,000</Table.Cell>
+                    <Table.Cell>₩400,000</Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>동상</Table.Cell>
+                    <Table.Cell>3명</Table.Cell>
+                    <Table.Cell>₩150,000</Table.Cell>
+                    <Table.Cell>₩450,000</Table.Cell>
+                  </Table.Row>
+                </Table.Body>
+                <Table.Row>
+                  <Table.Cell colSpan={2}>합계</Table.Cell>
+                  <Table.Cell>13명</Table.Cell>
+                  <Table.Cell colSpan={2}>₩2,800,000</Table.Cell>
+                </Table.Row>
+              </Table>
+            </Table.Wrapper>
+          </Section.Body>
+        </Section>
+        <HeroImage src={SpcPostersImage} alt="SPC Posters" />
       </Page.Body>
     </Page>
   );
