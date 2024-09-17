@@ -9,6 +9,12 @@ import type {
   THTMLTdElementAttributes,
 } from "../../types/html-element-types";
 
+const TableWrapper = styled.div`
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+`;
+
 const _TableRow = ({
   children,
   ...htmlAttrs
@@ -98,6 +104,7 @@ export const Table = styled(_Table)`
   border-collapse: collapse;
   border-spacing: 0;
 ` as unknown as typeof _Table & {
+  Wrapper: typeof TableWrapper;
   Header: typeof TableHeader;
   Body: typeof TableBody;
   Row: typeof TableRow;
@@ -106,6 +113,7 @@ export const Table = styled(_Table)`
   Caption: typeof TableCaption;
 };
 
+Table.Wrapper = TableWrapper;
 Table.Header = TableHeader;
 Table.Body = TableBody;
 Table.Row = TableRow;
