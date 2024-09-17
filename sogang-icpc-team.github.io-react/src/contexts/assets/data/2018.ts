@@ -14,6 +14,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2018-seoul/regional"],
         ["스코어보드", "http://icpckorea.org/2018/regional/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "2018 ACM-ICPC Asia Seoul Preliminary Contest",
@@ -48,6 +49,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2018-seoul/regional"],
         ["스코어보드", "http://icpckorea.org/2018/preliminary/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 3 2018",
@@ -60,6 +62,7 @@ export default {
           "https://codejam.withgoogle.com/2018/challenges/0000000000007707",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2018",
@@ -75,6 +78,7 @@ export default {
           "https://codejam.withgoogle.com/2018/challenges/0000000000007706",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2018",
@@ -91,6 +95,7 @@ export default {
           "https://codejam.withgoogle.com/2018/challenges/0000000000007883",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1C 2018",
@@ -106,6 +111,7 @@ export default {
           "https://codejam.withgoogle.com/2018/challenges/0000000000007765",
         ],
       ],
+      review: [],
     },
     {
       title: "UCPC 2018 본선",
@@ -120,6 +126,7 @@ export default {
         ["공식 사이트", "https://2018.ucpc.io"],
         ["스코어보드", "https://ucpc.acmicpc.net/contest/spotboard/314"],
       ],
+      review: [],
     },
   ],
 };

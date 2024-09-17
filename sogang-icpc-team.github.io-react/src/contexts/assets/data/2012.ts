@@ -13,6 +13,7 @@ export default {
       ],
       award: ["silver", "", "", "", ""],
       links: [["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]],
+      review: [],
     },
     {
       title: "2012 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -38,6 +39,7 @@ export default {
         "",
       ],
       links: [["공식 사이트", "http://icpckorea.org/2012-daejeon/regional"]],
+      review: [],
     },
     {
       title: "SK Planet Code Spring Round 1",
@@ -45,6 +47,7 @@ export default {
       data: [["3", "최백준"]],
       award: [""],
       links: [],
+      review: [],
     },
   ],
 };

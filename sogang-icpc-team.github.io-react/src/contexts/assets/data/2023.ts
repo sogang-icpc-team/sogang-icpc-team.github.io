@@ -10,6 +10,7 @@ export default {
         ["공식 사이트", "https://competition.binus.ac.id/icpc2023"],
         ["스코어보드", "https://competition.binus.ac.id/icpc2023/final.html"],
       ],
+      review: [],
     },
     {
       title: "2023 ICPC Asia Seoul Regional Contest",
@@ -71,6 +72,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "SUAPC 2023 Summer",
@@ -126,6 +128,7 @@ export default {
       links: [
         ["공식 사이트", "https://career.programmers.co.kr/competitions/3419"],
       ],
+      review: [],
     },
     {
       title: "23년 현대모비스 알고리즘 경진대회(일반부)",
@@ -194,6 +197,7 @@ export default {
         ["공식 사이트", "https://icpc-sinchon.io/campcontest"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/947"],
       ],
+      review: [],
     },
   ],
 };

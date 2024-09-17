@@ -7,9 +7,9 @@ export const Button = styled.button`
   display: inline-flex;
   align-items: center;
 
-  height: 42px;
-  line-height: 42px;
-  padding: 12px 16px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 12px;
 
   border: 1px solid #b60005;
   border-radius: 12px;

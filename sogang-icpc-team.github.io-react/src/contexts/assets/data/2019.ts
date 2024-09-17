@@ -14,6 +14,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org"],
         ["스코어보드", "http://icpckorea.org/2019/regional/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "2019 ICPC Asia Bangkok Regional Contest",
@@ -24,6 +25,7 @@ export default {
         ["공식 사이트", "https://acm-icpc.eng.chula.ac.th"],
         ["스코어보드", "http://icpc-scoreboard.eng.chula.ac.th"],
       ],
+      review: [],
     },
     {
       title: "2019 ICPC Asia Seoul Preliminary Contest",
@@ -62,6 +64,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2019-seoul/regional"],
         ["스코어보드", "http://icpckorea.org/2019/preliminary/scoreboard"],
       ],
+      review: [],
     },
     {
       title: "Google Hash Code 2019 Online Qualification Round",
@@ -75,6 +78,7 @@ export default {
           "https://hashcodejudge.withgoogle.com/#/rounds/6417837228818432/scoreboards",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round A",
@@ -92,6 +96,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round H",
@@ -105,6 +110,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2019",
@@ -118,6 +124,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1B 2019",
@@ -131,6 +138,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706",
         ],
       ],
+      review: [],
     },
     {
       title: "Samsung Collegiate Programming Contest 2019 Onsite Finals",
@@ -143,6 +151,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "UCPC 2019 본선",
@@ -160,6 +169,7 @@ export default {
         ["공식 사이트", "https://ucpc-kr.github.io"],
         ["스코어보드", "https://ucpc.acmicpc.net/contest/spotboard/450"],
       ],
+      review: [],
     },
   ],
 };

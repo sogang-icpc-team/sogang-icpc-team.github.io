@@ -11,6 +11,7 @@ export default {
       ],
       award: ["silver", "", ""],
       links: [["공식 사이트", "http://icpckorea.org/2009-seoul/regional"]],
+      review: [],
     },
     {
       title: "2009 ACM-ICPC Asia Amritapuri Regional Contest",
@@ -23,12 +24,15 @@ export default {
           "https://icpc.baylor.edu/regionals/finder/amritapuri-2009",
         ],
       ],
+      review: [],
     },
     {
       title: "Java Algorithm Contest",
       columns: ["#", "팀", "멤버"],
       data: [["3", "KTX", "최백준 (+ 타교생 2인)"]],
       award: [""],
+      links: [],
+      review: [],
     },
   ],
 };

@@ -11,6 +11,7 @@ export default {
       ],
       award: ["bronze", "", ""],
       links: [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]],
+      review: [],
     },
     {
       title: "2014 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -52,6 +53,7 @@ export default {
         "",
       ],
       links: [["공식 사이트", "http://icpckorea.org/2014-daejeon/regional"]],
+      review: [],
     },
   ],
 };

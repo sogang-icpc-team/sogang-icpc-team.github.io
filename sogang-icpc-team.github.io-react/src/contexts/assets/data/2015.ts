@@ -15,6 +15,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2015/regional/scoreboard.html"],
       ],
+      review: [],
     },
     {
       title: "2015 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -61,6 +62,7 @@ export default {
         ["공식 사이트", "http://icpckorea.org/2015-daejeon/regional"],
         ["스코어보드", "http://icpckorea.org/2015/ONLINE/scoreboard.html"],
       ],
+      review: [],
     },
     {
       title: "Samsung Collegiate Programming Contest 2015 Onsite Finals",
@@ -73,6 +75,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "UCPC 2015 본선",
@@ -89,6 +92,7 @@ export default {
       ],
       award: ["", "", "", "", "", "", "", ""],
       links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/97"]],
+      review: [],
     },
   ],
 };

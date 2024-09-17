@@ -9,6 +9,7 @@ export default {
       links: [
         ["공식 사이트", "https://icpc.baylor.edu/community/results-2010"],
       ],
+      review: [],
     },
     {
       title: "2010 ACM-ICPC Asia Daejeon Regional Contest",
@@ -19,6 +20,7 @@ export default {
       ],
       award: ["", ""],
       links: [["공식 사이트", "http://icpckorea.org/2010-daejeon/regional"]],
+      review: [],
     },
     {
       title: "2010 ACM-ICPC Asia Daejeon Preliminary Contest",
@@ -54,6 +56,7 @@ export default {
         "",
       ],
       links: [["공식 사이트", "http://icpckorea.org/2010-daejeon/regional"]],
+      review: [],
     },
   ],
 };

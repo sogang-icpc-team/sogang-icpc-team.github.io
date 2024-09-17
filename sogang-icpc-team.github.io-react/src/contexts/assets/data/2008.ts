@@ -7,6 +7,7 @@ export default {
       data: [["8", "-", "Coderani", "김우현, 안재원, 최백준"]],
       award: ["silver"],
       links: [["공식 사이트", "http://icpckorea.org/2008-seoul/regional"]],
+      review: [],
     },
     {
       title: "2008 ACM-ICPC Asia Kuala Lumpur Regional Contest",
@@ -14,6 +15,7 @@ export default {
       data: [["14", "-", "Greenzilla", "김우현, 안재원, 최백준"]],
       award: [""],
       links: [["공식 사이트", "http://icpckorea.org/2008-seoul/regional"]],
+      review: [],
     },
     {
       title: "Google Code Jam APAC Semifinal 2008",
@@ -26,6 +28,7 @@ export default {
           "https://code.google.com/codejam/contest/32005/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 3 2008",
@@ -38,6 +41,7 @@ export default {
           "https://code.google.com/codejam/contest/32002/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2008",
@@ -50,6 +54,7 @@ export default {
           "https://code.google.com/codejam/contest/32001/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1B 2008",
@@ -62,12 +67,15 @@ export default {
           "https://code.google.com/codejam/contest/32017/dashboard",
         ],
       ],
+      review: [],
     },
     {
       title: "Java Algorithm Contest",
       columns: ["#", "팀", "멤버"],
       data: [["3", "C#", "김우현, 안재원, 최백준"]],
       award: ["bronze"],
+      links: [],
+      review: [],
     },
   ],
 };

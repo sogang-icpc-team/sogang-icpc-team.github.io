@@ -87,6 +87,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round B 2020",
@@ -103,6 +104,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round C 2020",
@@ -119,6 +121,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round D 2020",
@@ -136,6 +139,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round E 2020",
@@ -153,6 +157,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round F 2020",
@@ -169,6 +174,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Kick Start Round G 2020",
@@ -186,6 +192,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 2 2020",
@@ -203,6 +210,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1A 2020",
@@ -221,6 +229,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Code Jam Round 1B 2020",
@@ -237,6 +246,7 @@ export default {
           "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2",
         ],
       ],
+      review: [],
     },
     {
       title: "Google Hash Code 2020 Online Qualification Round",
@@ -257,6 +267,7 @@ export default {
           "https://hashcodejudge.withgoogle.com/#/rounds/6313004828196864/scoreboards",
         ],
       ],
+      review: [],
     },
     {
       title: "SUAPC 2020 Summer division 1",
@@ -297,6 +308,7 @@ export default {
         ["문제", "https://www.acmicpc.net/category/detail/2275"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/518"],
       ],
+      review: [],
     },
     {
       title: "2020 ICPC Sinchon Summer Algorithm Camp Contest - 중급",
@@ -310,6 +322,7 @@ export default {
         ["문제", "https://www.acmicpc.net/category/detail/2290"],
         ["스코어보드", "https://www.acmicpc.net/contest/board/533"],
       ],
+      review: [],
     },
     {
       title: "Samsung Collegiate Programming Contest 2020 Finals",
@@ -322,6 +335,7 @@ export default {
       links: [
         ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
       ],
+      review: [],
     },
     {
       title: "UCPC 2020 본선",
@@ -345,6 +359,7 @@ export default {
         ["해설", "http://ucpc.me/assets/ucpc20-finals-solutions.pdf"],
         ["스코어보드", "https://www.acmicpc.net/contest/spotboard/524"],
       ],
+      review: [],
     },
   ],
 };
