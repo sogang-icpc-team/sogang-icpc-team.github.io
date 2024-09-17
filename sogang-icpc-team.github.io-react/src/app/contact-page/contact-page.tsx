@@ -70,24 +70,30 @@ const _ContactPage = ({ className }: { className?: string }) => {
           <Section.Title>회장단</Section.Title>
           <Section.Body>
             <Table.Caption>{latestOrganizerData.year}</Table.Caption>
-            <OrganizerTable>
-              <Table.Body>
-                <Table.Row>
-                  <Table.Cell>{latestOrganizerData.president.name}</Table.Cell>
-                  <Table.Cell>학회장</Table.Cell>
-                  <Table.Cell>{latestOrganizerData.president.email}</Table.Cell>
-                </Table.Row>
-                <Table.Row>
-                  <Table.Cell>
-                    {latestOrganizerData.vicePresident?.name}
-                  </Table.Cell>
-                  <Table.Cell>부학회장</Table.Cell>
-                  <Table.Cell>
-                    {latestOrganizerData.vicePresident?.email}
-                  </Table.Cell>
-                </Table.Row>
-              </Table.Body>
-            </OrganizerTable>
+            <Table.Wrapper>
+              <OrganizerTable>
+                <Table.Body>
+                  <Table.Row>
+                    <Table.Cell>
+                      {latestOrganizerData.president.name}
+                    </Table.Cell>
+                    <Table.Cell>학회장</Table.Cell>
+                    <Table.Cell>
+                      {latestOrganizerData.president.email}
+                    </Table.Cell>
+                  </Table.Row>
+                  <Table.Row>
+                    <Table.Cell>
+                      {latestOrganizerData.vicePresident?.name}
+                    </Table.Cell>
+                    <Table.Cell>부학회장</Table.Cell>
+                    <Table.Cell>
+                      {latestOrganizerData.vicePresident?.email}
+                    </Table.Cell>
+                  </Table.Row>
+                </Table.Body>
+              </OrganizerTable>
+            </Table.Wrapper>
           </Section.Body>
         </Section>
       </Page.Body>
