@@ -1,10 +1,10 @@
 import { createContext, useContext } from "react";
 
-import allHistoryDataset from "./assets/data/all";
+import allHistoryDataset from "./assets/history-data/all";
 
 export type THistoryData = {
   years: number[];
-  latest: typeof allHistoryDataset[number];
+  latest: (typeof allHistoryDataset)[number];
   all: typeof allHistoryDataset;
 };
 export const HistoryDataContext = createContext<THistoryData>(null as any);
