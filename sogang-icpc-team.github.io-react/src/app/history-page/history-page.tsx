@@ -9,12 +9,13 @@ import { useHistoryDataContext } from "../../contexts/history-data-context";
 import { SelectedHistoryContextProvider } from "./contexts/selected-history-context";
 import { HistoryDisplay } from "./history-display/history-display";
 import constants from "../../contexts/assets/constants";
+import { MedalIconDescriptions } from "./medal-icon-descriptions";
 
 const GrayText = styled.div`
   font-size: 0.9rem;
   color: ${({ theme }) => theme.gray[500]};
 
-  margin-top: 8px;
+  margin-top: 24px;
 `;
 const HeroImage = styled.img`
   width: 100%;
@@ -44,6 +45,7 @@ const _HistoryPage = ({ className }: { className?: string }) => {
             </Section.Title>
             <Section.Body>
               <HistoryDisplay />
+              <MedalIconDescriptions />
               <GrayText>
                 *2019년 이전의 기록에는 누락된 정보가 있을 수 있습니다.
                 <br />
