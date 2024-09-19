@@ -1,6 +1,9 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
-import { type THistoryData } from "../../../contexts/history-data-context";
+import {
+  useHistoryDataContext,
+  type THistoryData,
+} from "../../../contexts/history-data-context";
 
 export type TSelectedHistoryContext = {
   year: number;
@@ -15,14 +18,14 @@ export const useSelectedHistoryContext = () =>
   useContext(SelectedHistoryContext);
 
 export const SelectedHistoryContextProvider = ({
-  historyDataset,
   initialValue,
   children,
 }: {
-  historyDataset: THistoryData["all"];
   initialValue: Pick<TSelectedHistoryContext, "year">;
   children: React.ReactNode;
 }) => {
+  const { all: historyDataset } = useHistoryDataContext();
+
   const [year, setYear] = useState(initialValue.year);
   const [data, setData] = useState(historyDataset.find((d) => d.year === year));
 

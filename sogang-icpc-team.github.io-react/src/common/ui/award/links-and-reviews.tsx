@@ -7,7 +7,7 @@ import { Table } from "@ui/table/table";
 import { OpenInANewTabButton } from "@ui/button/open-in-a-new-tab-button";
 import { Button } from "@ui/button/button";
 
-import { TSelectedHistoryContext } from "../contexts/selected-history-context";
+import { TSelectedHistoryContext } from "../../../app/history-page/contexts/selected-history-context";
 const ReviewTable = styled(Table)`
   min-width: unset;
   margin-top: 12px;
