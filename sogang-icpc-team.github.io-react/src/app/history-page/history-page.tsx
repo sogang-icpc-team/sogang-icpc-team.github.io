@@ -2,14 +2,29 @@ import styled from "styled-components";
 
 import { Page } from "@ui/page/page";
 import { Section } from "@ui/section/section";
+import { YearSelectorDropdown } from "@ui/dropdown/year-selector-dropdown";
+import { MedalIconDescriptions } from "@ui/award/medal-icon-descriptions";
 
 import ScoreboardImage from "./assets/scoreboard.jpg";
-import { HistoryTab } from "./history-tab";
 import { useHistoryDataContext } from "../../contexts/history-data-context";
-import { SelectedHistoryContextProvider } from "./contexts/selected-history-context";
+import {
+  SelectedHistoryContextProvider,
+  useSelectedHistoryContext,
+} from "./contexts/selected-history-context";
 import { HistoryDisplay } from "./history-display/history-display";
 import constants from "../../contexts/assets/constants";
-import { MedalIconDescriptions } from "./medal-icon-descriptions";
+
+const YearDropdown = () => {
+  const { year, setYear } = useSelectedHistoryContext();
+  const historyData = useHistoryDataContext();
+  return (
+    <YearSelectorDropdown
+      year={year}
+      setYear={setYear}
+      items={historyData.years.reverse().map((y) => ({ label: y, value: y }))}
+    />
+  );
+};
 
 const GrayText = styled.div`
   font-size: 0.9rem;
@@ -22,7 +37,6 @@ const HeroImage = styled.img`
   margin: 32px 0;
 `;
 const _HistoryPage = ({ className }: { className?: string }) => {
-  const historyData = useHistoryDataContext();
   return (
     <Page className={className}>
       <Page.Title description="매년 여러 대회에 참가해 우수한 성적을 거두고 있습니다.">
@@ -30,18 +44,11 @@ const _HistoryPage = ({ className }: { className?: string }) => {
       </Page.Title>
       <Page.Body>
         <HeroImage src={ScoreboardImage} alt="scoreboard" />
-        <SelectedHistoryContextProvider
-          historyDataset={historyData.all}
-          initialValue={{ year: 2024 }}
-        >
+        <SelectedHistoryContextProvider initialValue={{ year: 2024 }}>
           <Section>
             <Section.Title>
               <span>연도별 대회 기록</span>
-              <HistoryTab
-                items={historyData.years
-                  .reverse()
-                  .map((y) => ({ label: y, value: y }))}
-              />
+              <YearDropdown />
             </Section.Title>
             <Section.Body>
               <HistoryDisplay />
@@ -65,7 +72,5 @@ export const HistoryPage = styled(_HistoryPage)`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    gap: 18px;
   }
 `;
