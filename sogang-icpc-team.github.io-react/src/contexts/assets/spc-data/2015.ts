@@ -5,17 +5,11 @@ export default {
   time: "오후 7시 ~ 10시",
   location: "리치과학관 R912 / R914",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/board/141",
-      Champion: "https://www.acmicpc.net/contest/board/142",
-    },
     problems: {
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/1420",
-        Champion: "https://www.acmicpc.net/category/detail/1421",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/1420",
     },
   },
+  authors: [],
   contests: [
     {
       title: "SPC 2015 Master",
@@ -29,7 +23,7 @@ export default {
         ["6", "3", "이아현"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/141"]],
     },
     {
       title: "SPC 2015 Champion",
@@ -52,7 +46,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/142"]],
     },
   ],
 };

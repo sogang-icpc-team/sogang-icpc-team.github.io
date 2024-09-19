@@ -5,22 +5,15 @@ export default {
   time: "오후 7시 ~ 10시",
   location: "다산관 D104/D105",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/scoreboard/487",
-      Champion: "https://www.acmicpc.net/contest/scoreboard/488",
-    },
     problems: {
       PDF: {
-        Master: "/spc/contest/2019/master.pdf",
-        Champion: "/spc/contest/2019/champion.pdf",
+        Master: "/downloads/spc/2019/master.pdf",
+        Champion: "/downloads/spc/2019/champion.pdf",
       },
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/2129",
-        Champion: "https://www.acmicpc.net/category/detail/2128",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/2129",
     },
     solutions: {
-      PDF: "/spc/contest/2019/solutions.pdf",
+      PDF: "/downloads/spc/2019/solutions.pdf",
     },
   },
   authors: ["박건", "박수현", "이준석", "손정연", "윤기영", "정진욱"],
@@ -37,7 +30,7 @@ export default {
         ["6", "2", "이길원"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/487"]],
     },
     {
       title: "SPC 2019 Champion",
@@ -60,7 +53,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/488"]],
     },
   ],
 };

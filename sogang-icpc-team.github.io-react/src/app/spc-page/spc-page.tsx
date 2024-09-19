@@ -5,10 +5,37 @@ import { Section } from "@ui/section/section";
 import { OpenInANewTab } from "@ui/open-in-a-new-tab";
 import { List } from "@ui/list/list";
 import { Table } from "@ui/table/table";
+import { YearSelectorDropdown } from "@ui/dropdown/year-selector-dropdown";
 
 import SpcPostersImage from "./assets/spc-posters.jpg";
 import Spc2019Image from "./assets/spc2019.jpg";
+import {
+  SelectedSpcHistoryContextProvider,
+  useSelectedSpcHistoryContext,
+} from "./contexts/selected-spc-history-context";
+import { useSpcDataContext } from "../../contexts/spc-data-context";
+import { SpcContestHistoryDisplay } from "./spc-contest-history-display";
+import constants from "../../contexts/assets/constants";
+import { SpcSummary } from "./spc-summary";
 
+const YearDropdown = () => {
+  const { year, setYear } = useSelectedSpcHistoryContext();
+  const spcData = useSpcDataContext();
+  return (
+    <YearSelectorDropdown
+      year={year}
+      setYear={setYear}
+      items={spcData.years.reverse().map((y) => ({ label: y, value: y }))}
+    />
+  );
+};
+
+const GrayText = styled.div`
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.gray[500]};
+
+  margin-top: 24px;
+`;
 const CorrectText = styled.span`
   font-weight: bold;
   color: #009874;
@@ -198,8 +225,32 @@ const _SpcPage = ({ className }: { className?: string }) => {
           </Section.Body>
         </Section>
         <HeroImage src={SpcPostersImage} alt="SPC Posters" />
+        <SelectedSpcHistoryContextProvider initialValue={{ year: 2023 }}>
+          <Section>
+            <Section.Title>
+              <span>연도별 대회 기록</span>
+              <YearDropdown />
+            </Section.Title>
+            <Section.Body>
+              <SpcSummary />
+              <SpcContestHistoryDisplay />
+              <GrayText>
+                *2019년 이전의 기록에는 누락된 정보가 있을 수 있습니다.
+                <br />
+                *정보 등록 및 수정 요청은 {constants.emailAddress}로 메일
+                부탁드립니다.
+              </GrayText>
+            </Section.Body>
+          </Section>
+        </SelectedSpcHistoryContextProvider>
       </Page.Body>
     </Page>
   );
 };
-export const SpcPage = styled(_SpcPage)``;
+export const SpcPage = styled(_SpcPage)`
+  ${Section.Title} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+`;

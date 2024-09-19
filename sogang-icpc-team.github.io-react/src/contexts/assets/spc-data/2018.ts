@@ -5,15 +5,8 @@ export default {
   time: "오후 7시 ~ 10시",
   location: "다산관 D104",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/board/368",
-      Champion: "https://www.acmicpc.net/contest/board/379",
-    },
     problems: {
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/1961",
-        Champion: "https://www.acmicpc.net/category/detail/1962",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/1961",
     },
   },
   authors: ["이준석", "최윤영", "최지원", "손정연", "윤기영", "정진욱"],
@@ -30,7 +23,7 @@ export default {
         ["6", "4", "임지환"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/368"]],
     },
     {
       title: "SPC 2018 Champion",
@@ -53,7 +46,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/379"]],
     },
   ],
 };

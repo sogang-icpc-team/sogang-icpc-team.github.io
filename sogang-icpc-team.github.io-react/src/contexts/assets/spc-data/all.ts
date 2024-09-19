@@ -12,6 +12,42 @@ import _2021 from "./2021";
 import _2022 from "./2022";
 import _2023 from "./2023";
 
+type TSpcData = {
+  year: number;
+  edition: string;
+  date: string;
+  time: string;
+  location: string;
+  links: {
+    scoreboards?: {
+      Master: string;
+      Champion: string;
+    };
+    problems: {
+      workbookBOJ?: {
+        Challenger: string;
+        Champion: string;
+      };
+      BOJ?: string | null;
+      PDF?: {
+        Master: string;
+        Champion: string;
+      };
+    };
+    solutions?: {
+      PDF: string;
+    };
+  };
+  authors: string[];
+  contests: {
+    title: string;
+    columns: string[];
+    data: string[][];
+    award: string[];
+    links: string[][];
+  }[];
+};
+
 export default [
   _2011,
   _2012,
@@ -26,4 +62,4 @@ export default [
   _2021,
   _2022,
   _2023,
-];
+] as TSpcData[];

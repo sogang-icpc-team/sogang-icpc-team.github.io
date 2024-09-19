@@ -5,17 +5,11 @@ export default {
   time: "오후 7시 ~ 10시",
   location: "리치과학관 R912 / R914",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/board/204",
-      Champion: "https://www.acmicpc.net/contest/board/203",
-    },
     problems: {
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/1577",
-        Champion: "https://www.acmicpc.net/category/detail/1576",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/1577",
     },
   },
+  authors: [],
   contests: [
     {
       title: "제 12회 총장배 서강대학교 프로그래밍 대회 Master",
@@ -29,7 +23,7 @@ export default {
         ["6", "3", "민지우"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/204"]],
     },
     {
       title: "제 12회 총장배 서강대학교 프로그래밍 대회 Champion",
@@ -52,7 +46,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/203"]],
     },
   ],
 };

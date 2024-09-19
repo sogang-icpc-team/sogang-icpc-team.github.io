@@ -6,10 +6,9 @@ export default {
   location: "리치과학관 R912 / R914",
   links: {
     problems: {
-      BOJ: {
-        Challenger: "https://www.acmicpc.net/workbook/view/33",
-        Champion: "https://www.acmicpc.net/workbook/view/34",
-      },
+      BOJ: null,
     },
   },
+  authors: [],
+  contests: [],
 };

@@ -5,23 +5,15 @@ export default {
   time: "오후 2시 ~ 5시",
   location: "Online",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/scoreboard/562",
-      Champion: "https://www.acmicpc.net/contest/scoreboard/563",
-    },
     problems: {
       PDF: {
-        Master: "/spc/contest/2020/master.pdf",
-        Champion: "/spc/contest/2020/champion.pdf",
+        Master: "/downloads/spc/2020/master.pdf",
+        Champion: "/downloads/spc/2020/champion.pdf",
       },
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/2355",
-        Champion: "https://www.acmicpc.net/category/detail/2354",
-        Open: "https://www.acmicpc.net/category/detail/2356",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/2355",
     },
     solutions: {
-      PDF: "/spc/contest/2020/solutions.pdf",
+      PDF: "/downloads/spc/2020/solutions.pdf",
     },
   },
   authors: ["이기현", "이윤제", "임지환", "김주현", "안향빈", "이상원"],
@@ -38,7 +30,7 @@ export default {
         ["6", "4", "이동주"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/562"]],
     },
     {
       title: "SPC 2020 Champion",
@@ -61,7 +53,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/563"]],
     },
   ],
 };

@@ -6,10 +6,12 @@ export default {
   location: "김대건관 K512 / 리치과학관 R914",
   links: {
     problems: {
-      BOJ: {
+      workbookBOJ: {
         Challenger: "https://www.acmicpc.net/workbook/view/75",
         Champion: "https://www.acmicpc.net/workbook/view/77",
       },
     },
   },
+  authors: [],
+  contests: [],
 };

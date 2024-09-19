@@ -1,12 +1,14 @@
 export default {
   year: 2011,
   edition: "제 7회",
+  date: "",
+  time: "",
+  location: "",
   links: {
     problems: {
-      BOJ: {
-        Challenger: "https://www.acmicpc.net/workbook/view/24",
-        Champion: "https://www.acmicpc.net/workbook/view/25",
-      },
+      BOJ: null,
     },
   },
+  authors: [],
+  contests: [],
 };

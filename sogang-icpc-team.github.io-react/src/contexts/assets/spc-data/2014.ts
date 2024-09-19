@@ -10,10 +10,9 @@ export default {
       Champion: "https://www.acmicpc.net/contest/scoreboard/75",
     },
     problems: {
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/1299",
-        Champion: "https://www.acmicpc.net/category/detail/1300",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/1299",
     },
   },
+  authors: [],
+  contests: [],
 };
