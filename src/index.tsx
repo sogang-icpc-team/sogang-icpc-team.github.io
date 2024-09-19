@@ -29,6 +29,5 @@ root.render(
         </ThemeProvider>
       </OrganizerDataContextProvider>
     </HistoryDataContextProvider>
-    ,
   </SpcDataContextProvider>,
 );
