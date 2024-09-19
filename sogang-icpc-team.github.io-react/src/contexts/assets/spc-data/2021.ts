@@ -5,23 +5,15 @@ export default {
   time: "오후 2시 ~ 5시",
   location: "다산관 D104/D105",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/scoreboard/724",
-      Champion: "https://www.acmicpc.net/contest/scoreboard/726",
-    },
     problems: {
       PDF: {
-        Master: "/spc/contest/2021/master.pdf",
-        Champion: "/spc/contest/2021/champion.pdf",
+        Master: "/downloads/spc/2021/master.pdf",
+        Champion: "/downloads/spc/2021/champion.pdf",
       },
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/2884",
-        Champion: "https://www.acmicpc.net/category/detail/2885",
-        Open: "https://www.acmicpc.net/category/detail/2886",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/2884",
     },
     solutions: {
-      PDF: "/spc/contest/2021/solutions.pdf",
+      PDF: "/downloads/spc/2021/solutions.pdf",
     },
   },
   authors: ["강효규", "박수현", "이상원", "이선호", "이준석", "조원빈"],
@@ -38,7 +30,7 @@ export default {
         ["6", "4", "김서인"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/724"]],
     },
     {
       title: "SPC 2021 Champion",
@@ -61,7 +53,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/scoreboard/726"]],
     },
   ],
 };

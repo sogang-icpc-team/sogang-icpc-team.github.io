@@ -5,15 +5,11 @@ export default {
   time: "오후 2시 ~ 5시",
   location: "다산관 D104/D105",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/spotboard/1157",
-      Champion: "https://www.acmicpc.net/contest/spotboard/1158",
-    },
     problems: {
       BOJ: "https://www.acmicpc.net/category/996",
     },
     solutions: {
-      PDF: "/spc/contest/2023/solutions.pdf",
+      PDF: "/downloads/spc/2023/solutions.pdf",
     },
   },
   authors: ["정회윤", "박한나", "강효규", "김동건", "채성우", "유호영"],
@@ -30,7 +26,7 @@ export default {
         ["6", "4", "김현종"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/spotboard/1157"]],
     },
     {
       title: "SPC 2023 Champion",
@@ -53,7 +49,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/spotboard/1158"]],
     },
   ],
 };

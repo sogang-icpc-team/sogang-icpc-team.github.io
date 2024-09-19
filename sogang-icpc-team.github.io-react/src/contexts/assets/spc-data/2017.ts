@@ -5,15 +5,8 @@ export default {
   time: "오후 7시 ~ 10시",
   location: "다산관 D104",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/board/265",
-      Champion: "https://www.acmicpc.net/contest/board/266",
-    },
     problems: {
-      BOJ: {
-        Master: "https://www.acmicpc.net/category/detail/1809",
-        Champion: "https://www.acmicpc.net/category/detail/1810",
-      },
+      BOJ: "https://www.acmicpc.net/category/detail/1809",
     },
   },
   authors: ["박건", "이준석", "최윤영", "고성빈", "정성엽", "하태훈"],
@@ -30,7 +23,7 @@ export default {
         ["6", "3", "이동승"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/265"]],
     },
     {
       title: "SPC 2017 Champion",
@@ -53,7 +46,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/board/266"]],
     },
   ],
 };

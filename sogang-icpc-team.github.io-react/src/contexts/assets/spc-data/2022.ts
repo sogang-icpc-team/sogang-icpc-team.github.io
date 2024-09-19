@@ -5,15 +5,11 @@ export default {
   time: "오후 2시 ~ 5시",
   location: "다산관 D104/D105",
   links: {
-    scoreboards: {
-      Master: "https://www.acmicpc.net/contest/spotboard/896",
-      Champion: "https://www.acmicpc.net/contest/spotboard/897",
-    },
     problems: {
       BOJ: "https://www.acmicpc.net/category/697",
     },
     solutions: {
-      PDF: "/spc/contest/2022/solutions.pdf",
+      PDF: "/downloads/spc/2022/solutions.pdf",
     },
   },
   authors: ["김동건", "강효규", "박수현", "이윤제", "임지환", "조원빈"],
@@ -30,7 +26,7 @@ export default {
         ["6", "5", "이준석"],
       ],
       award: ["gold", "silver", "silver", "bronze", "bronze", "bronze"],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/spotboard/896"]],
     },
     {
       title: "SPC 2022 Champion",
@@ -53,7 +49,7 @@ export default {
         "bronze",
         "bronze",
       ],
-      links: [],
+      links: [["스코어보드", "https://www.acmicpc.net/contest/spotboard/897"]],
     },
   ],
 };
