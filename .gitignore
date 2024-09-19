@@ -1,6 +1,0 @@
-node_modules/
-public/build/
-nohup.out
-.DS_Store
-.vscode/
-__sapper__
