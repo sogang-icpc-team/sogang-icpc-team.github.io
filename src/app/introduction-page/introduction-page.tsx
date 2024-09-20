@@ -242,7 +242,7 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
                         {vicePresident ? (
                           <Table.Row>
                             <Table.Cell>{vicePresident.name}</Table.Cell>
-                            <Table.Cell>학회장</Table.Cell>
+                            <Table.Cell>부학회장</Table.Cell>
                             <Table.Cell>
                               <OpenInANewTab
                                 href={`https://www.acmicpc.net/user/${vicePresident.boj}`}
