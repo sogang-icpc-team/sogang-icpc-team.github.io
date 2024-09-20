@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66b941d9.css",
-    "main.js": "/static/js/main.25e3f345.js",
+    "main.js": "/static/js/main.69b60ea5.js",
     "static/media/21-icpc-wf-1.jpg": "/static/media/21-icpc-wf-1.a80e47393c0d97682bb0.jpg",
     "static/media/spc-posters.jpg": "/static/media/spc-posters.de5b17859c8a35c8f27f.jpg",
     "static/media/IMG_1380.jpg": "/static/media/IMG_1380.9ec8299cf7346c68c131.jpg",
@@ -20,10 +20,10 @@
     "index.html": "/index.html",
     "static/media/logo-crimson.svg": "/static/media/logo-crimson.4b95846be8ed781a6eb083e76887bb8b.svg",
     "main.66b941d9.css.map": "/static/css/main.66b941d9.css.map",
-    "main.25e3f345.js.map": "/static/js/main.25e3f345.js.map"
+    "main.69b60ea5.js.map": "/static/js/main.69b60ea5.js.map"
   },
   "entrypoints": [
     "static/css/main.66b941d9.css",
-    "static/js/main.25e3f345.js"
+    "static/js/main.69b60ea5.js"
   ]
 }
