@@ -16,7 +16,7 @@ git clone https://github.com/sogang-icpc-team/sogang-icpc-team.github.io
 yarn
 ```
 
-의존성을 설치한 후, 아래의 명령어를 통해 Svelte.js를 개발환경에서 실행할 수 있습니다.
+의존성을 설치한 후, 아래의 명령어를 통해 React.js를 개발환경에서 실행할 수 있습니다.
 
 ```shell
 yarn react:dev
