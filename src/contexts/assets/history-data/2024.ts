@@ -2,6 +2,25 @@ export default {
   year: 2024,
   contests: [
     {
+      title: "SUAPC 2024 Summer",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
+        ["2", "12", "Redshift", "박수현, 조원빈, 채성우"],
+        ["5", "9", "ALL_TIME_LEGEND", "박성준, 송근수, 이승형"],
+        ["6", "9", "goraani never stop", "강효규, 김동건, 유호영"],
+        ["9", "6", "I2C", "김진수, 박준성, 하건영"],
+        ["10", "6", "팀 이름", "손기령, 정회윤, 조성훈"]
+      ],
+      award: ["silver", "bronze", "bronze", "", ""],
+      links: [
+        ["공식 사이트", "https://icpc-sinchon.io/suapc"],
+        ["스코어보드", "https://www.acmicpc.net/contest/spotboard/1319"],
+      ],
+      review: [
+        ["채성우(lem0nad3)", "https://blog.naver.com/vermeil_/223568417158"],
+      ],
+    },
+    {
       title: "UCPC 2024 본선",
       columns: ["#", "=", "팀", "멤버"],
       data: [
