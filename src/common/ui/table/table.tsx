@@ -52,7 +52,7 @@ const _TableCell = ({
 export const TableCell = styled(_TableCell)`
   padding: 8px;
   text-align: center;
-  vertical-align: top;
+  vertical-align: baseline;
 
   border: 1px solid #ddd;
 `;
@@ -103,6 +103,7 @@ export const Table = styled(_Table)`
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout: fixed;
 ` as unknown as typeof _Table & {
   Wrapper: typeof TableWrapper;
   Header: typeof TableHeader;
