@@ -1,5 +1,16 @@
 import { Table } from "@ui/table/table";
 import { AwardBadge, TAwardBadgeVariant } from "@ui/award-badge/award-badge";
+import { CSSProperties } from "react";
+
+const columnStyle = (headerContent: string): CSSProperties | undefined => {
+  if (headerContent === "#") {
+    return { width: "6em" };
+  }
+  if (headerContent === "=") {
+    return { width: "6em" };
+  }
+  return undefined;
+};
 
 export const AwardTable = ({
   columns,
@@ -16,7 +27,9 @@ export const AwardTable = ({
         <Table.Header>
           <Table.Row>
             {columns.map((h, i) => (
-              <Table.Head key={i}>{h}</Table.Head>
+              <Table.Head key={i} style={columnStyle(h)}>
+                {h}
+              </Table.Head>
             ))}
           </Table.Row>
         </Table.Header>
