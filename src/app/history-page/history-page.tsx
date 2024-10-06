@@ -42,8 +42,8 @@ const _HistoryPage = ({ className }: { className?: string }) => {
       <Page.Title description="매년 여러 대회에 참가해 우수한 성적을 거두고 있습니다.">
         기록
       </Page.Title>
+      <HeroImage src={ScoreboardImage} alt="scoreboard" />
       <Page.Body>
-        <HeroImage src={ScoreboardImage} alt="scoreboard" />
         <SelectedHistoryContextProvider initialValue={{ year: 2024 }}>
           <Section>
             <Section.Title>
