@@ -67,7 +67,9 @@ const _SpcPage = ({ className }: { className?: string }) => {
             대회로 2005년부터 개최되었습니다.
           </Section.Body>
         </Section>
-        <HeroImage src={Spc2019Image} alt="SPC 2019" />
+      </Page.Body>
+      <HeroImage src={Spc2019Image} alt="SPC 2019" />
+      <Page.Body>
         <Section>
           <Section.Title>개요</Section.Title>
           <Section.Body>
@@ -224,7 +226,9 @@ const _SpcPage = ({ className }: { className?: string }) => {
             </Table.Wrapper>
           </Section.Body>
         </Section>
-        <HeroImage src={SpcPostersImage} alt="SPC Posters" />
+      </Page.Body>
+      <HeroImage src={SpcPostersImage} alt="SPC Posters" />
+      <Page.Body>
         <SelectedSpcHistoryContextProvider initialValue={{ year: 2023 }}>
           <Section>
             <Section.Title>

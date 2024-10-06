@@ -40,8 +40,8 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
       <Page.Title description="우리는 알고리즘을 공부하고, 알고리즘으로 문제를 해결합니다.">
         소개
       </Page.Title>
+      <HeroImage src={ICPC2019RedshiftImage} alt="ICPC 2019 Redshift" />
       <Page.Body>
-        <HeroImage src={ICPC2019RedshiftImage} alt="ICPC 2019 Redshift" />
         <Section>
           <Section.Title>이곳은</Section.Title>
           <Section.Body>
@@ -115,7 +115,9 @@ const _IntroductionPage = ({ className }: { className?: string }) => {
             </ButtonWrapper>
           </Section.Body>
         </Section>
-        <HeroImage src={AcmSolvingImage} alt="acm solving" />
+      </Page.Body>
+      <HeroImage src={AcmSolvingImage} alt="acm solving" />
+      <Page.Body>
         <Section>
           <Section.Title>알고리즘 스터디</Section.Title>
           <Section.Body>

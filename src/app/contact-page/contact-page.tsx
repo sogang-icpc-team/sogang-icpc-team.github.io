@@ -24,8 +24,8 @@ const _ContactPage = ({ className }: { className?: string }) => {
       <Page.Title description="서강대학교 학부생이라면 누구나 함께할 수 있습니다.">
         가입 및 문의
       </Page.Title>
+      <HeroImage src={LabK512Image} alt="K512 Lab" />
       <Page.Body>
-        <HeroImage src={LabK512Image} alt="K512 Lab" />
         <Section>
           <Section.Title>가입</Section.Title>
           <Section.Body>
