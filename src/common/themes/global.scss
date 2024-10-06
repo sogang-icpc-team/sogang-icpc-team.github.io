@@ -4,14 +4,12 @@
 
 * {
   --black: #212427;
-
   box-sizing: border-box !important;
-  font-family: Metropolis, "Pretendard", "Tossface", "Sans-serif", sans-serif !important;
-
   line-height: 1.4;
 }
 
 body {
+  font-family: "Metropolis", "Pretendard", "Tossface", "Sans-serif", sans-serif;
   max-width: 1600px;
   color: var(--black);
   background: #f1f1f1;
