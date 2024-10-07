@@ -2,6 +2,24 @@ export default {
   year: 2024,
   contests: [
     {
+      title: "Samsung Collegiate Programming Contest 2024 Finals",
+      columns: ["#", "이름"],
+      data: [
+        ["4", "박수현"],
+        ["5", "강효규"],
+        ["5", "박성준"],
+        ["-", "김동건"],
+        ["-", "조원빈"],
+        ["-", "송근수"],
+        ["-", "채성우"]
+      ],
+      award: [""],
+      links: [
+        ["공식 사이트", "https://www.codeground.org/scpc/commons/honer/list"],
+      ],
+      review: [],
+    },
+    {
       title: "SUAPC 2024 Summer",
       columns: ["#", "=", "팀", "멤버"],
       data: [
