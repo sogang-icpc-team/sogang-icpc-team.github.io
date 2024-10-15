@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.887d30b1.css",
-    "main.js": "/static/js/main.bc936955.js",
+    "main.css": "/static/css/main.1725d826.css",
+    "main.js": "/static/js/main.e8647360.js",
     "static/media/21-icpc-wf-1.jpg": "/static/media/21-icpc-wf-1.a84447e57b1cedb508cb.jpg",
     "static/media/icpc2019-redshift.jpg": "/static/media/icpc2019-redshift.964a8b48f27547b9ef41.jpg",
     "static/media/spc2019.jpg": "/static/media/spc2019.fbff5c93555456d95a47.jpg",
@@ -14,16 +14,23 @@
     "static/media/map-sogang.svg": "/static/media/map-sogang.a53f2becca71ef6c52a3c6c16f458b7e.svg",
     "static/media/IMG_1380.jpg": "/static/media/IMG_1380.7d12e9e1ed26d9664cae.jpg",
     "static/media/IMG_1394.jpg": "/static/media/IMG_1394.f8425cc2c9270a215fae.jpg",
+    "static/media/sogang-sw.png": "/static/media/sogang-sw.b00dbc33466fcbb1349b.png",
+    "static/media/hanbit-media.png": "/static/media/hanbit-media.7bdb739337afb3eb5838.png",
     "static/media/sponsor-naverd2.png": "/static/media/sponsor-naverd2.299c30a91e4ccbd718bd.png",
+    "static/media/sogang.png": "/static/media/sogang.cbcc6c1fbc4f736132d1.png",
+    "static/media/hyundai-mobis.png": "/static/media/hyundai-mobis.7c9a3e6acb032254b46f.png",
     "static/media/sponsor-startlink.svg": "/static/media/sponsor-startlink.6df2664fd32b39e61454636f366abab7.svg",
+    "static/media/samsung-software-membership.png": "/static/media/samsung-software-membership.e75195159eebecaf280e.png",
+    "static/media/spc24-hero.svg": "/static/media/spc24-hero.50ceaf08152958f2a0daffd4fefe4747.svg",
     "static/media/sponsor-mobis.svg": "/static/media/sponsor-mobis.c4da0538cb14f07e222346f9c54fbe31.svg",
+    "static/media/loader.svg": "/static/media/loader.ecd31f7b6af5b606e2ae8e82e51036cf.svg",
     "index.html": "/index.html",
     "static/media/logo-crimson.svg": "/static/media/logo-crimson.4b95846be8ed781a6eb083e76887bb8b.svg",
-    "main.887d30b1.css.map": "/static/css/main.887d30b1.css.map",
-    "main.bc936955.js.map": "/static/js/main.bc936955.js.map"
+    "main.1725d826.css.map": "/static/css/main.1725d826.css.map",
+    "main.e8647360.js.map": "/static/js/main.e8647360.js.map"
   },
   "entrypoints": [
-    "static/css/main.887d30b1.css",
-    "static/js/main.bc936955.js"
+    "static/css/main.1725d826.css",
+    "static/js/main.e8647360.js"
   ]
 }
