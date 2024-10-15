@@ -6,6 +6,7 @@ import { IntroductionPage } from "../app/introduction-page/introduction-page";
 import { SpcPage } from "../app/spc-page/spc-page";
 import { HistoryPage } from "../app/history-page/history-page";
 import { CleanWaterCupPage } from "../app/clean-water-cup-page/clean-water-cup-page";
+import { Spc24ApplyPage } from "../app/spc-24-apply-page/spc-24-apply-page";
 
 const _routes = {
   "/": {
@@ -22,6 +23,9 @@ const _routes = {
   },
   spc: {
     component: <SpcPage />,
+  },
+  spc24Apply: {
+    component: <Spc24ApplyPage />,
   },
   applyK512: {
     component: <></>,
@@ -62,7 +66,7 @@ export const routes = Object.entries(_routes).reduce(
       ...acc,
     };
   },
-  {},
+  {}
 ) as {
   [k in keyof typeof _routes]: {
     component: React.ReactNode;

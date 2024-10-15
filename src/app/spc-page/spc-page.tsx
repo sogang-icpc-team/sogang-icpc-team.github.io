@@ -17,6 +17,7 @@ import { useSpcDataContext } from "../../contexts/spc-data-context";
 import { SpcContestHistoryDisplay } from "./spc-contest-history-display";
 import constants from "../../contexts/assets/constants";
 import { SpcSummary } from "./spc-summary";
+import { Spc24Banner } from "./spc-24-banner";
 
 const YearDropdown = () => {
   const { year, setYear } = useSelectedSpcHistoryContext();
@@ -53,6 +54,7 @@ const AdditionalInfo = styled.p`
 const _SpcPage = ({ className }: { className?: string }) => {
   return (
     <Page className={className}>
+      <Spc24Banner />
       <Page.Title description="논리력과 문제 해결 능력을 겨루는 대회입니다.">
         Sogang Programming Contest (SPC)
       </Page.Title>
