@@ -176,26 +176,26 @@ const _SpcPage = ({ className }: { className?: string }) => {
                     </Table.Cell>
                     <Table.Cell>대상</Table.Cell>
                     <Table.Cell>1명</Table.Cell>
-                    <Table.Cell>₩500,000</Table.Cell>
-                    <Table.Cell>₩500,000</Table.Cell>
+                    <Table.Cell>₩700,000</Table.Cell>
+                    <Table.Cell>₩700,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell>금상</Table.Cell>
                     <Table.Cell>1명</Table.Cell>
-                    <Table.Cell>₩300,000</Table.Cell>
-                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell>은상</Table.Cell>
                     <Table.Cell>2명</Table.Cell>
-                    <Table.Cell>₩200,000</Table.Cell>
-                    <Table.Cell>₩400,000</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩600,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell>동상</Table.Cell>
                     <Table.Cell>3명</Table.Cell>
-                    <Table.Cell>₩150,000</Table.Cell>
-                    <Table.Cell>₩450,000</Table.Cell>
+                    <Table.Cell>₩200,000</Table.Cell>
+                    <Table.Cell>₩600,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell rowSpan={3} style={{ verticalAlign: "middle" }}>
@@ -203,26 +203,26 @@ const _SpcPage = ({ className }: { className?: string }) => {
                     </Table.Cell>
                     <Table.Cell>금상</Table.Cell>
                     <Table.Cell>1명</Table.Cell>
-                    <Table.Cell>₩300,000</Table.Cell>
-                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
+                    <Table.Cell>₩500,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell>은상</Table.Cell>
                     <Table.Cell>2명</Table.Cell>
-                    <Table.Cell>₩200,000</Table.Cell>
-                    <Table.Cell>₩400,000</Table.Cell>
+                    <Table.Cell>₩300,000</Table.Cell>
+                    <Table.Cell>₩600,000</Table.Cell>
                   </Table.Row>
                   <Table.Row>
                     <Table.Cell>동상</Table.Cell>
                     <Table.Cell>3명</Table.Cell>
-                    <Table.Cell>₩150,000</Table.Cell>
-                    <Table.Cell>₩450,000</Table.Cell>
+                    <Table.Cell>₩200,000</Table.Cell>
+                    <Table.Cell>₩600,000</Table.Cell>
                   </Table.Row>
                 </Table.Body>
                 <Table.Row>
                   <Table.Cell colSpan={2}>합계</Table.Cell>
                   <Table.Cell>13명</Table.Cell>
-                  <Table.Cell colSpan={2}>₩2,800,000</Table.Cell>
+                  <Table.Cell colSpan={2}>₩4,100,000</Table.Cell>
                 </Table.Row>
               </Table>
             </Table.Wrapper>
