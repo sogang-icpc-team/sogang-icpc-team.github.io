@@ -3,6 +3,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 import { FlexCol, FlexRow } from "@ui/flex/flex";
 import { EmptyLink } from "@ui/button/empty-link";
+import { EmptyButton } from "@ui/button/empty-button";
 
 import Spc24HeroNoAniSvg from "./assets/spc24-hero__no-ani.svg";
 import { routes } from "../../routes/routes";
@@ -46,7 +47,7 @@ const Sup = styled.div`
   font-weight: ${({ theme }) => theme.fontWeight.medium};
 `;
 
-const ApplyButton = styled.button`
+const ApplyButton = styled(EmptyButton)`
   display: inline-flex;
   align-items: center;
   column-gap: 0.4rem;
@@ -61,6 +62,11 @@ const ApplyButton = styled.button`
   color: #9a0a0a;
 
   text-align: center;
+
+  &:hover {
+    background-color: #5656560f;
+    /* background: black; */
+  }
 `;
 
 const DateLocationWrapper = styled(FlexRow)`
