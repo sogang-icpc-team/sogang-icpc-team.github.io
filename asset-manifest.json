@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1725d826.css",
-    "main.js": "/static/js/main.af3e041d.js",
+    "main.js": "/static/js/main.76558c11.js",
     "static/media/21-icpc-wf-1.jpg": "/static/media/21-icpc-wf-1.a84447e57b1cedb508cb.jpg",
     "static/media/icpc2019-redshift.jpg": "/static/media/icpc2019-redshift.964a8b48f27547b9ef41.jpg",
     "static/media/spc2019.jpg": "/static/media/spc2019.fbff5c93555456d95a47.jpg",
@@ -28,10 +28,10 @@
     "index.html": "/index.html",
     "static/media/logo-crimson.svg": "/static/media/logo-crimson.4b95846be8ed781a6eb083e76887bb8b.svg",
     "main.1725d826.css.map": "/static/css/main.1725d826.css.map",
-    "main.af3e041d.js.map": "/static/js/main.af3e041d.js.map"
+    "main.76558c11.js.map": "/static/js/main.76558c11.js.map"
   },
   "entrypoints": [
     "static/css/main.1725d826.css",
-    "static/js/main.af3e041d.js"
+    "static/js/main.76558c11.js"
   ]
 }
