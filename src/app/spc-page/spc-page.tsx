@@ -231,7 +231,7 @@ const _SpcPage = ({ className }: { className?: string }) => {
       </Page.Body>
       <HeroImage src={SpcPostersImage} alt="SPC Posters" />
       <Page.Body>
-        <SelectedSpcHistoryContextProvider initialValue={{ year: 2023 }}>
+        <SelectedSpcHistoryContextProvider initialValue={{ year: 2024 }}>
           <Section>
             <Section.Title>
               <span>연도별 대회 기록</span>
