@@ -2,6 +2,61 @@ export default {
   year: 2024,
   contests: [
     {
+      title: "2024 ICPC Asia Seoul Regional Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
+        ["13", "7", "AllTimeLegend", "박성준, 송근수, 이승형"],
+        ["18", "7", "Redshift", "박수현, 조원빈, 채성우"],
+        ["71", "3", "0x200", "김형은, 심진희, 이재찬"],
+      ],
+      award: ["advanced", "advanced", ""],
+      links: [
+        ["공식 사이트", "http://icpckorea.org/2024-seoul/regional"],
+        ["스코어보드", "http://static.icpckorea.net/2024/regional/scoreboard"],
+      ],
+      review: [],
+    },
+    {
+      title: "2024 ICPC Asia Seoul Preliminary Contest",
+      columns: ["#", "=", "팀", "멤버"],
+      data: [
+        ["15", "6", "AllTimeLegend", "박성준, 송근수, 이승형"],
+        ["22", "5", "Redshift", "박수현, 조원빈, 채성우"],
+        ["58", "4", "0x200", "김형은, 심진희, 이재찬"],
+        ["80", "3", "goraani", "강효규, 김동건, 유호영"],
+        ["90", "3", "I2C", "김진수, 박준성, 하건영"],
+        ["98", "3", "YellowMinions", "김서인, 이민희, 정재헌"],
+        ["199", "1", "ChoParkPark", "박정원, 박준영, 조다니엘"],
+        ["201", "1", "Hyuntaegod", "정현태, 유승훈, 이준우"],
+        ["226", "1", "TLEMECHANIC", "송태호, 이승찬, 정유연"],
+        ["269", "1", "Wannerbee", "김태윤, 김홍래, 도하준"],
+      ],
+      award: ["advanced", "advanced", "advanced", "", "",
+              "", "", "", "", ""],
+      links: [
+        ["공식 사이트", "http://icpckorea.org/2024-seoul/regional"],
+        [
+          "스코어보드",
+          "http://static.icpckorea.net/2024/first_round/scoreboard_10282200/",
+        ],
+      ],
+      review: [],
+    },
+    {
+      title: "LG Collegiate Programming Contest 2024",
+      columns: ["#", "이름"],
+      data: [
+        ["4", "송근수"],
+        ["4", "이승형"],
+        ["5", "박성준"],
+      ],
+      award: [""],
+      links: [
+        ["공식 사이트", "https://www.lgsdc.com/registration/programming-contest/"],
+      ],
+      review: [],
+    },
+    {
       title: "Samsung Collegiate Programming Contest 2024 Finals",
       columns: ["#", "이름"],
       data: [
