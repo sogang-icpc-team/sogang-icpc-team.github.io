@@ -49,6 +49,7 @@ export default {
         ["4", "송근수"],
         ["4", "이승형"],
         ["5", "박성준"],
+        ["-", "조원빈"]
       ],
       award: [""],
       links: [
@@ -119,8 +120,9 @@ export default {
     {
       title: "24년 현대모비스 알고리즘 경진대회(학생부)",
       columns: ["#", "이름"],
-      data: [["우수상", "조원빈"]],
-      award: [""],
+      data: [["우수상", "조원빈"],
+             ["-", "송근수"]],
+      award: ["", ""],
       links: [
         ["공식 사이트", "https://career.programmers.co.kr/competitions/3980"],
       ],
