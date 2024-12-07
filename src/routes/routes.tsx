@@ -24,9 +24,11 @@ const _routes = {
   spc: {
     component: <SpcPage />,
   },
+  /*
   spc24Apply: {
     component: <Spc24ApplyPage />,
   },
+  */
   applyK512: {
     component: <></>,
   },

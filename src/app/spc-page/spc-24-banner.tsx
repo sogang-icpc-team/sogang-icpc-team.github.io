@@ -88,6 +88,7 @@ const InfoValue = styled.span`
   font-size: 1.2rem;
 `;
 
+/*
 const _Spc24Banner = ({ className }: { className?: string }) => {
   return (
     <div className={className}>
@@ -141,3 +142,4 @@ export const Spc24Banner = styled(_Spc24Banner)`
     padding-bottom: 40px;
   }
 `;
+*/

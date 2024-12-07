@@ -11,6 +11,7 @@ import _2020 from "./2020";
 import _2021 from "./2021";
 import _2022 from "./2022";
 import _2023 from "./2023";
+import _2024 from "./2024";
 
 type TSpcData = {
   year: number;
@@ -62,4 +63,5 @@ export default [
   _2021,
   _2022,
   _2023,
+  _2024,
 ] as TSpcData[];
