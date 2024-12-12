@@ -6,7 +6,7 @@ import { IntroductionPage } from "../app/introduction-page/introduction-page";
 import { SpcPage } from "../app/spc-page/spc-page";
 import { HistoryPage } from "../app/history-page/history-page";
 import { CleanWaterCupPage } from "../app/clean-water-cup-page/clean-water-cup-page";
-import { Spc24ApplyPage } from "../app/spc-24-apply-page/spc-24-apply-page";
+// import { Spc24ApplyPage } from "../app/spc-24-apply-page/spc-24-apply-page";
 
 const _routes = {
   "/": {
